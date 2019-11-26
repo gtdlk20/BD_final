@@ -13,27 +13,10 @@ genius.remove_section_headers = True
 #stores them as lyricsgenius.Song objects, with the lyrics kept as strings
 kidzbop = genius.search_artist("Kidz Bop", max_songs=648, sort='title', get_full_info=False)
 
-# def get_artist_word_count(artist):
-#     """param artist: lyricsgenius.Artist object
-#        returns number of words in an artists library
-#     """
-#     if artist.num_songs == 0:
-#         return 0
-#     else:
-#         total_wc = 0
-#         for song in artist.songs:
-#             #clear all escape chars and make a list of lyrics
-#             lyrics_list = song.lyrics.split()
-#             #sum lengths
-#             total_wc += len(lyrics_list)
-#         return total_wc
-        
-# print(get_artist_word_count(kidzbop))
-
-df = pd.DataFrame(columns = ['Title', 'Artist', 'Lyrics'])
+df = pd.DataFrame(columns=['Title', 'Artist', 'Lyrics'])
 
 for song in kidzbop.songs:
-    dfTemp = pd.DataFrame(data = [song.title, song.artist, song.lyrics], columns = ['Title', 'Artist', 'Lyrics'])
-    df.append(dfTemp)
-
-df.to_csv(os.getcwd())
+    df.append(pd.DataFrame(data = [song.title, song.artist, song.lyrics], columns = ['Title', 'Artist', 'Lyrics']))
+  
+# print dataframe. 
+df.to_csv('KidzBopTable', sep='\t', encoding='utf-8')
