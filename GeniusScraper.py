@@ -16,7 +16,7 @@ kidzbop = genius.search_artist("Kidz Bop", max_songs=648, sort='title', get_full
 df = pd.DataFrame(columns=['Title', 'Artist', 'Lyrics'])
 
 for song in kidzbop.songs:
-    df.append(pd.DataFrame(data = [song.title, song.artist, song.lyrics], columns = ['Title', 'Artist', 'Lyrics']))
-  
+    df = df.append(dict(zip(df.columns, [song.title, song.artist, song.lyrics])), ignore_index=True) 
+
 # print dataframe. 
 df.to_csv('KidzBopTable', sep='\t', encoding='utf-8')
