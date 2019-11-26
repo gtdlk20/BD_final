@@ -19,4 +19,4 @@ for song in kidzbop.songs:
     df = df.append(dict(zip(df.columns, [song.title, song.artist, song.lyrics])), ignore_index=True) 
 
 # print dataframe. 
-df.to_csv('KidzBopTable', sep='\t', encoding='utf-8')
+df.to_csv('KidzBopTable.csv')
