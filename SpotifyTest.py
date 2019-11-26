@@ -8,4 +8,5 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) #spo
 
 name = "Kidz Bop Kids" #chosen artist
 result = sp.search(name) #search query
-print(result['tracks']['items'][0]['name'])
+for c in range(0,10):
+    print(result['tracks']['items'][c]['name'])
