@@ -26,3 +26,11 @@ def get_artist_word_count(artist):
         return total_wc
         
 print(get_artist_word_count(kidzbop))
+
+
+kb_lyrics = open('kidzbop.txt', 'w+')
+
+for song in kidzbop.songs:
+    kb_lyrics.write(song.lyrics)
+
+kb_lyrics.close()
