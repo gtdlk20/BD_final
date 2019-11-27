@@ -39,5 +39,3 @@ for row in dfKidzBop.itertuples(index=True, name='Pandas'):
 
 #storing the original song dataframe as a .csv file 
 df.to_csv('OriginalTable.csv')
-
-# sp.search(q = songKidzBop, type = 'track')['tracks']['items'][0]['popularity']
