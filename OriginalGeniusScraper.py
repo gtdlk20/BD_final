@@ -31,6 +31,7 @@ for row in dfKidzBop.itertuples(index=True, name='Pandas'):
         songOriginal = genius.search_song(songKidzBop, artistOriginal)
     except:
         print("Song not matched")
+        continue
     #adding the original song to the dataframe
     try:
         df = df.append(dict(zip(df.columns, [songOriginal.title, songOriginal.artist, songOriginal.lyrics])), ignore_index=True)
