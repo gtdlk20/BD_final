@@ -25,12 +25,19 @@ df = pd.DataFrame(columns=['Title', 'Artist', 'Lyrics'])
 for row in dfKidzBop.itertuples(index=True, name='Pandas'):
     songKidzBop = getattr(row, "Title")
     #searching for the original artist using the Spotify API
-    #the first result is the most popular song, which is the one Kidz Bop usually cleans
-    artistOriginal = sp.search(q = songKidzBop, type = 'track')['tracks']['items'][0]['artists'][0]['name']
-    #finding the original song in genius
-    songOriginal = genius.search_song(songKidzBop, artistOriginal)
+    try:
+        artistOriginal = sp.search(q = songKidzBop, type = 'track')['tracks']['items'][0]['artists'][0]['name']
+        #finding the original song in genius
+        songOriginal = genius.search_song(songKidzBop, artistOriginal)
+    except:
+        print("Song not matched")
     #adding the original song to the dataframe
-    df = df.append(dict(zip(df.columns, [songOriginal.title, songOriginal.artist, songOriginal.lyrics])), ignore_index=True) 
+    try:
+        df = df.append(dict(zip(df.columns, [songOriginal.title, songOriginal.artist, songOriginal.lyrics])), ignore_index=True)
+    except:
+        print('Song not found in Genius')
 
 #storing the original song dataframe as a .csv file 
 df.to_csv('OriginalTable.csv')
+
+# sp.search(q = songKidzBop, type = 'track')['tracks']['items'][0]['popularity']
