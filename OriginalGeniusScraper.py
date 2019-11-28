@@ -18,24 +18,23 @@ client_credentials_manager = SpotifyClientCredentials(client_id=client_id, clien
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) 
 
 #creating a new pandas dataframe
-df = pd.DataFrame(columns=['Title', 'Artist', 'Lyrics'])
+df = pd.DataFrame(columns=['Title', 'Artist', 'Lyrics', 'SpotifyID'])
 
 #looping through the Kidz Bop dataframe
 for row in dfKidzBop.itertuples(index=True, name='Pandas'):
-    songKidzBop = getattr(row, "Title")
-    #searching for the original artist using the Spotify API
+    kidzBopSong = getattr(row, "Title")
     try:
-        artistOriginal = sp.search(q = songKidzBop, type = 'track')['tracks']['items'][0]['artists'][0]['name']
+        #getting the Spotify ID of the original song
+        spotifyID = sp.search(q = kidzBopSong, type = 'track')['tracks']['items'][0]['id']
+        #getting the artist of the original song
+        originalArtist = sp.track(spotifyID)['artists'][0]['name']
         #finding the original song in genius
-        songOriginal = genius.search_song(songKidzBop, artistOriginal)
+        originalSong = genius.search_song(kidzBopSong, originalArtist)
+        if originalSong == 'none':
+            raise Exception('Genius lyrics not found.')
+        df = df.append(dict(zip(df.columns, [originalSong.title, originalSong.artist, originalSong.lyrics, spotifyID])), ignore_index=True)
     except:
-        print("Song not matched")
-        continue
-    #adding the original song to the dataframe
-    try:
-        df = df.append(dict(zip(df.columns, [songOriginal.title, songOriginal.artist, songOriginal.lyrics])), ignore_index=True)
-    except:
-        print('Song not found in Genius')
+        print("Original " + kidzBopSong + " not found.")
 
 #storing the original song dataframe as a .csv file 
 df.to_csv('OriginalTable.csv')
