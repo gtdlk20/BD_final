@@ -5,7 +5,6 @@ import pandas as pd
 #accessing Genius API (thank you johnwmillr!)
 login_token = "tAZ1oU_T0GXCZmxobxkvY0YJDSj3Kj5Tm7_Ta_LnnNJ4-35MYKi21hBeTJPUtC6U"
 genius = lg.Genius(login_token)
-genius.remove_section_headers = True
 
 #creating a lyricsgenius.Artist object and scraping all 684 songs from the Kidz Bop page
 kidzbop = genius.search_artist("Kidz Bop", max_songs=648, sort='title', get_full_info=False)
