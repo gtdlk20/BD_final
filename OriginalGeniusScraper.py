@@ -10,7 +10,6 @@ dfKidzBop = pd.read_csv("KidzBopTable.csv")
 #accessing Genius API (thank you johnwmillr!)
 login_token = "tAZ1oU_T0GXCZmxobxkvY0YJDSj3Kj5Tm7_Ta_LnnNJ4-35MYKi21hBeTJPUtC6U"
 genius = lg.Genius(login_token)
-genius.remove_section_headers = True
 
 #accessing Spotify API
 client_id = "cd3c3b7e630f47d7b588b114a877e95e"
