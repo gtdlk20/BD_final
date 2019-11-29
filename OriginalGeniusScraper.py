@@ -43,10 +43,10 @@ for row in dfKidzBop.itertuples(index=True, name='Pandas'):
         valence = audio_features['valence']
         tempo = audio_features['tempo']
         # scraping Genius data
-        originalSong = genius.search_song(title, artist)
+        originalSong = genius.search_song(re.sub("[^a-zA-Z0-9\s]", '', title), re.sub("[^a-zA-Z0-9\s]", '', artist))
         if originalSong == 'none':
             raise Exception('Genius lyrics not found.')
-        df = df.append(dict(zip(df.columns, [title, artist, releaseDate, originalSong.lyrics, 
+        df = df.append(dict(zip(df.columns, [title, artist, releaseDate, str(originalSong.lyrics), 
         acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
     except:
         print("Original " + kidzBopTitle + " not found.")
