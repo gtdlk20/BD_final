@@ -1,4 +1,4 @@
-import requests as re
+import re
 import lyricsgenius as lg
 import pandas as pd
 import spotipy
@@ -17,15 +17,17 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 # song = sp.search(q = "Old Town Road", type = 'track')
 
 # Spotify id 
-# SpotifyID = song['tracks']['items'][0]['id']
+SpotifyID = sp.search(q = ("artist:Kidz Bop Kids track:" + "1 Thing"), type = 'track')['tracks']['items'][0]['id']
 
 # song info fron get a track 
-# print(sp.track(SpotifyID)['name'])
+print(sp.track(SpotifyID)['name'])
 # print(sp.track(SpotifyID)['popularity'])
-# print(sp.track(SpotifyID)['artists'][0]['name'])
+print(sp.track(SpotifyID)['album']['name'])
 
 # song audio info from get audio features
-# print(sp.audio_features(SpotifyID))
+# print(sp.audio_features(SpotifyID)[0]['danceability'])
 
-print(genius.search_song('kidzBopSong', 'originalArtist'))
+# print(genius.search_song('kidzBopSong', 'originalArtist'))
+
+print(re.sub("[^a-zA-Z0-9\s]", '', "1 Thing"))
 

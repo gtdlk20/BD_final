@@ -1,4 +1,4 @@
-import requests as re
+import re
 import lyricsgenius as lg
 import pandas as pd
 import spotipy
@@ -18,16 +18,32 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 kidzbop = genius.search_artist("Kidz Bop", max_songs=684, sort='title', get_full_info=False)
 
 #creating a pandas dataframe
-df = pd.DataFrame(columns=['Title', 'Artist', 'Lyrics', 'SpotifyID'])
+df = pd.DataFrame(columns=['Title', 'Artist', 'ReleaseDate', 'Lyrics', 'Acousticness', 
+'Danceability', 'Energy', 'Instrumentalness', 'Liveness', 'Loudness', 'Speechiness', 'Valence', 'Tempo'])
 
 #storing info from each song in the dataframe
 for song in kidzbop.songs:
     try:
-        spotifyID = sp.search(q = ("artist:Kidz Bop Kids track:" + song.title), type = 'track')['tracks']['items'][0]['id']
+        # loading data
+        spotifyID = sp.search(q = ("artist:Kidz Bop Kids track:" + re.sub("[^a-zA-Z0-9\s]", '', song.title)), type = 'track')['tracks']['items'][0]['id']
+        track = sp.track(spotifyID)
+        audio_features = sp.audio_features(spotifyID)[0]
+        # formatting data
+        title = track['name']
+        releaseDate = track['album']['release_date']
+        acousticness = audio_features['acousticness']
+        danceability = audio_features['danceability']
+        energy = audio_features['energy']
+        instrumentalness = audio_features['instrumentalness']
+        liveness = audio_features['liveness']
+        loudness = audio_features['loudness']
+        speechiness = audio_features['speechiness']
+        valence = audio_features['valence']
+        tempo = audio_features['tempo']
+        df = df.append(dict(zip(df.columns, [title, 'Kidz Bop Kids', releaseDate, song.lyrics, 
+        acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
     except: 
-        print("Spotify ID for" + song.title + "not found.")
-        spotifyID = ""
-    df = df.append(dict(zip(df.columns, [song.title, song.artist, song.lyrics, spotifyID])), ignore_index=True) 
+        print("Spotify ID for " + song.title + " not found.")
 
 #storing the dataframe as a .csv file 
 df.to_csv('KidzBopTable.csv')
