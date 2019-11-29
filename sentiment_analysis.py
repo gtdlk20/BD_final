@@ -2,6 +2,7 @@ import pandas as pd
 import nltk
 nltk.download('stopwords')
 from afinn import Afinn
+import matplotlib.pylab as plt
 
 # Get a list of stopwords from nltk
 stopwords = nltk.corpus.stopwords.words("english")
@@ -19,7 +20,7 @@ af = Afinn()
 def count_swears(lyrics):
 #param lyrics: a string of song lyrics
 
-    swears = ['ass', 'shit', 'fuck', 'bitch', 'cunt', 'hell']
+    swears = ['ass', 'shit', 'fuck', 'bitch', 'cunt', 'hell', 'nigga']
     song = lyrics.lower().split()
     total = 0
 
@@ -35,6 +36,15 @@ def get_basic_filthiness(lyrics):
     num_swears = count_swears(lyrics)
     return num_swears / (len(lyrics.split()) - num_swears)
 
+#returns list of tuples (title, filth) where filth is the filth score of a song
+def get_df_filth(df):
+    #param df: a pandas dataframe
+    filth = []
+    for row in df.itertuples(index=True, name='Pandas'):
+        title = getattr(row, 'Title')
+        lyrics = getattr(row, 'Lyrics')
+        filth.append((title, get_basic_filthiness(lyrics)))
+    return filth
 
 
 #preprocesses lyrics for sentiment analysis: removes all stopwords (from nltk) and numbers 
@@ -79,7 +89,7 @@ def get_lyrics_sentiment_score(lyrics):
     #initialize score to 0
     score = 0
     #filter lyrics of stop words, numbers, puntiation
-    words = filter_words(lyrics)
+    words = filter_lyrics(lyrics)
     
     for word in words:
         #add the sentiment score of each word to score
@@ -89,3 +99,42 @@ def get_lyrics_sentiment_score(lyrics):
     #return the average sentiment score over all evaluated words
     return score / len(words)
 
+#return list of tuples (title, sent_score) for dataframe
+def get_df_sent_scores(df):
+    sent = []
+    for row in df.itertuples(index=True, name='Pandas'):
+        title = getattr(row, 'Title')
+        lyrics = getattr(row, 'Lyrics')
+        sent.append((title, get_lyrics_sentiment_score(lyrics)))
+    return sent
+
+
+#get filth scores of kidz bop- presumably zero
+kbFilth = get_df_filth(dfKidzBop)
+#get filth scores of original songs
+originalFilth = get_df_filth(dfOriginal)
+
+#return plot of sent scores
+def get_song_sent_graph(title, lyrics):
+    lyrics = lyrics.split()
+    scores = [get_sentiment_score(word) for word in lyrics]
+    index = range(lyrics)
+    plt.plot(index, scores, 'r+')
+    plt.title('Sentiment score by word of %s' % title)
+    plt.show()
+
+
+#returns histogram of sentiment scores
+def get_sent_hist(scores, header):
+    #param scores: list of tuples containing song names and sentiment scores
+    #param hesder: title of plot
+    plt.hist([score[1] for score in scores])
+    plt.title(header)
+    plt.show()
+
+
+#get sentiment scores for each kidzbop and original song
+kidzbop_sent_scores = get_df_sent_scores(dfKidzBop)
+#original_sent_scores = get_df_sent_scores(dfOriginal)
+
+get_sent_hist(kidzbop_sent_scores, "KidzBop sentiment scores")
