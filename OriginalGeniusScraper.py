@@ -18,21 +18,36 @@ client_credentials_manager = SpotifyClientCredentials(client_id=client_id, clien
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) 
 
 #creating a new pandas dataframe
-df = pd.DataFrame(columns=['Title', 'Artist', 'Lyrics', 'SpotifyID'])
+df = pd.DataFrame(columns=['Title', 'Artist', 'ReleaseDate', 'Lyrics', 'Acousticness', 
+'Danceability', 'Energy', 'Instrumentalness', 'Liveness', 'Loudness', 'Speechiness', 'Valence', 'Tempo'])
 
 #looping through the Kidz Bop dataframe
 for row in dfKidzBop.itertuples(index=True, name='Pandas'):
-    kidzBopSong = getattr(row, "Title")
+    kidzBopTitle = getattr(row, "Title")
     try:
-        #getting the Spotify ID of the original song
-        spotifyID = sp.search(q = kidzBopSong, type = 'track')['tracks']['items'][0]['id']
-        #getting the artist of the original song
-        originalArtist = sp.track(spotifyID)['artists'][0]['name']
-        #finding the original song in genius
-        originalSong = genius.search_song(kidzBopSong, originalArtist)
+        # scraping Spotify data (original song)
+        spotifyID = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', kidzBopTitle), typeg = 'track')['tracks']['items'][0]['id']
+        track = sp.track(spotifyID)
+        audio_features = sp.audio_features(spotifyID)[0]
+        # formatting Spotify data
+        title = track['name']
+        artist = track['artists'][0]['name']
+        releaseDate = track['album']['release_date']
+        acousticness = audio_features['acousticness']
+        danceability = audio_features['danceability']
+        energy = audio_features['energy']
+        instrumentalness = audio_features['instrumentalness']
+        liveness = audio_features['liveness']
+        loudness = audio_features['loudness']
+        speechiness = audio_features['speechiness']
+        valence = audio_features['valence']
+        tempo = audio_features['tempo']
+        # scraping Genius data
+        originalSong = genius.search_song(title, artist)
         if originalSong == 'none':
             raise Exception('Genius lyrics not found.')
-        df = df.append(dict(zip(df.columns, [originalSong.title, originalSong.artist, originalSong.lyrics, spotifyID])), ignore_index=True)
+        df = df.append(dict(zip(df.columns, [title, artist, releaseDate, song.lyrics, 
+        acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
     except:
         print("Original " + kidzBopSong + " not found.")
 

@@ -24,11 +24,12 @@ df = pd.DataFrame(columns=['Title', 'Artist', 'ReleaseDate', 'Lyrics', 'Acoustic
 #storing info from each song in the dataframe
 for song in kidzbop.songs:
     try:
-        # loading data
-        spotifyID = sp.search(q = ("artist:Kidz Bop Kids track:" + re.sub("[^a-zA-Z0-9\s]", '', song.title)), type = 'track')['tracks']['items'][0]['id']
+        # scraping Spotify data
+        spotifyID = sp.search(q = ("artist:Kidz Bop Kids track:" + re.sub("[^a-zA-Z0-9\s]", '', song.title)), type = 'track')
+        ['tracks']['items'][0]['id']
         track = sp.track(spotifyID)
         audio_features = sp.audio_features(spotifyID)[0]
-        # formatting data
+        # formatting Spotify data
         title = track['name']
         releaseDate = track['album']['release_date']
         acousticness = audio_features['acousticness']
@@ -40,6 +41,7 @@ for song in kidzbop.songs:
         speechiness = audio_features['speechiness']
         valence = audio_features['valence']
         tempo = audio_features['tempo']
+        # appending data to df
         df = df.append(dict(zip(df.columns, [title, 'Kidz Bop Kids', releaseDate, song.lyrics, 
         acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
     except: 
