@@ -29,5 +29,7 @@ print(sp.track(SpotifyID)['album']['name'])
 
 # print(genius.search_song('kidzBopSong', 'originalArtist'))
 
-print(re.sub("[^a-zA-Z0-9\s]", '', "1 Thing"))
+# print(re.sub("[^a-zA-Z0-9\s]", '', "1 Thing"))
+
+print(genius.search_song("Ain't it fun", 'Paramore'))
 

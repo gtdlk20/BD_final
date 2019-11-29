@@ -46,10 +46,10 @@ for row in dfKidzBop.itertuples(index=True, name='Pandas'):
         originalSong = genius.search_song(title, artist)
         if originalSong == 'none':
             raise Exception('Genius lyrics not found.')
-        df = df.append(dict(zip(df.columns, [title, artist, releaseDate, song.lyrics, 
+        df = df.append(dict(zip(df.columns, [title, artist, releaseDate, originalSong.lyrics, 
         acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
     except:
-        print("Original " + kidzBopSong + " not found.")
+        print("Original " + kidzBopTitle + " not found.")
 
 #storing the original song dataframe as a .csv file 
 df.to_csv('OriginalTable.csv')
