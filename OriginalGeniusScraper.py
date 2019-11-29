@@ -1,4 +1,4 @@
-import requests as re
+import re
 import lyricsgenius as lg
 import pandas as pd
 import spotipy
@@ -26,7 +26,7 @@ for row in dfKidzBop.itertuples(index=True, name='Pandas'):
     kidzBopTitle = getattr(row, "Title")
     try:
         # scraping Spotify data (original song)
-        spotifyID = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', kidzBopTitle), typeg = 'track')['tracks']['items'][0]['id']
+        spotifyID = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', kidzBopTitle), type = 'track')['tracks']['items'][0]['id']
         track = sp.track(spotifyID)
         audio_features = sp.audio_features(spotifyID)[0]
         # formatting Spotify data
