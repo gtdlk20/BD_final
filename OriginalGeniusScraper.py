@@ -3,6 +3,8 @@ import lyricsgenius as lg
 import pandas as pd
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials 
+import Levenshtein as lev
+import numpy as np
 
 #reading in KidzBopTable as pandas dataframe
 dfKidzBop = pd.read_csv("KidzBopTable.csv") 
@@ -26,7 +28,13 @@ for row in dfKidzBop.itertuples(index=True, name='Pandas'):
     kidzBopTitle = getattr(row, "Title")
     try:
         # scraping Spotify data (original song)
-        spotifyID = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', kidzBopTitle), type = 'track')['tracks']['items'][0]['id']
+        scrapes = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', kidzBopTitle), type = 'track')['tracks']['items']
+        # creating a list of title matches
+        titleMatches = [scrape['name'] for scrape in scrapes]
+        # finding the index of the closest title match
+        indexMatch = np.argmin(np.array([lev.distance(titleMatch, kidzBopTitle) for titleMatch in titleMatches])) 
+        # loading remaining data with the Spotify ID
+        spotifyID = scrapes[indexMatch]['id']
         track = sp.track(spotifyID)
         audio_features = sp.audio_features(spotifyID)[0]
         # formatting Spotify data
@@ -42,14 +50,13 @@ for row in dfKidzBop.itertuples(index=True, name='Pandas'):
         speechiness = audio_features['speechiness']
         valence = audio_features['valence']
         tempo = audio_features['tempo']
-        # scraping Genius data
-        originalSong = genius.search_song(re.sub("[^a-zA-Z0-9\s]", '', title), re.sub("[^a-zA-Z0-9\s]", '', artist))
-        if originalSong == 'none':
-            raise Exception('Genius lyrics not found.')
-        df = df.append(dict(zip(df.columns, [title, artist, releaseDate, str(originalSong.lyrics), 
+        # scraping Genius data (original song)
+        originalSong = genius.search_song(re.sub('\([^)]*\)|-.*', '', title), artist)
+        # appending to df
+        df = df.append(dict(zip(df.columns, [title, artist, releaseDate, originalSong.lyrics, 
         acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
     except:
-        print("Original " + kidzBopTitle + " not found.")
+        print("Match for " + kidzBopTitle + " not found.")
 
 #storing the original song dataframe as a .csv file 
 df.to_csv('OriginalTable.csv')

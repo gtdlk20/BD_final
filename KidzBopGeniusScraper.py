@@ -42,7 +42,7 @@ for song in kidzbop.songs:
         valence = audio_features['valence']
         tempo = audio_features['tempo']
         # appending data to df
-        df = df.append(dict(zip(df.columns, [title, 'Kidz Bop Kids', releaseDate, str(song.lyrics), 
+        df = df.append(dict(zip(df.columns, [title, 'Kidz Bop Kids', releaseDate, song.lyrics, 
         acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
     except: 
         print("Spotify ID for " + song.title + " not found.")
