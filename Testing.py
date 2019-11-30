@@ -20,9 +20,9 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 # print(len(song))
 
-scrapes = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', "Ain't no thing"), type = 'track')['tracks']['items']
-titleMatches = [scrape['name'] for scrape in scrapes]
-indexMatch = np.argmin(np.array([lev.distance(titleMatch, "Ain't no thing") for titleMatch in titleMatches])) 
+scrapes = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', "Old Town Road Remix"), type = 'track')['tracks']['items']
+titleMatches = [scrape['name'] for scrape in scrapes if scrape['artists'][0]['name'] != 'Kidz Bop Kids']
+indexMatch = np.argmin(np.array([lev.distance(titleMatch, "Old Town Road") for titleMatch in titleMatches])) 
 SpotifyID = scrapes[indexMatch]['id']
 
 print(titleMatches)
@@ -32,7 +32,8 @@ print(indexMatch)
 # SpotifyID = song[3]['id']
 
 # song info fron get a track 
-# print(sp.track(SpotifyID)['name'])
+print(sp.track(SpotifyID)['name'])
+print(sp.track(SpotifyID)['artists'][0]['name'])
 # print(sp.track(SpotifyID)['popularity'])
 # print(sp.track(SpotifyID)['album']['name'])
 
@@ -46,8 +47,8 @@ print(indexMatch)
 # song = genius.search_song("All You Need Is Love - 2009 Remaster", 'The Beatles')
 # print(song.lyrics)
 
-song = genius.search_song("All You Need Is Love (2009)", 'The Beatles')
-print(song.title)
+# song = genius.search_song("All You Need Is Love (2009)", 'The Beatles')
+# print(song.title)
 
 
 # title = 'Ain\'t no thank - da police'

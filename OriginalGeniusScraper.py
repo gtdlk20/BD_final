@@ -29,8 +29,8 @@ for row in dfKidzBop.itertuples(index=True, name='Pandas'):
     try:
         # scraping Spotify data (original song)
         scrapes = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', kidzBopTitle), type = 'track')['tracks']['items']
-        # creating a list of title matches
-        titleMatches = [scrape['name'] for scrape in scrapes]
+        # creating a list of title matches from non Kidz Bop artists
+        titleMatches = [scrape['name'] for scrape in scrapes if scrape['artists'][0]['name'] != 'Kidz Bop Kids']
         # finding the index of the closest title match
         indexMatch = np.argmin(np.array([lev.distance(titleMatch, kidzBopTitle) for titleMatch in titleMatches])) 
         # loading remaining data with the Spotify ID
