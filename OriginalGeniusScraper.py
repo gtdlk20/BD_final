@@ -20,7 +20,7 @@ client_credentials_manager = SpotifyClientCredentials(client_id=client_id, clien
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) 
 
 #creating a new pandas dataframe
-df = pd.DataFrame(columns=['Title', 'Artist', 'ReleaseDate', 'Lyrics', 'Acousticness', 
+df = pd.DataFrame(columns=['Title', 'Artist', 'ReleaseDate', 'Lyrics', 'Popularity', 'Acousticness', 
 'Danceability', 'Energy', 'Instrumentalness', 'Liveness', 'Loudness', 'Speechiness', 'Valence', 'Tempo'])
 
 #looping through the Kidz Bop dataframe
@@ -35,6 +35,7 @@ for row in dfKidzBop.itertuples(index=True, name='Pandas'):
         title = track['name']
         artist = track['artists'][0]['name']
         releaseDate = track['album']['release_date']
+        popularity = track['popularity']
         acousticness = audio_features['acousticness']
         danceability = audio_features['danceability']
         energy = audio_features['energy']
@@ -47,7 +48,7 @@ for row in dfKidzBop.itertuples(index=True, name='Pandas'):
         # scraping Genius data (original song)
         song = genius.search_song(re.sub('\([^)]*\)|-.*', '', title), re.sub('\([^)]*\)|-.*', '', artist))
         # appending to df
-        df = df.append(dict(zip(df.columns, [title, artist, releaseDate, song.lyrics, 
+        df = df.append(dict(zip(df.columns, [kidzBopTitle, artist, releaseDate, song.lyrics, popularity,
         acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
     except:
         print("Match for " + kidzBopTitle + " not found.")

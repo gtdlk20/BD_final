@@ -18,7 +18,7 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 kidzbop = genius.search_artist("Kidz Bop", max_songs=684, sort='title', get_full_info=False)
 
 #creating a pandas dataframe
-df = pd.DataFrame(columns=['Title', 'Artist', 'ReleaseDate', 'Lyrics', 'Acousticness', 
+df = pd.DataFrame(columns=['Title', 'Artist', 'ReleaseDate', 'Lyrics', 'Popularity', 'Acousticness', 
 'Danceability', 'Energy', 'Instrumentalness', 'Liveness', 'Loudness', 'Speechiness', 'Valence', 'Tempo'])
 
 #storing info from each song in the dataframe
@@ -32,6 +32,7 @@ for song in kidzbop.songs:
         # formatting Spotify data
         title = track['name']
         releaseDate = track['album']['release_date']
+        popularity = track['popularity']
         acousticness = audio_features['acousticness']
         danceability = audio_features['danceability']
         energy = audio_features['energy']
@@ -42,7 +43,7 @@ for song in kidzbop.songs:
         valence = audio_features['valence']
         tempo = audio_features['tempo']
         # appending data to df
-        df = df.append(dict(zip(df.columns, [title, 'Kidz Bop Kids', releaseDate, song.lyrics, 
+        df = df.append(dict(zip(df.columns, [title, 'Kidz Bop Kids', releaseDate, song.lyrics, popularity,
         acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
     except: 
         print("Spotify ID for " + song.title + " not found.")
