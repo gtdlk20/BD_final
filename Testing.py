@@ -16,20 +16,21 @@ client_secret = "40f77d47dab14786a80bd860b35ad4a8"
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) 
 
-# song = sp.search(q = "Old Town Road", type = 'track')['tracks']['items']
+song = sp.search(q = "Old Town Road", type = 'track')['tracks']['items']
 
 # print(len(song))
 
-scrapes = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', "Old Town Road Remix"), type = 'track')['tracks']['items']
-titleMatches = [scrape['name'] for scrape in scrapes if scrape['artists'][0]['name'] != 'Kidz Bop Kids']
-indexMatch = np.argmin(np.array([lev.distance(titleMatch, "Old Town Road") for titleMatch in titleMatches])) 
-SpotifyID = scrapes[indexMatch]['id']
+# code below won't not include kidz bop songs for some reason
+# scrapes = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', "Club Can't Handle Me"), type = 'track')['tracks']['items']
+# titleMatches = [scrape['name'] for scrape in scrapes if scrape['artist'][0]['name'] != "Kidz Bop Kids"]
+# indexMatch = np.argmin(np.array([lev.distance(titleMatch, "Club Can't Handle Me") for titleMatch in titleMatches])) 
+# SpotifyID = scrapes[indexMatch]['id']
 
-print(titleMatches)
-print(indexMatch)
+# print(titleMatches)
+# print(indexMatch)
 
 # Spotify id 
-# SpotifyID = song[3]['id']
+SpotifyID = song[0]['id']
 
 # song info fron get a track 
 print(sp.track(SpotifyID)['name'])
@@ -47,8 +48,8 @@ print(sp.track(SpotifyID)['artists'][0]['name'])
 # song = genius.search_song("All You Need Is Love - 2009 Remaster", 'The Beatles')
 # print(song.lyrics)
 
-# song = genius.search_song("All You Need Is Love (2009)", 'The Beatles')
-# print(song.title)
+# song = genius.search_song("All You Need Is Love    ", 'The Beatles')
+# print(song.lyrics)
 
 
 # title = 'Ain\'t no thank - da police'
