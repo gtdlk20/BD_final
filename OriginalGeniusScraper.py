@@ -53,7 +53,7 @@ for row in dfKidzBop.itertuples(index=True, name='Pandas'):
         # scraping Genius data (original song)
         song = genius.search_song(re.sub('\([^)]*\)|-.*', '', title), re.sub('\([^)]*\)|-.*', '', artist))
         # appending to df
-        df = df.append(dict(zip(df.columns, [title, artist, releaseDate, originalSong.lyrics, 
+        df = df.append(dict(zip(df.columns, [title, artist, releaseDate, song.lyrics, 
         acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
     except:
         print("Match for " + kidzBopTitle + " not found.")
