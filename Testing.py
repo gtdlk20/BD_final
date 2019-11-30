@@ -20,13 +20,13 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 # print(len(song))
 
-# scrapes = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', 'Old Town Road'), type = 'track')['tracks']['items']
-# titleMatches = [scrape['name'] for scrape in scrapes]
-# indexMatch = np.argmin(np.array([lev.distance(titleMatch, "Old Town Road") for titleMatch in titleMatches])) 
-# SpotifyID = scrapes[indexMatch]['id']
+scrapes = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', "Ain't no thing"), type = 'track')['tracks']['items']
+titleMatches = [scrape['name'] for scrape in scrapes]
+indexMatch = np.argmin(np.array([lev.distance(titleMatch, "Ain't no thing") for titleMatch in titleMatches])) 
+SpotifyID = scrapes[indexMatch]['id']
 
-# print(titleMatches)
-# print(indexMatch)
+print(titleMatches)
+print(indexMatch)
 
 # Spotify id 
 # SpotifyID = song[3]['id']
@@ -46,9 +46,11 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 # song = genius.search_song("All You Need Is Love - 2009 Remaster", 'The Beatles')
 # print(song.lyrics)
 
-# song = genius.search_song("All You Need Is Love", 'The Beatles')
-# print(song.lyrics)
+song = genius.search_song("All You Need Is Love (2009)", 'The Beatles')
+print(song.title)
 
-# print(re.sub('\([^)]*\)|-.*', '', title)
+
+# title = 'Ain\'t no thank - da police'
+# print(re.sub('\([^)]*\)|-.*|[^a-zA-Z0-9\s]', '', title))
 
 

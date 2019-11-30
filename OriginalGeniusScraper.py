@@ -51,7 +51,7 @@ for row in dfKidzBop.itertuples(index=True, name='Pandas'):
         valence = audio_features['valence']
         tempo = audio_features['tempo']
         # scraping Genius data (original song)
-        originalSong = genius.search_song(re.sub('\([^)]*\)|-.*', '', title), artist)
+        song = genius.search_song(re.sub('\([^)]*\)|-.*', '', title), re.sub('\([^)]*\)|-.*', '', artist))
         # appending to df
         df = df.append(dict(zip(df.columns, [title, artist, releaseDate, originalSong.lyrics, 
         acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
