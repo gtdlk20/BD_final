@@ -5,7 +5,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials 
 import numpy as np
 import Levenshtein as lev
-import profanity_check
+# import profanity_check
 
 #accessing Genius API (thank you johnwmillr!)
 login_token = "tAZ1oU_T0GXCZmxobxkvY0YJDSj3Kj5Tm7_Ta_LnnNJ4-35MYKi21hBeTJPUtC6U"
@@ -55,3 +55,8 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 # title = 'Ain\'t no thank - da police'
 # print(re.sub('\([^)]*\)|-.*|[^a-zA-Z0-9\s]', '', title))
+
+# wordsList = np.array(["Fuck", "Sup", 'Bro'])
+# swearsList = np.array([1, 0, 0])
+# wordsList = np.delete(wordsList, np.where(swearsList == 1)[0])
+# print(wordsList)

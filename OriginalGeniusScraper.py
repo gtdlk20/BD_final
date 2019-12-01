@@ -4,7 +4,6 @@ import pandas as pd
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials 
 import Levenshtein as lev
-import numpy as np
 
 #reading in KidzBopTable as pandas dataframe
 dfKidzBop = pd.read_csv("KidzBopTable.csv") 
