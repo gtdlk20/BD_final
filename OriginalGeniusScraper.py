@@ -23,8 +23,8 @@ df = pd.DataFrame(columns=['Title', 'Artist', 'ReleaseDate', 'Lyrics', 'Populari
 'Danceability', 'Energy', 'Instrumentalness', 'Liveness', 'Loudness', 'Speechiness', 'Valence', 'Tempo'])
 
 #looping through the Kidz Bop dataframe
-for row in dfKidzBop.itertuples(index=True, name='Pandas'):
-    kidzBopTitle = getattr(row, "Title")
+for index, row in dfKidzBop.iterrows():
+    kidzBopTitle = row['Title']
     try:
         # scraping Spotify data (original song)
         spotifyID = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', kidzBopTitle), type = 'track')['tracks']['items'][0]['id']
@@ -51,6 +51,9 @@ for row in dfKidzBop.itertuples(index=True, name='Pandas'):
         acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
     except:
         print("Match for " + kidzBopTitle + " not found.")
+        dfKidzBop.drop(index=index, inplace=True)
 
 #storing the original song dataframe as a .csv file 
 df.to_csv('OriginalTable.csv')
+# updating the Kidz Bop song dataframe
+dfKidzBop.to_csv('KidzBopTable.csv')
