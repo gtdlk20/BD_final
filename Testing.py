@@ -67,6 +67,9 @@ dfOriginal = pd.read_csv("OriginalTable.csv")
 # wordsList = np.delete(wordsList, np.where(swearsList == 1)[0])
 # print(wordsList)
 
-# print(list(dfKidzBop["Lyrics"])[0])
-# print("\n ORIGINAL \n")
-# print(list(dfOriginal["Lyrics"])[0])
+# song1 = np.array(list(dfKidzBop["Lyrics"])[0].lower().split())
+# song2 = np.array(list(dfOriginal["Lyrics"])[0].lower().split())
+
+# main_list = np.setdiff1d(song1,song2)
+# print(main_list)
+
