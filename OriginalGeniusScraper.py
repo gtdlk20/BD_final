@@ -54,6 +54,6 @@ for index, row in dfKidzBop.iterrows():
         dfKidzBop.drop(index=index, inplace=True)
 
 #storing the original song dataframe as a .csv file 
-df.to_csv('OriginalTable.csv')
+df.to_csv('OriginalTable.csv', index=False)
 # updating the Kidz Bop song dataframe
-dfKidzBop.to_csv('KidzBopTable.csv')
+dfKidzBop.to_csv('KidzBopTable.csv', index=False)

@@ -64,6 +64,6 @@ swearlessSentimentAverageOriginal = list(map(getAverageSentiment, list(map(remov
 dfOriginal["SwearlessSentimentAverage"] = swearlessSentimentAverageOriginal
 
 #storing the updated dataframes in their .csv format
-dfKidzBop.to_csv('KidzBopTable.csv')
-dfOriginal.to_csv('OriginalTable.csv')
+dfKidzBop.to_csv('KidzBopTable.csv', index=False)
+dfOriginal.to_csv('OriginalTable.csv', index=False)
 

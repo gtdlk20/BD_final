@@ -48,4 +48,4 @@ for song in kidzbop.songs:
         print("Spotify ID for " + song.title + " not found.")
 
 #storing the dataframe as a .csv file 
-df.to_csv('KidzBopTable.csv')
+df.to_csv('KidzBopTable.csv', index=False)
