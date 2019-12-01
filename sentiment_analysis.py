@@ -42,7 +42,7 @@ def get_basic_filthiness(lyrics):
 # IF YOU ARE RETURNING A LIST THE SAME SIZE AS THE INPUT USE MAP!!!!!!!!!!!!!!!!!!!!!!!!!!
 # https://www.geeksforgeeks.org/python-map-function/
 # IT IS MUCH MUCH FASTER THAN A SEPARATE METHOD WITH A FOR LOOP!!!!!!!!!
-# map(dfKidzBop["lyrics"].values, get_basic)filthiness) should return a list the same size as the titles column with the filth scores
+# map(list(dfKidzBop["Lyrics"]), get_basic)filthiness) should return a list the same size as the titles column with the filth scores
 #returns list of tuples (title, filth) where filth is the filth score of a song
 def get_df_filth(df):
     #param df: a pandas dataframe
