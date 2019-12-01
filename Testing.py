@@ -17,6 +17,12 @@ client_secret = "40f77d47dab14786a80bd860b35ad4a8"
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) 
 
+#reading in KidzBopTable as pandas dataframe
+dfKidzBop = pd.read_csv("KidzBopTable.csv") 
+
+#reading in OriginalTable as pandas dataframe
+dfOriginal = pd.read_csv("OriginalTable.csv")
+
 # song = sp.search(q = "Old Town Road", type = 'track')['tracks']['items']
 
 # print(len(song))
@@ -60,3 +66,7 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 # swearsList = np.array([1, 0, 0])
 # wordsList = np.delete(wordsList, np.where(swearsList == 1)[0])
 # print(wordsList)
+
+# print(list(dfKidzBop["Lyrics"])[0])
+# print("\n ORIGINAL \n")
+# print(list(dfOriginal["Lyrics"])[0])
