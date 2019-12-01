@@ -23,19 +23,34 @@ af = Afinn()
 filthKidzBop = list(map(lambda lyrics: sum(profanity_check.predict(lyrics.lower().split())), list(dfKidzBop["Lyrics"])))
 filthOriginal = list(map(lambda lyrics: sum(profanity_check.predict(lyrics.lower().split())), list(dfOriginal["Lyrics"])))
 
-print(filthOriginal)
+# print(filthOriginal)
+
+# appending lists to their respective dataframes
+dfKidzBop["SwearCount"] = filthKidzBop
+dfOriginal["SwearCount"] = filthOriginal
 
 #gets the average sentiment of a songs words
 def getAverageSentiment(lyrics):
     # wordList is a list of words devoid of stopwords, numbers, and punctuation. 
     wordList = [word for word in re.sub("[^a-zA-Z\s]", '', lyrics).lower().split() if word not in stopwords]
     # calculates the average sentiment by summing up the sentiment score for each word then dividing it by the length of the wordList
-    averageSentiment = sum(list(map(af.score, wordList))) / len(wordList)
+    try:
+        averageSentiment = sum(list(map(af.score, wordList))) / len(wordList)
+    except:
+        averageSentiment = 0
     return averageSentiment
 
 # creates a list containing the average sentiment scores of every song. 
 averageSentimentKidzBop = list(map(getAverageSentiment, list(dfKidzBop["Lyrics"])))
 averageSentimentOriginal = list(map(getAverageSentiment, list(dfOriginal["Lyrics"])))
 
-print(averageSentimentKidzBop)
+# print(averageSentimentKidzBop)
+
+# appending lists to their respective dataframes
+dfKidzBop["SentimentAverage"] = averageSentimentKidzBop
+dfOriginal["SentimentAverage"] = averageSentimentOriginal
+
+#storing the updated dataframes in their .csv format
+dfKidzBop.to_csv('KidzBopTable.csv')
+dfOriginal.to_csv('OriginalTable.csv')
 
