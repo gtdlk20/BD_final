@@ -16,6 +16,8 @@ dfKidzBop = pd.read_csv("KidzBopTable.csv")
 #reading in OriginalTable as pandas dataframe
 dfOriginal = pd.read_csv("OriginalTable.csv")
 
+#reading in DifferenceTable as pandas dataframe
+
 #create new Afinn object for sentiment analysis
 af = Afinn()
 
