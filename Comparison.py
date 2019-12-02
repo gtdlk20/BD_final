@@ -22,4 +22,4 @@ swearlessSentimentDiff = np.array(list(dfOriginal["SwearlessSentimentAverage"]))
 
 dfDiff["SwearlessSentimentDifference"] = swearlessSentimentDiff
 
-dfDiff.to_csv('DifferenceTable.csv', index=False)
+# dfDiff.to_csv('DifferenceTable.csv', index=False)
