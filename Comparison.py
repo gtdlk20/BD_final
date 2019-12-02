@@ -22,4 +22,18 @@ swearlessSentimentDiff = np.array(list(dfOriginal["SwearlessSentimentAverage"]))
 
 dfDiff["SwearlessSentimentDifference"] = swearlessSentimentDiff
 
+
+def compareLyrics(lyrics1, lyrics2):
+    wordsList1 = np.array(lyrics1.lower().split())
+    wordsList2 = np.array(lyrics2.lower().split())
+    # what words are in lyrics 1, but not lyrics 2
+    lyricsDiff = np.setdiff1d(wordsList1,wordsList2)
+    return lyricsDiff
+
+kidzBopLyricsDiff = list(map(compareLyrics, list(dfKidzBop["Lyrics"]), list(dfOriginal["Lyrics"])))
+originalLyricsDiff = list(map(compareLyrics, list(dfOriginal["Lyrics"]), list(dfKidzBop["Lyrics"])))
+
+print(kidzBopLyricsDiff[0])
+print(originalLyricsDiff[0])
+
 dfDiff.to_csv('DifferenceTable.csv', index=False)
