@@ -36,4 +36,5 @@ originalLyricsDiff = list(map(compareLyrics, list(dfOriginal["Lyrics"]), list(df
 print(kidzBopLyricsDiff[0])
 print(originalLyricsDiff[0])
 
+# saving dataframe of differences to .csv
 dfDiff.to_csv('DifferenceTable.csv', index=False)
