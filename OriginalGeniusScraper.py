@@ -54,7 +54,7 @@ for index, row in dfKidzBop.iterrows():
         df = df.append(dict(zip(df.columns, [kidzBopTitle, artistName, releaseDate, song.lyrics, genres, popularity,
         acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
     except:
-        print("Match for " + kidzBopTitle + " not found.")
+        print("Complete match for " + kidzBopTitle + " not found.")
         dfKidzBop.drop(index=index, inplace=True)
 
 #storing the original song dataframe as a .csv file 
