@@ -46,7 +46,7 @@ for song in kidzbop.songs:
         df = df.append(dict(zip(df.columns, [title, 'Kidz Bop Kids', releaseDate, song.lyrics, popularity,
         acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
     except: 
-        print("Spotify ID for " + song.title + " not found.")
+        print("Spotify info for " + song.title + " not found.")
 
 #storing the dataframe as a .csv file 
 df.to_csv('KidzBopTable.csv', index=False)

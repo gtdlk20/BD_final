@@ -32,3 +32,5 @@ dfOriginal = pd.read_csv("OriginalTable.csv")
 # print(titleMatches)
 # print(indexMatch)
 
+# song = genius.search_song(re.sub('\([^)]*\)|-.*', '', "Old Town Road"), re.sub('\([^)]*\)|-.*', '', 'Lil Nas X'))
+# print(song.year)

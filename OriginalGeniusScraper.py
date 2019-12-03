@@ -33,9 +33,11 @@ for index, row in dfKidzBop.iterrows():
         audio_features = sp.audio_features(search['id'])[0]
         # formatting Spotify data
         title = track['name']
-        artistName = track['artists'][0]['name']
         releaseDate = track['album']['release_date']
         popularity = track['popularity']
+        artistName = artist['name']
+        if artistName == 'Kidz Bop Kids':
+            raise Exception()
         genres = artist['genres']
         acousticness = audio_features['acousticness']
         danceability = audio_features['danceability']

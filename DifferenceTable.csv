@@ -55,14 +55,14 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  '[jackie]' '[jermaine-]' '[jermaine:-]' '[jermaine]' '[michael]' '[tito]'
  'a,' 'as...' 'b,' 'baby' 'baby!' 'before...' 'c""' 'c,' 'do-re-mi'
  'do-re-mi,' 'e,' 'easy,' 'girl...' ""i'm-a"" 'love!' 'me,' 'melody,' 'oh!'
- 'oh,' 'out,' 't-t-t-teachers' 'writing,' 'yeah!' 'you...']",48,0.22999999999999998,0.10099999999999998,0.04899999999999993,0.000192,0.10700000000000001,2.6310000000000002,0.007800000000000001,0.013000000000000012,1.7490000000000094,0,0.004043399150886168
+ 'oh,' 'out,' 't-t-t-teachers' 'writing,' 'yeah!' 'you...']",49,0.22999999999999998,0.10099999999999998,0.04899999999999993,0.000192,0.10700000000000001,2.6310000000000002,0.007800000000000001,0.013000000000000012,1.7490000000000094,0,0.004043399150886168
 "['""what\'s' '(love)' '1]' '2]' '3]' '[breakdown]' '[bridge]' '[chorus'
  '[verse' 'alone' 'baby?""' 'because' 'belting' 'coming' 'escaping' 'it,'
- 'melting' 'nothing' 'oh' 'problem?' 'running' 'said,' 'so,' 'thinking']",49,0.11359999999999999,0.041999999999999926,0.118,2.12e-06,0.1865,3.8150000000000026,0.0015000000000000013,0.11599999999999988,0.020000000000010232,0,0.02125711669956798
+ 'melting' 'nothing' 'oh' 'problem?' 'running' 'said,' 'so,' 'thinking']",48,0.14100000000000001,0.04500000000000004,0.123,3.32e-06,0.1844,3.8160000000000025,0.0011999999999999997,0.135,0.002999999999985903,0,0.02125711669956798
 "[""('cause"" ""(don't"" '(this' '(to' ""(you're"" '1]' '2]' '[bridge]'
  '[chorus]' '[extended' '[outro]' '[pre-chorus' '[verse' 'bell' 'chorus]'
  'could' 'crying)' 'crying...' 'easy,' 'fool' 'is' 'mama)' 'mother)'
- 'own)' 'this' 'world)' 'you)']",50,0.1427,0.06399999999999995,0.03200000000000003,4.41e-05,0.305,2.217,0.002700000000000008,0.061999999999999944,0.003999999999990678,0,0.16041534702741836
+ 'own)' 'this' 'world)' 'you)']",51,0.1427,0.06399999999999995,0.03200000000000003,4.41e-05,0.305,2.217,0.002700000000000008,0.061999999999999944,0.003999999999990678,0,0.16041534702741836
 "['1:' '2:' '[chorus:' '[outro:' '[verse' 'b.o.b]' ""decatur—what's""
  'hayley' 'hell' 'like,' 'mixtape' 'oh' 'ray?' 'shit?' ""smashin'"" 'stand'
  'stars' 'that,' 'tryna' 'way,' 'williams]' 'wish,']",55,0.0471,0.05900000000000005,0.031000000000000028,1.29e-06,0.0276,1.9909999999999997,0.054200000000000005,0.42399999999999993,0.0759999999999934,1,0.0017993702204228412
@@ -146,7 +146,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'yeah)' 'yeah,' 'yesterday)' 'you,']",55,0.3355,0.2579999999999999,0.31000000000000005,9.200000000000001e-05,0.0753,0.38599999999999834,0.0009999999999999974,0.11599999999999999,2.573999999999998,0,0.2804845461833082
 "['(and' '(if' '(oh)' '1]' '2]' '[bridge]' '[chorus]' '[outro]' '[verse'
  'cares)' 'comes,' 'gone' 'hurry,' 'inside' 'me?' 'oh' 'oh-oh,' 'slowly'
- 'to)' 'whoa' 'whoa,']",53,0.15933999999999998,0.07399999999999995,0.16200000000000003,0.00303,0.15400000000000003,0.4530000000000012,0.0038000000000000013,0.009000000000000008,0.32900000000000773,0,0.009985613946009997
+ 'to)' 'whoa' 'whoa,']",52,0.15933999999999998,0.07399999999999995,0.16200000000000003,0.00303,0.15400000000000003,0.4530000000000012,0.0038000000000000013,0.009000000000000008,0.32900000000000773,0,0.009985613946009997
 "['1]' '2]' '[bridge]' '[chorus]' '[outro]' '[pre-chorus' '[verse' 'high'
  'kiss' 'know,' 'looking' 'on,' 'out,' 'poison' 'right' 'road,' 'would']",60,0.824,0.09500000000000003,0.5329999999999999,0.00043579000000000003,0.14100000000000001,1.9480000000000004,0.011799999999999998,0.36799999999999994,16.959000000000003,0,0.014001349527665297
 "['""cool' '""you,' ""'bout"" ""'cause"" ""'em"" '(la' '(ooh,' '(see' '1:' '2:'
@@ -197,7 +197,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'long,' 'lot' 'man!' 'melted,' ""mornin',"" 'movies' 'nightmare;' 'off,'
  'on,' 'or' 'outside' 'pal,' 'please' 'prince,' 'prince]' 'princey!'
  'ripped' 'rrahhhh!' 'rush' 'shoulder' 'silence!' 'sleep,' 'stopping'
- 'street!' 'theater' 'though' 'three' 'turned' 'words' 'you,']",26,0.078,0.06400000000000006,0.004000000000000115,1.46e-06,0.463,1.2560000000000002,0.017999999999999988,0.07500000000000007,0.17500000000001137,0,0.07067510548523206
+ 'street!' 'theater' 'though' 'three' 'turned' 'words' 'you,']",27,0.078,0.06400000000000006,0.004000000000000115,1.46e-06,0.463,1.2560000000000002,0.017999999999999988,0.07500000000000007,0.17500000000001137,0,0.07067510548523206
 "['1]' '2]' '[bridge]' '[chorus]' '[verse' 'animals' 'for' 'hush' ""kickin'""
  ""killin'"" 'time']",54,0.000436,0.07000000000000006,0.030000000000000027,4.8e-05,0.020000000000000018,0.6399999999999988,0.008600000000000003,0.1409999999999999,0.006000000000000227,0,0.01964912280701754
 "['(that)' '1]' '2]' '[chorus]' '[outro]' '[verse' 'apologize,' 'beat,'
@@ -249,7 +249,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
 "[""'cause"" '(battlefield)' '(nothing)' '(oh)' '(start' '(what' '1]' '2]'
  '[bridge]' '[chorus]' '[outro]' '[post-chorus]' '[pre-chorus]' '[verse'
  'flag' 'for?)' 'gone' 'had' 'into' 'like...' 'mind,' 'ohh' 'out' 'pride,'
- 'shield' 'surrender,' 'wake' 'war)' ""we'd"" ""you're"" 'your...']",45,0.006999999999999999,0.007000000000000006,0.03199999999999992,0.0,0.0461,4.259,0.020200000000000003,0.33999999999999997,0.0589999999999975,0,0.07776486150639356
+ 'shield' 'surrender,' 'wake' 'war)' ""we'd"" ""you're"" 'your...']",46,0.006999999999999999,0.007000000000000006,0.03199999999999992,0.0,0.0461,4.259,0.020200000000000003,0.33999999999999997,0.0589999999999975,0,0.07776486150639356
 "['""what' '""who' ""('round"" '(all' '(beautiful)' '(nowhere,' '(we' '1:' '2:'
  '[chorus:' '[intro:' '[outro:' '[post-chorus:' '[pre-chorus:' '[verse'
  'a' 'about' 'alone' 'are)' 'are,' 'arms' 'around' 'ask' 'beautiful,'
@@ -341,7 +341,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'took' 'trip' 'trunk,' 'turned' 'walked' 'wants' 'was' 'we' 'when'
  'where' 'worst,' 'yeah,' ""you'll"" 'your']",60,0.133,0.27499999999999997,0.33099999999999996,1.62e-05,0.060100000000000015,6.461,0.030100000000000002,0.33,47.88299999999998,8,0.5802521008403362
 "[""'til"" 'broken' 'bullets' ""chokin'"" ""ebbin'"" ""feelin'"" 'flames' ""flowin'""
- 'hate' 'oh,' ""sulkin'"" 'thing']",56,0.013600000000000008,0.04500000000000004,0.01200000000000001,0.0,0.0039000000000000007,0.09799999999999986,0.046700000000000005,0.128,0.0030000000000001137,0,0.0013163668275559676
+ 'hate' 'oh,' ""sulkin'"" 'thing']",57,0.013600000000000008,0.04500000000000004,0.01200000000000001,0.0,0.0039000000000000007,0.09799999999999986,0.046700000000000005,0.128,0.0030000000000001137,0,0.0013163668275559676
 "['(wo-o-o-o-o-o-oh)' '(wo-o-o-o-o-o-oh,' '1]' '2]' '[bridge]' '[chorus]'
  '[outro]' '[pre-chorus]' '[verse' 'back,' 'high,' 'li-i-i-i-i-i-ife'
  'limits,' ""lookin'"" 'now!' 'whoa' 'wo-o-o-o-o-o-oh)']",31,0.0469,0.030000000000000027,0.007000000000000006,0.000262,0.0267,0.762,0.0264,0.21299999999999997,0.019000000000005457,0,0.019293775027302507
@@ -349,7 +349,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  '[outro:' '[pre-chorus:' '[verse' 'all]' 'danced!)' 'dirty' 'dreams""'
  'ever!)' 'harry]' 'her)' 'home' 'kissed' 'liam' 'line' 'line)' 'louis'
  'mouth' 'niall]' 'take' 'this' 'zayn' 'zayn]']",39,0.01994,0.006000000000000116,0.04200000000000004,0.0,0.007599999999999996,1.7179999999999995,0.011200000000000002,0.05299999999999999,0.08100000000000307,0,0.10828528720905392
-[],0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0
+"['""' '""if' '""linda' ... 'yourself,' 'yourselves' 'yourselves,']",7,0.019099999999999992,0.040000000000000036,0.264,0.0,0.536,0.16600000000000126,0.1471,0.22099999999999997,37.07799999999999,8,0.2684578230119027
 "['(and' '(no' '(oh,' '(yeah)' '1]' '2:]' '[bridge:' '[chorus:' '[chorus]'
  '[pre-chorus:' '[pre-chorus]' '[verse' 'boy,' 'coming' 'do' 'feelings,'
  'heals,' 'is,' 'know)' 'know,' 'leona' 'lewis]' 'loved' 'me)' 'meant'
@@ -365,7 +365,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'c’mon,' 'day,' 'didn’t' 'don’t' 'faithful' 'fellas' 'hey)' 'he’s' 'it’s'
  'i’ll' 'i’m' 'i’mma' 'ladies' 'lady' 'locked' 'nothin’' 'oh,' 'oh-oh)'
  'ooh' 'she’s' 'shit' 'somethin’' 'stay' 'talk,' 'thin)' 'up)' 'waitin’'
- 'well' 'who’s' 'will' 'ya' 'yeah' 'you)' 'you’ll' 'you’re']",56,0.21600000000000003,0.014000000000000123,0.08399999999999996,0.0,0.1738,2.8260000000000005,0.0534,0.1289999999999999,1.3569999999999993,1,0.03007938476804764
+ 'well' 'who’s' 'will' 'ya' 'yeah' 'you)' 'you’ll' 'you’re']",55,0.21600000000000003,0.014000000000000123,0.08399999999999996,0.0,0.1738,2.8260000000000005,0.0534,0.1289999999999999,1.3569999999999993,1,0.03007938476804764
 "['(1997)' '(1998):' '(1998-' '(2005)' '-' '1)' '15(2011):' '2)' '3)' '4)'
  '5)' '6)' '7)my' '8)first' 'angelito' 'anything' 'at' 'away' 'away,'
  'away.' ""beach(2009)let's"" 'beach,' 'bike(2000):' 'born' 'brave' ""can't""
@@ -417,8 +417,8 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'real' 'rest' 'right?' 'save' 'sensation)' 'sensation,' 'separated'
  'something' 'something?' 'special' 'surely' 'than' 'that' 'the' 'they,'
  'thing' 'think' 'together,' 'tonight' 'wanna' 'want' 'we' 'will' 'wish'
- ""you're"" 'yours']",10,0.017699999999999997,0.06499999999999995,0.030000000000000027,0.0,0.015400000000000011,0.5629999999999997,0.0284,0.33100000000000007,20.005000000000024,0,0.12143713679549861
-['1]' '2]' '3]' '[chorus]' '[instrumental' '[verse' 'bird' 'break]'],64,0.004999999999999893,0.06699999999999995,0.15400000000000003,8.57e-05,0.0395,2.9019999999999992,0.004900000000000002,0.17799999999999994,2.262999999999991,0,0.01900688999762412
+ ""you're"" 'yours']",9,0.017699999999999997,0.06499999999999995,0.030000000000000027,0.0,0.015400000000000011,0.5629999999999997,0.0284,0.33100000000000007,20.005000000000024,0,0.12143713679549861
+['1]' '2]' '3]' '[chorus]' '[instrumental' '[verse' 'break]'],64,0.004999999999999893,0.06699999999999995,0.15400000000000003,8.57e-05,0.0395,2.9019999999999992,0.004900000000000002,0.17799999999999994,2.262999999999991,0,0.016875602700096443
 "['""don\'t' '""hey' '""look' '""no' '(no' '(not' '(woohoo)' '(woohoo,' '1]'
  '2]' '[chorus]' '[intro]' '[outro]' '[verse' 'cause' 'four' 'he' ""it's""
  ""lil'"" 'me?""' 'no""' 'no)' 'oh' 'ooh,' 'see,' 'three,' 'two,' 'walking""'
@@ -442,7 +442,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'ex-lovers' 'funny?' 'girl' 'god,' ""guessin'"" 'guys' 'high' 'hmm'
  'insane' 'lies' 'mistake' 'mm' 'new' 'oh,' 'only' 'over,' 'passport'
  'play?""' 'players' 'say' 'screaming,' 'there,' 'torture' 'wanna' 'warn'
- 'ya']",25,0.077,0.01100000000000001,0.006000000000000116,1.64e-06,0.018000000000000016,1.213,0.0077000000000000055,0.062000000000000055,0.06499999999999773,0,0.03792486583184257
+ 'ya']",26,0.077,0.01100000000000001,0.006000000000000116,1.64e-06,0.018000000000000016,1.213,0.0077000000000000055,0.062000000000000055,0.06499999999999773,0,0.03792486583184257
 "['(i' '(ooh,' '(oohhh)' '1]' '2]' '[bridge]' '[chorus]' '[outro]'
  '[pre-chorus]' '[verse' 'away,' 'ground' 'happened' 'hear,' 'i)'
  'keep...)' 'loneliness,' 'maybe,' 'melted' 'risk' 'round' 'their'
@@ -512,7 +512,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'read' 'scootie' 'scootie,' 'see' 'seem' 'shove' 'smile' 'smitten,'
  'sometimes' 'still' 'stress' 'surface,' 'though' 'time' 'too' 'touch'
  'train' 'trust' 'try' 'up' 'vibes,' 'waiting' 'want,' 'way' 'were' 'when'
- ""where'd"" 'words,' ""wouldn't"" 'wreck' 'wreck,' 'yeah)']",69,0.025999999999999995,0.33099999999999996,0.28,0.0,0.08750000000000001,5.968,0.37520000000000003,0.08000000000000007,93.126,1,0.05152060824329732
+ ""where'd"" 'words,' ""wouldn't"" 'wreck' 'wreck,' 'yeah)']",70,0.025999999999999995,0.33099999999999996,0.28,0.0,0.08750000000000001,5.968,0.37520000000000003,0.08000000000000007,93.126,1,0.05152060824329732
 "['""i' '(be' '(i' '(since' '(thanks' '(you' '1]' '2]' '[bridge]' '[chorus'
  '[chorus]' '[outro]' '[pre-chorus' '[verse' 'again' 'been' 'blew'
  'breathe' 'called' 'can' ""can't"" 'chance,' 'cool,' 'dedicated,' 'even'
@@ -525,12 +525,12 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
 "[""('cause"" '(one' '...' '1]' '2]' '3]' '[bridge]' '[chorus]' '[intro]'
  '[outro]' '[verse' 'even)' 'even,' 'even...' 'god' 'leaving)' 'man' 'oh,'
  'ok?' ""one's"" 'other' 'pieces,' 'prayed' 'remains,' 'suitcase,' 'tryna'
- 'words' 'you?']",64,0.002999999999999975,0.03600000000000003,0.119,2.24e-05,0.0006000000000000033,2.4370000000000003,0.008900000000000002,0.030000000000000027,0.046999999999997044,0,0.028713968957871403
+ 'words' 'you?']",65,0.002999999999999975,0.03600000000000003,0.119,2.24e-05,0.0006000000000000033,2.4370000000000003,0.008900000000000002,0.030000000000000027,0.046999999999997044,0,0.028713968957871403
 "[""'cause"" '(ooh-ooh-ooh-ooh)' '(this' '1]' '2]' '[bridge]' '[chorus]'
  '[click' '[pre-chorus]' '[verse' 'ariana' 'body,' 'dreams,' 'every'
  'fever,' 'free”]' 'got' 'grande' 'hell,' 'here' 'how' 'is)' 'lethal,'
  'make' 'more,' 'ooh,' 'ooh-ooh-ooh' 'read' ""should've"" 'spell,' 'time'
- 'together' 'ya' 'yeah' 'yeah,' 'zedd' '“break']",45,0.0016200000000000008,0.10200000000000009,0.20599999999999985,4.212e-05,0.17700000000000002,1.396,0.04190000000000001,0.14700000000000002,0.03899999999998727,0,0.011943003047524922
+ 'together' 'ya' 'yeah' 'yeah,' 'zedd' '“break']",46,0.0016200000000000008,0.10200000000000009,0.20599999999999985,4.212e-05,0.17700000000000002,1.396,0.04190000000000001,0.14700000000000002,0.03899999999998727,0,0.011943003047524922
 "['""damn,' '(hit' 'call' 'crazy' 'even' 'ever' ""fuckin'"" 'give' 'hit'
  ""it's"" 'knees' 'met' 'never' 'one' 'practically' 'right)' 'shit' 'taste'
  ""trippin'""]",42,0.013400000000000002,0.02300000000000002,0.028000000000000136,0.0,0.02800000000000001,0.8439999999999994,0.042300000000000004,0.312,0.16299999999995407,3,0.056593095642331614
@@ -615,7 +615,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'ya' 'yeah)' 'zucchinis,' '\u200b*horn']",48,0.0030600000000000002,0.07899999999999985,0.06099999999999994,0.0221,0.0981,3.077,0.026199999999999998,0.53,0.04100000000001103,1,0.007316199669150883
 "['1]' '2]' '[breakdown]' '[bridge]' '[chorus]' '[outro]' '[pre-chorus]'
  '[verse' 'beg' 'blowing' 'first' 'holding' 'life,' 'maybe' 'number,'
- 'showing' 'sight' 'skin' 'steal' 'still' 'you,']",26,0.0182,0.04600000000000004,0.19500000000000006,0.0,0.013499999999999998,2.107000000000002,0.0025000000000000022,0.17999999999999994,0.13700000000000045,0,0.03902798232695143
+ 'showing' 'sight' 'skin' 'steal' 'still' 'you,']",26,0.0191,0.050999999999999934,0.20000000000000007,2.28e-06,0.013499999999999998,2.1529999999999996,0.00019999999999999185,0.1459999999999999,0.08899999999999864,0,0.03902798232695143
 "['(ooooh-weeeee!)' '(oooooh-weeee!)' '(what?)' '[b]' '[bobby' '[bobby]'
  '[break]' '[michael' '[michael]' '[ralph' '[ralph]' '[rb]' '[ricky'
  '[ricky]' '[ronnie' '[rt]' 'bad!' 'bad,' 'bell]' 'bivins]' 'brown]'
@@ -676,7 +676,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'lions' 'many' 'marley]' 'my' 'over' 'people' 'perry]' 'place,' 'riot'
  'skip' 'they' 'ticking' 'time' 'times' 'truth' 'walls' 'woke']",31,0.25159999999999993,0.14999999999999997,0.05599999999999994,0.0,0.056999999999999995,2.27,0.0904,0.02899999999999997,94.83999999999999,0,0.03311218814555854
 "['1]' '2]' '[bridge]' '[chorus' '[chorus]' '[verse' 'am' 'eyes' 'find'
- 'grace' 'much' 'my' 'remind' 'say' 'where']",66,0.544,0.006000000000000005,0.3660000000000001,5.08e-05,0.023000000000000007,7.1579999999999995,0.0007999999999999986,0.03799999999999998,0.11499999999999488,0,0.020652173913043477
+ 'grace' 'much' 'my' 'remind' 'say' 'where']",67,0.544,0.006000000000000005,0.3660000000000001,5.08e-05,0.023000000000000007,7.1579999999999995,0.0007999999999999986,0.03799999999999998,0.11499999999999488,0,0.020652173913043477
 "['&' ""'em"" '(get' '(got' '(huh)' '(ooh,' '(turn' '(what,' '(where'
  '(woah)' '1:' '2:' '[bridge:' '[chorus:' '[intro:' '[outro:'
  '[pre-chorus:' '[verse' 'action' 'always' 'aquí' 'ayy' 'babe' 'baby' 'be'
@@ -712,7 +712,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  ""everything's"" 'fires' 'fuck' 'goulding' 'goulding]' 'hate' ""i'm"" 'keep'
  'known' 'lee]' 'me)' 'off,' ""other's"" ""poppin',"" 'she' 'skrrt)' 'swae'
  'then' 'too' ""wasn't"" ""watchin'"" ""we'll"" ""we're"" 'with' ""wouldn't""
- ""you're"" 'your']",45,0.0581,0.039999999999999925,0.03200000000000003,0.0,0.135,0.32699999999999996,0.021900000000000003,0.04200000000000009,0.02199999999999136,2,0.022060957910014514
+ ""you're"" 'your']",44,0.0581,0.039999999999999925,0.03200000000000003,0.0,0.135,0.32699999999999996,0.021900000000000003,0.04200000000000009,0.02199999999999136,2,0.022060957910014514
 "['&' ""'cause"" ""'em!"" ""'til"" '(eh,' '(yeah)' '-' '1:' '2:' '[bridge:'
  '[hook:' '[intro/hook:' '[outro:' '[verse' 'ahh!' 'ball' 'bowl'
  'confetti,' 'd.' 'eh,' 'felt' 'finale' 'flo' 'girl?' 'go,' 'gone'
@@ -785,7 +785,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'mm-mmm' 'nigga,' 'now,' 'old' 'ooh)' 'pick' 'post' 'pot' 'quavo]'
  'right' 'rings' 'rock' 'saw' 'shit' 'situation' 'someone' 'surrounded,'
  'though' 'though)' 'trap' 'twenty' 'uh)' 'wanna' 'what' 'yeah)'
- 'yeah-yeah-yeah)' 'yuh']",53,0.04100000000000001,0.1409999999999999,0.06800000000000006,0.0,0.42100000000000004,0.04600000000000026,0.0013999999999999985,0.16299999999999992,0.0689999999999884,9,0.04032871363548654
+ 'yeah-yeah-yeah)' 'yuh']",52,0.04100000000000001,0.1409999999999999,0.06800000000000006,0.0,0.42100000000000004,0.04600000000000026,0.0013999999999999985,0.16299999999999992,0.0689999999999884,9,0.04032871363548654
 "[""'cause"" ""'em"" '(cool)' '(do)' '(hey,' '(moves)' '(ooh),' '(two)'
  '(yeah)' '1:' '2:' '[bridge:' '[chorus:' '[intro:' '[verse' 'about' 'am'
  'an' 'bottle' 'bottom,' 'brothers]' 'comb' 'comes' 'complicated'
@@ -851,7 +851,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'wrap,' ""y'all"" 'ya' 'yes' 'yes!' 'yo' ""you'll"" 'young']",61,0.05051,0.08200000000000007,0.11699999999999999,0.0,0.0745,0.1429999999999998,0.031,0.22699999999999998,0.8569999999999993,0,0.09497549019607843
 "['(all' '(face' '(my' '(right' '1]' '2]' '[bridge]' '[chorus]' '[piano'
  '[verse' 'end?' 'face)' 'fears)' 'life)' 'me?' 'now)' 'now?' 'solo]'
- ""thinkin'"" 'yeah,']",47,0.16151300000000002,0.22500000000000003,0.45,5.69e-05,0.006099999999999994,5.689,0.012399999999999998,0.0010000000000000009,0.05200000000000671,0,0.004745254745254737
+ ""thinkin'"" 'yeah,']",46,0.16151300000000002,0.22500000000000003,0.45,5.69e-05,0.006099999999999994,5.689,0.012399999999999998,0.0010000000000000009,0.05200000000000671,0,0.004745254745254737
 "['&' '(""who' '(beyoncé)]' '(geah!)' '(i...)' '(oww!)' '(woo!)' '(yeah)'
  '1:' '2:' '3:' '[bridge:' '[chorus:' '[interlude:' '[intro:' '[verse'
  'article,' 'beyonce]' 'beyoncé' 'beyoncé]' 'crazy?' 'exel' 'feeling,'
@@ -876,9 +876,9 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'oh' 'one' ""one's"" 'out' 'out,' 'participate' 'pursue' 'quit' 'sad'
  'saying' 'shut' 'sick' 'someone' 'spill' 'suffocating' 'sympathy,'
  'talking' ""that's"" 'their' 'then' 'they' 'tryna' 'two' 'volume' 'wanna'
- 'want' 'ya']",65,0.012999999999999984,0.08599999999999997,0.16100000000000003,0.0,0.5084,2.2350000000000003,0.158,0.12700000000000006,99.09,0,0.009693196976433973
+ 'want' 'ya']",66,0.012999999999999984,0.08599999999999997,0.16100000000000003,0.0,0.5084,2.2350000000000003,0.158,0.12700000000000006,99.09,0,0.009693196976433973
 "[""'round"" '1]' '2]' '[chorus' '[outro]' '[verse' 'bottles' ""i've"" 'i’m'
- 'mountains,' 'rivers,' 'say?' 'tomorrow,' 'two' 'whiskey' 'you’re']",21,0.009000000000000001,0.013999999999999901,0.061,0.004838599999999999,0.0010000000000000009,3.2670000000000012,0.038,0.1329999999999999,0.008000000000009777,0,0.011842105263157904
+ 'mountains,' 'rivers,' 'say?' 'tomorrow,' 'two' 'whiskey' 'you’re']",22,0.009000000000000001,0.013999999999999901,0.061,0.004838599999999999,0.0010000000000000009,3.2670000000000012,0.038,0.1329999999999999,0.008000000000009777,0,0.011842105263157904
 "['1]' '2]' '[chorus]' '[outro]' '[verse' ""ain't"" 'all' 'almost' 'away'
  'big' 'bitter' 'blessed,' 'breakdown' 'cakes' 'case' 'close' 'closed'
  'decisions' 'did' ""didn't"" ""don't"" 'down' 'down,' 'enemies' 'eternal'
@@ -999,8 +999,13 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'lights' 'lights)' 'like)' 'maintain,' 'me?)' 'nice' ""nothin'"" 'now)'
  'oh-oh-oh-oh-oh' 'one' 'out,' 'rig' 'said' ""scarin'"" 'shit' 'started)'
  ""strugglin'"" ""talkin'"" 'they' 'this?)' ""tryin'"" 'twice' 'twice)' 'wall'
- 'wise)' 'with' 'wrong']",38,0.05969999999999999,0.038999999999999924,0.04200000000000004,2.8999999999999998e-06,0.579,0.14300000000000068,0.004400000000000001,0.08599999999999997,0.07299999999999329,1,0.08092036045926534
-[],0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0
+ 'wise)' 'with' 'wrong']",37,0.05969999999999999,0.038999999999999924,0.04200000000000004,2.8999999999999998e-06,0.579,0.14300000000000068,0.004400000000000001,0.08599999999999997,0.07299999999999329,1,0.08092036045926534
+"['""dj' '(back' '(side' 'as' 'baby,' 'bada' 'bed' 'bing,' 'body' 'boom'
+ 'but' 'cause' 'downing' 'dreadlock' 'drinks' 'fire,' 'go!' 'headlock'
+ 'her' 'honey' 'hot' 'hustler,' ""i'm"" ""i'mma"" 'knew' ""let's"" 'life)'
+ 'love""' 'make' 'mami' 'me' 'motherfucker' 'mr.' 'psh,' 'red' 'rock'
+ 'room' 'she' 'side)' 'step' ""swishin'"" 'tonight,' ""won't"" 'worldwide'
+ 'wrestle,']",7,0.017400000000000002,0.01100000000000001,0.10799999999999998,0.0,0.009099999999999997,1.6239999999999997,0.022899999999999997,0.137,8.025000000000006,1,0.05833333333333335
 "['(in' '(ooh-ooh-ooh-ooh)' '1]' '2]' '[bridge]' '[chorus]' '[pre-chorus]'
  '[verse' 'baby,' 'boom' 'breathing,' ""c'mon"" 'control?' 'damn,' 'dirty'
  'do' 'drum,' 'guitar' 'know' 'love' 'moonlight)' 'ooh' 'ooh,' 'right'
@@ -1063,17 +1068,17 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
 "['(go' '(tick,' '+' '[adult' '[instrumental' '[toddler' '[young' 'anna!)'
  'anna]' 'anymore,' 'away' 'buddies,' 'bye' 'courage""' 'elsa]' 'halls?'
  'hang' 'interlude]' 'joan' ""let's"" 'lonely,' 'on,' 'other,' 'overdue,'
- 'play!' 'rooms' 'snowman' 'tick,' 'tock)' 'tock,' 'wanna' 'why' 'young']",34,0.6599999999999999,0.1260000000000001,0.42799999999999994,0.000176,0.045999999999999985,11.732999999999999,0.022899999999999997,0.13399999999999998,41.634000000000015,0,0.04143337066069429
+ 'play!' 'rooms' 'snowman' 'tick,' 'tock)' 'tock,' 'wanna' 'why' 'young']",33,0.6599999999999999,0.1260000000000001,0.42799999999999994,0.000176,0.045999999999999985,11.732999999999999,0.022899999999999997,0.13399999999999998,41.634000000000015,0,0.04143337066069429
 "['(harry)' '(louis)' 'harry]' 'harry\u200b]' 'liam' 'louis' 'niall'
  'niall]' '\u200bliam\u200b]']",40,0.0030000000000000027,0.03500000000000003,0.01200000000000001,0.0,0.0012000000000000066,1.6790000000000012,0.0012999999999999956,0.14500000000000002,0.054000000000002046,0,2.90613193838999e-05
 "['""ayo,' '(yeah)' '1]' '2]' '[bridge]' '[chorus]' '[pre-chorus]' '[verse'
  'baby,' 'fuck,' 'go""' 'i’m' 'overall,' 'wearing' ""yo'""]",42,0.02398,0.014000000000000012,0.14600000000000013,0.0,0.007899999999999997,3.113,0.0479,0.14600000000000013,0.05999999999998806,1,0.008430484632430874
 "['&' '1:' '2:' '[bridge:' '[chorus:' '[intro:' '[outro:' '[pre-chorus:'
  'halsey' 'halsey]' 'khalid]' 'kiss' 'out' 'sea' 'singing' 'sneak'
- 'started' 'uh' ""we'd"" 'window' 'yeah,']",42,0.31100000000000005,0.061999999999999944,0.009000000000000119,0.0,0.0049999999999999906,0.484,0.2641,0.10200000000000004,0.3960000000000008,0,0.014413793103448272
+ 'started' 'uh' ""we'd"" 'window' 'yeah,']",43,0.31100000000000005,0.061999999999999944,0.009000000000000119,0.0,0.0049999999999999906,0.484,0.2641,0.10200000000000004,0.3960000000000008,0,0.014413793103448272
 "['1:' '2:' '[bridge:' '[chorus:' '[outro:' '[pre-chorus:' 'dua'
  'electricity,' 'flowing' 'i’d' 'i’ll' 'i’m' 'i’ma' 'lipa]' 'tonight)'
- 'you’ve']",44,0.006100000000000001,0.02200000000000002,0.08599999999999985,3.33e-06,0.018000000000000016,0.4450000000000003,0.010299999999999997,0.118,0.08299999999999841,0,0.006098227626671851
+ 'you’ve']",43,0.006100000000000001,0.02200000000000002,0.08599999999999985,3.33e-06,0.018000000000000016,0.4450000000000003,0.010299999999999997,0.118,0.08299999999999841,0,0.006098227626671851
 "['&' ""'cause"" '(wanna' '(what' '(whoa,' '(yeah),' '(you' '1:' '2:' '3:'
  '4th' '[chorus:' '[post-chorus:' '[pre-chorus:' 'a-side' 'a-team)'
  'argue,' 'away' 'beautiful' 'boat' 'boy' 'bury' 'call' 'come' 'don’t'
@@ -1086,7 +1091,6 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'swift,' 'swift]' 'taylor' 'that' 'toast' 'touch' 'traits,' 'type'
  'type)' 'understand' 'up' 'way' ""we'd"" 'we’d' 'whenever' 'whippin’'
  'whoa)' 'whoa,']",39,0.05205,0.013000000000000012,0.17300000000000004,0.0,0.020900000000000002,1.3739999999999997,0.014600000000000002,0.32799999999999996,0.15299999999996317,0,0.040958605664488015
-[],0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.1102230246251565e-16,0.0,0,0.0
 "['(everybody' '1]' '2]' '3]' '[bridge]' '[chorus]' '[outro]'
  '[post-chorus]' '[pre-chorus' '[verse' 'baby' 'backtrack' 'drug' 'find'
  'lips' ""mama's"" 'my,' 'overdose' 'say' 'shit' 'sucker' 'talks)']",52,0.00111,0.05700000000000005,0.17200000000000004,0.0,0.15300000000000002,2.9279999999999995,0.022,0.18700000000000006,77.436,1,0.04432644145670923
@@ -1096,7 +1100,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'before' 'better' 'break' 'calling' ""can't"" 'christine' 'come' ""don't""
  'even' 'falling' 'friends' 'get' 'happening' 'hear' 'heart' 'little'
  'louder' 'mcvie]' 'name' 'name?' 'oh' 'peculiarly' 'proud' 'say' 'shout'
- ""something's"" 'soon' 'speak' 'start' 'want' 'what' 'with' 'words']",71,0.1895,0.22999999999999998,0.02200000000000002,0.01,0.0208,1.0940000000000012,0.06520000000000001,0.343,78.142,0,0.19522009511035243
+ ""something's"" 'soon' 'speak' 'start' 'want' 'what' 'with' 'words']",72,0.1895,0.22999999999999998,0.02200000000000002,0.01,0.0208,1.0940000000000012,0.06520000000000001,0.343,78.142,0,0.19522009511035243
 "[""'cause"" '[chorus' '[pre-chorus' 'baby' 'come,' ""cursin'"" 'ex’s'
  'gho-o-osts' 'heads' 'hey,' 'high,' 'into' 'kept' 'left' 'lover' 'man'
  'my,' 'now,' 'oh' 'oh’s' 'showed' 'summer' ""they're"" 'turned' 'won’t'
@@ -1125,11 +1129,11 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  '못하네' '바다에' '반짝이는' '별' '볼' '빨간빛' '사라질까' '상태' '색은' '생각만으로' '세게' '속' '아무것도'
  '아무나' '아이스크림처럼' '안아' '않아' '않을래' '어때' '어쩌면' '연기처럼' '옆에' '요즘' '우주' '원하지'
  '위험할거야' '이게' '이러다' '잠수함이' '잡아' '장미' '저' '정말' '조금도' '좀' '좋아' '좋아하면' '지금'
- '초콜릿' '큰' '큰일' '태양' '포근해져' '하늘' '행복해도' '홀린' '훅']",39,0.1368,0.12199999999999989,0.29200000000000004,0.0,0.5793,3.729000000000001,0.0032999999999999974,0.3520000000000001,37.033,0,0.16018500423425186
+ '초콜릿' '큰' '큰일' '태양' '포근해져' '하늘' '행복해도' '홀린' '훅']",38,0.1368,0.12199999999999989,0.29200000000000004,0.0,0.5793,3.729000000000001,0.0032999999999999974,0.3520000000000001,37.033,0,0.16018500423425186
 "['(i' '(so' '1]' '2]' '[bridge]' '[chorus]' '[outro]' '[pre-chorus]'
  '[verse' 'anything,' 'away)' 'hell' 'you)']",63,0.071504,0.06099999999999994,0.402,0.0,0.139,2.9799999999999995,0.0016000000000000007,0.024999999999999967,0.11899999999999977,0,0.00816326530612245
 "[""(i'm"" 'and' 'come' 'down' 'dreams' 'easy' 'enemies' 'flipping' 'goodbye'
- 'hands' 'hopes' 'kicks' 'living' 'middle' 'start' 'that' 'wait' 'walls']",40,0.0823,0.0020000000000000018,0.04599999999999993,0.000113,0.0187,1.2120000000000002,0.0039000000000000007,0.05399999999999994,78.89099999999995,0,0.003080240258740166
+ 'hands' 'hopes' 'kicks' 'living' 'middle' 'start' 'that' 'wait' 'walls']",41,0.0823,0.0020000000000000018,0.04599999999999993,0.000113,0.0187,1.2120000000000002,0.0039000000000000007,0.05399999999999994,78.89099999999995,0,0.003080240258740166
 "['(it' '[outro]' 'air' 'around' 'bees' 'before' 'billion' 'birds' 'but'
  'chance' 'change' 'children' 'day' 'decide' 'depend' 'down' 'every'
  'faster' 'faster,' 'for' 'gets' 'go' 'heat' 'hope' ""hopin'"" 'hoping'
@@ -1138,9 +1142,9 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'same)' 'seems' 'seven' 'she' 'singing' 'souls' 'sound' 'still' 'streets'
  'summer' 'summer)' 'sun' 'tell' 'than' 'that' 'their' 'they' 'this,'
  'thought' 'tryna' 'up' 'upon' 'waking' 'want' 'water,' 'we' 'were' 'who'
- 'will' 'world' 'would']",37,0.1167,0.18800000000000006,0.1180000000000001,0.0048200000000000005,0.0165,4.4030000000000005,0.0844,0.7120000000000001,36.23100000000005,0,0.35660914428037715
+ 'will' 'world' 'would']",37,0.1217,0.18700000000000006,0.1130000000000001,0.0048200000000000005,0.019300000000000005,4.3950000000000005,0.0884,0.7120000000000001,36.46900000000005,0,0.35660914428037715
 "['(feels' '1]' '2]' '[bridge]' '[chorus]' '[guitar' '[outro]' '[verse'
- 'ever-changing' 'fade-out]' 'matter' 'tonight)']",41,0.017578,0.15000000000000002,0.14500000000000002,0.0,0.05799999999999998,2.8869999999999996,0.008799999999999995,0.026000000000000023,0.04899999999997817,0,0.026936026936026952
+ 'ever-changing' 'fade-out]' 'matter' 'tonight)']",42,0.017578,0.15000000000000002,0.14500000000000002,0.0,0.05799999999999998,2.8869999999999996,0.008799999999999995,0.026000000000000023,0.04899999999997817,0,0.026936026936026952
 "['[drop]' '[outro]' '[verse]' 'sleeve,']",57,0.0070680000000000005,0.13900000000000012,0.16000000000000003,0.00666,0.11899999999999998,4.370999999999999,0.0023000000000000034,0.30400000000000005,0.1700000000000017,0,0.042250233426704004
 "['&' '(brilliant)' ""(c'mon),"" '(christina' '(come' '(dalé)' '(eah)'
  '(pitbull)]' '(schooled' ""(that's"" '(yeah)' '1:' '2:' '[beat' '[chorus:'
@@ -1189,7 +1193,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
 "['(follow' '1]' '2]' '[bridge]' '[chorus]' '[outro]' '[verse' 'alright)'
  'ashamed,' 'goodbye' 'knows,' 'scared' 'sea' 'sea(17837211)' ""singin'""
  'you,']",62,0.09600000000000003,0.02399999999999991,0.241,1.49e-05,0.03599999999999999,7.5200000000000005,0.0086,0.14900000000000002,0.0379999999999967,0,0.0017735213265939534
-"['""(i\'m' '""1,' '""100' ... '\u200b\u200bblink-182' '“no' '”late']",19,0.44099999999999995,0.007000000000000006,0.2679999999999999,0.00857,0.01999999999999999,8.022,0.009599999999999997,0.03999999999999998,0.000999999999990564,2,0.1538041141055046
+"['""(i\'m' '""1,' '""100' ... '\u200b\u200bblink-182' '“no' '”late']",20,0.44099999999999995,0.007000000000000006,0.2679999999999999,0.00857,0.01999999999999999,8.022,0.009599999999999997,0.03999999999999998,0.000999999999990564,2,0.1538041141055046
 "['&' ""'til"" '(be' '(day' '(in' '(never' '(take' '(you' '1:' '2:'
  '[bridge:' '[chorus:' '[outro:' '[post-chorus:' '[verse' 'all' 'along,'
  'always' 'as' 'back' 'both' 'both]' 'buried' 'by' 'can' 'changed' 'clear'
@@ -1202,7 +1206,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'so,' ""somethin'"" 'something' 'sometimes' 'special' 'sure' 'sure)' 'take'
  'these' 'thing' 'things' 'think' 'this' 'through' 'tied' 'time' 'up'
  'upon' 'used' 'want' 'watched' 'we' 'went' 'were' 'what' 'will' 'without'
- 'wonder' 'world' 'would' 'yeah,' 'you)' 'zara']",51,0.01128,0.040000000000000036,0.1050000000000001,9.86e-06,0.05099999999999999,1.8149999999999995,0.0031999999999999945,0.07100000000000001,0.0010000000000331966,0,0.22489170086639307
+ 'wonder' 'world' 'would' 'yeah,' 'you)' 'zara']",52,0.01128,0.040000000000000036,0.1050000000000001,9.86e-06,0.05099999999999999,1.8149999999999995,0.0031999999999999945,0.07100000000000001,0.0010000000000331966,0,0.22489170086639307
 "[""'round"" '1]' '2]' '[bridge]' '[chorus' '[chorus]' '[intro]' '[verse'
  'cause' 'moon' 'wanna' 'water-bed']",40,0.33590000000000003,0.020000000000000018,0.20999999999999985,0.0,0.0266,2.782,0.0148,0.014999999999999958,32.99899999999998,0,0.006947459834997866
 "[""'bout"" ""'em"" ""'fore"" '(been' '(close' '(everything)' '(my' '(so' '(what'
@@ -1246,7 +1250,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  '뛰는' '뜨거워지는' '머리' '묶었던' '뭘' '미쳐' '바로' '반전' '밤이' '버리는' '보이지만' '볼까' '사나이'
  '사랑스러워' '사상이' '스타일' '식기도' '심장이' '싶으면' '아는' '아는,' '아름다워' '야한' '에,' '에에에'
  '여유를' '여자' '오면' '오빤' '옵,' '완전' '울퉁불퉁한' '원샷' '웬만한' '위에' '이때다' '인간적인' '있는'
- '전에' '점잖아' '정숙해' '좀' '지금부터' '커피' '터져' '푸는' '품격' '한잔의']",31,0.036829999999999995,0.0029999999999998916,0.05500000000000005,4e-06,0.03,0.9839999999999995,0.13299999999999998,0.2560000000000001,0.04200000000000159,0,0.027796052631578944
+ '전에' '점잖아' '정숙해' '좀' '지금부터' '커피' '터져' '푸는' '품격' '한잔의']",32,0.036829999999999995,0.0029999999999998916,0.05500000000000005,4e-06,0.03,0.9839999999999995,0.13299999999999998,0.2560000000000001,0.04200000000000159,0,0.027796052631578944
 "[""'cause"" '(and' '1:' '2:' '[bridge:' '[chorus:' '[outro:' 'alaykum,'
  'already' 'as-salamu' 'ass' 'beaches,' 'bi' ""blowin'"" 'bronchitis' 'bust'
  'by' 'chicks' 'cobra' 'cold,' ""comin'"" 'cough-cough,' 'double' 'emirates'
@@ -1280,7 +1284,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'years']",40,0.09179,0.05500000000000005,0.357,0.0,0.11200000000000002,1.8159999999999998,0.005400000000000002,0.202,21.587000000000018,0,0.19417040358744395
 "[""'fraid"" 'a-want' 'alone' 'ghost,' 'ghostbusters!' 'good!' 'ha' 'ha,'
  'hm,' 'lemme' 'ooh,' 'ow!' 'ow,' 'running' 'seeing' 'something' 'too'
- 'uh,']",30,0.012263000000000001,0.09100000000000008,0.23399999999999987,0.0015999999999999973,0.17399999999999996,7.133999999999999,0.0023000000000000034,0.02200000000000002,4.643999999999991,0,0.15146871008939974
+ 'uh,']",29,0.012263000000000001,0.09100000000000008,0.23399999999999987,0.0015999999999999973,0.17399999999999996,7.133999999999999,0.0023000000000000034,0.02200000000000002,4.643999999999991,0,0.15146871008939974
 "['""damn,' ""'bout"" ""(ain't"" '(care)' '(care,' '(girlfriend)' '(hit' '(hmm)'
  '(i' '(in' '(mmm-mmm)' ""(mornin')"" '(with' '(yeah)' '(yeah,' '1]' '2]'
  '[bridge]' '[chorus]' '[post-chorus]' '[pre-chorus]' '[verse' ""actin'""
@@ -1302,7 +1306,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'hey,' 'hold' 'i' ""i'd"" ""i'm"" 'know' 'make' 'mind' 'must' 'my' 'no,'
  'old' 'on' 'on""' 'on,' ""sayin',"" 'saying' 'so' 'so,' 'somebody' 'someone'
  'soul' 'there' 'think' 'time' 'too' 'up' 'wait' 'wait""' 'wanna' 'where'
- 'yeah,' 'years' 'you' 'yours,']",55,0.16949999999999998,0.09100000000000008,0.027000000000000024,0.35200000000000004,0.0011000000000000038,0.7949999999999999,0.004100000000000003,0.09099999999999997,47.22200000000004,0,0.15047619047619043
+ 'yeah,' 'years' 'you' 'yours,']",54,0.16949999999999998,0.09100000000000008,0.027000000000000024,0.35200000000000004,0.0011000000000000038,0.7949999999999999,0.004100000000000003,0.09099999999999997,47.22200000000004,0,0.15047619047619043
 "['24' 'backwood,' 'drunk' 'roll' 'shit' 'time']",26,0.019000000000000128,0.247,0.08600000000000002,0.0,0.009000000000000008,1.3570000000000002,0.010999999999999996,0.04799999999999999,0.21100000000001273,1,0.03298596008977195
 "['(oh,' '[bridge]' '[chorus]' '[pre-chorus]' '[verse]' 'counts' 'now,'
  'oh)' 'oh,' 'time?' 'universe' 'us,']",47,0.024600000000000004,0.07299999999999995,0.06399999999999995,9.85e-06,0.020099999999999993,2.9450000000000003,0.008800000000000002,0.059,0.045000000000001705,0,0.006171618467381401
@@ -1366,7 +1370,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'thought' 'through' 'throw' 'time' 'told' 'toomp,' 'trunk,' 'tryst,' 'tv'
  'up""' 'v' 'va' 'vegas' 'was' 'watch' 'welcome' 'west' 'west,' 'west]'
  ""what's"" 'whether' 'while' 'whipped' 'who' 'why' 'wish' 'wish,' 'with'
- ""won't"" 'would' ""y'all"" 'yay' 'yo' 'yo,']",53,0.006499999999999999,0.16899999999999998,0.006000000000000116,0.0,0.40449999999999997,1.0590000000000002,0.20900000000000005,0.349,11.968000000000004,7,0.050752316736971476
+ ""won't"" 'would' ""y'all"" 'yay' 'yo' 'yo,']",54,0.006499999999999999,0.16899999999999998,0.006000000000000116,0.0,0.40449999999999997,1.0590000000000002,0.20900000000000005,0.349,11.968000000000004,7,0.050752316736971476
 "['gloopy' 'glup' 'humming' 'laughing' 'loving' 'says' 'singing'
  'starshine' 'walla']",39,0.35650000000000004,0.03100000000000014,0.0050000000000000044,1.26e-05,0.1685,1.2899999999999991,0.0030999999999999986,0.05599999999999994,1.441999999999993,0,0.006634232640424592
 "['&' ""'round"" '1:' '2:' '3:' ""ain't"" 'always' 'are' 'around' 'been'
@@ -1380,12 +1384,11 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'health' 'hope' 'it' 'learned' 'lesson' 'life' 'make' 'memories' 'mind'
  'not' 'photographs' 'point,' 'question' 'question,' 'road' 'shelf' 'skin'
  'so' 'something' 'still' 'stuck' 'tattoos' 'test' 'trial' 'turning'
- 'unpredictable,' 'was' 'what' 'while' 'why' 'worth' 'wrist,' 'you' 'your']",56,0.17926,0.17700000000000005,0.23299999999999993,0.0,0.44999999999999996,0.27300000000000235,0.0017999999999999995,0.14600000000000002,31.33999999999999,0,0.11341430499325236
+ 'unpredictable,' 'was' 'what' 'while' 'why' 'worth' 'wrist,' 'you' 'your']",55,0.17926,0.17700000000000005,0.23299999999999993,0.0,0.44999999999999996,0.27300000000000235,0.0017999999999999995,0.14600000000000002,31.33999999999999,0,0.11341430499325236
 "[""('cause"" '(make' '(not' '(the' '(their' '(when' '1]' '2]' '[breakdown]'
  '[bridge]' '[chorus]' '[outro]' '[verse' 'alone)' 'dammit,' 'déja' 'for)'
- 'know)' 'on)' 'ooh,' 'own)' 'somewhere)' 'time,' 'vu,' 'with?']",8,0.03193,0.14900000000000002,0.264,0.00237,0.029000000000000012,2.4399999999999986,0.0174,0.28300000000000003,0.009000000000000341,0,0.059163262431328356
-[],0,0.0,0.0,1.1102230246251565e-16,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0
-['(here' '1]' '2]' '[bridge]' '[chorus]' '[outro]' '[verse' 'onto' 'you)'],56,0.14501699999999998,0.15999999999999992,0.38899999999999996,0.0,0.021000000000000005,6.990999999999999,0.002600000000000005,0.069,0.5259999999999962,0,0.00555555555555555
+ 'know)' 'on)' 'ooh,' 'own)' 'somewhere)' 'time,' 'vu,' 'with?']",56,0.032646,0.19599999999999995,0.241,0.00165,0.022000000000000006,2.065999999999998,0.0283,0.32500000000000007,0.015999999999991132,0,0.059163262431328356
+['(here' '1]' '2]' '[bridge]' '[chorus]' '[outro]' '[verse' 'onto' 'you)'],55,0.14482,0.1499999999999999,0.3980000000000001,0.0,0.0030000000000000027,7.025999999999999,0.0031000000000000055,0.08000000000000002,0.546999999999997,0,0.00555555555555555
 "[""'cause"" '1]' '2]' '[chorus]' '[interlude]' '[verse' 'and...' 'away'
  'away,' 'ball' 'because' 'calling' ""can't"" 'chain' 'everyday' 'flame'
  'hands' 'if' 'into' 'keep' 'know' 'name' 'no' 'pain' 'put' 'tell' 'then'
@@ -1419,7 +1422,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  ""you're"" 'your' 'you’re']",32,0.305,0.01100000000000001,0.536,1.39e-06,0.019000000000000003,6.986999999999999,0.11009999999999999,0.5599999999999999,6.221000000000004,0,0.30413336663336665
 "['1:' '2:' '3:' '4:' '5:' '[bridge:' '[guitar' '[verse' 'ah!' 'because'
  'george' 'gonna' 'harrison]' ""i've"" 'john' 'lennon]' 'mccartney]' 'paul'
- 'solo:' 'yeh']",58,0.136564,0.015000000000000013,0.08799999999999997,0.0,0.2794,0.11599999999999966,0.0008000000000000021,0.15500000000000003,2.033999999999992,0,0.020394930739758323
+ 'solo:' 'yeh']",59,0.136564,0.015000000000000013,0.08799999999999997,0.0,0.2794,0.11599999999999966,0.0008000000000000021,0.15500000000000003,2.033999999999992,0,0.020394930739758323
 "['&' '(but' '(hmm)' '(i' '(i)' '(makes' '(ne-yo)]' '(no)' '(oh)' '(oh,'
  '(ooh)' '(power' '(rihanna)]' '(that' '(why)' '(yeah)' '(yeah,' '1:' '2:'
  '[bridge:' '[chorus:' '[intro:' '[verse' 'as' 'awhile?' 'both]' 'days,'
@@ -1440,7 +1443,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'quick' 'range,' 'sam' 'shawty' 'she' 'starrah' 'tah)' 'take' ""that's""
  'this' 'thug]' 'traffic' 'uh-huh)' 'uncle' 'up)' 'waited' 'was' 'what?)'
  'williams]' 'yeah)' 'young']",29,0.0899,0.03700000000000003,0.129,3.2040000000000005e-05,0.020000000000000018,1.1760000000000002,0.0001999999999999988,0.04099999999999998,0.012000000000000455,5,0.050634793209050635
-"['christmas;' 'golly,' 'ho,' 'holly,' 'oh,' 'see;' 'you;']",37,0.6105,0.007000000000000006,0.41400000000000003,0.0,0.035,9.299999999999999,0.009199999999999996,0.1050000000000001,0.22700000000000387,0,0.02071220930232559
+"['christmas;' 'golly,' 'ho,' 'holly,' 'oh,' 'see;' 'you;']",36,0.5735,0.015999999999999903,0.40900000000000003,0.0,0.0329,9.418999999999999,0.009799999999999996,0.07900000000000007,0.34200000000001296,0,0.02071220930232559
 "['(i' '1]' '2]' '3]' '[bridge]' '[chorus' '[pre-chorus]' '[verse' 'away)'
  'fantasy' 'head' ""impression's"" 'manifest' 'off,' 'shit' 'want' 'well,'
  'yeah' ""you're"" 'your,']",63,0.0032980000000000006,0.010000000000000064,0.10399999999999987,2.78e-06,0.082,0.5599999999999996,0.041999999999999996,0.03400000000000003,0.45599999999998886,1,0.0029893924783027936
@@ -1461,7 +1464,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'speed' 'star' 'stix' 'stone,' 'stummy' ""swimmin'"" ""talkin'"" 'target'
  'tesla' 'their' 'these' 'thought' 'time' 'time,' 'tone' 'try' 'tryna'
  'turn' 'up,' 'want' ""watchin'"" 'ways' ""weddin'"" 'why?' 'with' 'yeah)'
- 'yeah,' 'years,' 'you?)' 'young']",74,0.0036300000000000004,0.064,0.010999999999999899,9.700000000000005e-06,0.7100000000000001,2.2269999999999994,0.16200000000000003,0.43,6.043000000000006,6,0.06292086792318385
+ 'yeah,' 'years,' 'you?)' 'young']",76,0.0036300000000000004,0.064,0.010999999999999899,9.700000000000005e-06,0.7100000000000001,2.2269999999999994,0.16200000000000003,0.43,6.043000000000006,6,0.06292086792318385
 "['(one,' '1]' '2]' '[bridge]' '[chorus]' '[intro]' '[outro]'
  '[post-chorus]' '[pre-chorus]' '[verse' 'again' 'aw,' 'born' 'bring'
  'but' ""can't"" 'cause' 'days' 'every' 'feel' 'for' 'gates' 'had' 'heart'
@@ -1489,14 +1492,14 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'goodbye)' 'goodbye,' 'goodbye?' 'heba' 'hela!' 'hela,' 'helloa'
  'helloa,' 'high,' 'know,' 'low' 'may' 'no' 'no)' 'oh' 'oh,' 'stay)'
  'stop' 'time' 'why' 'woo!' 'woo-hoo!' 'yes' 'yes)' 'yes,']",56,0.2228,0.09699999999999998,0.09699999999999998,9.400000000000001e-06,0.066,2.370000000000001,0.007999999999999997,0.02100000000000013,102.591,0,0.13149078726968172
-[],0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0
+"['""a' '""but' '""by' ... 'yourself' 'zealous' '…']",7,0.1704,0.16000000000000003,0.4169999999999999,0.0,0.14300000000000002,1.0570000000000004,0.19970000000000002,0.32099999999999995,1.0349999999999966,6,0.29989642547451584
 "[""'cause"" '[outro]' 'as' 'away' 'between' 'breathe' 'day' 'deep' 'every'
  'face' 'fall' 'falling' 'finally' 'find' 'free' 'gonna' 'harder' 'heart'
  'hide' 'is' ""it's"" 'it,' 'lift' 'me?' 'night,' 'nothing' 'now' 'pain'
  'perfect' 'place' 'say' 'see' 'show' 'single' 'sleep' 'something' 'speak'
  ""there's"" 'think' 'time,' 'try' 'up,' 'voice,' ""won't"" 'word' 'words']",41,0.0386,0.07999999999999996,0.009999999999999898,0.0,0.03900000000000001,2.6470000000000002,0.0121,0.04000000000000001,0.04800000000000182,0,0.023797098423964092
 "['1]' '2]' '3]' '[bridge]' '[chorus]' '[intro]' '[outro]' '[verse'
- 'doo-doo' 'doo-dun' 'say' 'their']",69,0.0216,0.006999999999999895,0.15400000000000003,0.00247335,0.0050000000000000044,1.4320000000000022,0.007000000000000003,0.040000000000000036,0.703000000000003,0,0.013434183788665621
+ 'doo-doo' 'doo-dun' 'say' 'their']",70,0.0216,0.006999999999999895,0.15400000000000003,0.00247335,0.0050000000000000044,1.4320000000000022,0.007000000000000003,0.040000000000000036,0.703000000000003,0,0.013434183788665621
 "['1]' '2]' '[bridge]' '[chorus]' '[instrumental' '[verse' 'bridge]'
  'falls' 'girl,' 'hard,' 'know,' 'me...' 'oh,' 'rolling' 'tonight,'
  'whoa,' 'yeah,' 'you,']",67,0.020899999999999995,0.258,0.1070000000000001,0.0,0.034,1.6480000000000006,0.0039000000000000007,0.00799999999999998,0.08299999999999841,0,0.0002962962962962945
@@ -1523,7 +1526,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
 "['1]' '2]' '[bridge]' '[chorus]' '[intro]' '[outro]' '[verse' 'be,'
  'collided' 'direction' 'do,' 'fair' 'finally' 'gangster,' 'heeey' 'heey'
  'heey,' 'heyy' 'know' 'madonna' 'moonbeam' 'obsessed' 'rug' 'sister'
- 'stereo' 'thug' 'time' 'track' 'virgin']",44,0.18025,0.2079999999999999,0.11399999999999988,0.0,0.04239999999999999,2.3,0.017800000000000003,0.06499999999999995,97.04000000000002,0,0.004859302547163838
+ 'stereo' 'thug' 'time' 'track' 'virgin']",45,0.18025,0.2079999999999999,0.11399999999999988,0.0,0.04239999999999999,2.3,0.017800000000000003,0.06499999999999995,97.04000000000002,0,0.004859302547163838
 "['1]' '2]' '3]' '[bridge]' '[chorus]' '[verse' 'delilah,' 'oh,' 'oh-oh'
  'oh-oh,' 'yes,']",67,0.41300000000000003,0.16900000000000004,0.011999999999999955,0.0,0.0010000000000000009,1.5519999999999996,0.001299999999999999,0.07700000000000001,0.242999999999995,0,0.004761904761904745
 "[""'til"" '(ah)' ""(c'mon)"" '(ice' '(oh,' '(okay),' '(uh)' '(uh-oh)'
@@ -1560,11 +1563,11 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  ""you'll"" ""you're""]",32,0.016100000000000003,0.0050000000000000044,0.196,0.0,0.073,0.7290000000000001,0.0034000000000000002,0.26699999999999996,0.0589999999999975,0,0.26365770379854886
 "['adieu,' 'alone' 'are' 'as' 'ass' 'at' 'damn' 'drinking' 'from' 'good,'
  ""hell's"" 'leave' 'legs' 'lie' 'make' 'men' 'might' 'near' 'no,' 'out'
- 'staying' 'tonight,' 'true,' 'unholy' 'where' 'wrong,' 'you,']",30,0.15760000000000002,0.03599999999999992,0.027000000000000024,0.0,0.22900000000000004,1.2110000000000003,0.013700000000000004,0.2909999999999999,0.0030000000000143245,1,0.055962620792184364
+ 'staying' 'tonight,' 'true,' 'unholy' 'where' 'wrong,' 'you,']",29,0.15760000000000002,0.03599999999999992,0.027000000000000024,0.0,0.22900000000000004,1.2110000000000003,0.013700000000000004,0.2909999999999999,0.0030000000000143245,1,0.055962620792184364
 "['(ooga-chaka' '1]' '2]' '[bridge]' '[chorus]' '[intro]' '[pre-chorus]'
  '[verse' 'bug' 'candy,' 'from' 'girl' 'girl,' 'if' 'is' 'its' 'no' ""o'""
  'ooga-chaka' 'ooga-ooga' 'ooga-ooga)' 'right' 'said' 'sure' 'up,'
- 'victim']",66,0.1937,0.0019999999999998908,0.31399999999999995,0.0,0.087,3.067,0.047900000000000005,0.45400000000000007,11.421999999999997,0,0.04887218045112779
+ 'victim']",67,0.1937,0.0019999999999998908,0.31399999999999995,0.0,0.087,3.067,0.047900000000000005,0.45400000000000007,11.421999999999997,0,0.04887218045112779
 "['[bridge]' '[intro]' '[outro]' '[produced' 'all' 'alone?' 'always' 'at'
  'backwards' 'backwoods' 'be' ""bendin'"" 'by' 'champagne' 'city…' 'days,'
  'do' 'doing' 'else' 'else,' ""gettin'"" 'girl,' 'glasses' ""goin'"" 'good'
@@ -1622,10 +1625,10 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  ""won't"" 'wrongs' 'wrongs,' ""you're"" 'your']",58,0.012399999999999994,0.14800000000000002,0.22999999999999987,0.0,0.22100000000000003,0.1849999999999996,0.0891,0.44300000000000006,94.04199999999999,0,0.0014403890371858241
 "['1]' '2]' '[bridge]' '[chorus]' '[outro]' '[pre-chorus]' '[verse'
  'again,' 'asleep' 'dropping' 'fall' 'here,' 'na' 'na,' 'now,' 'with'
- 'you,']",54,0.000533,0.08999999999999997,0.07499999999999996,0.0,0.16910000000000003,0.07399999999999984,0.07590000000000001,0.04500000000000004,0.01300000000000523,0,0.0066460852414029666
+ 'you,']",53,0.000533,0.08999999999999997,0.07499999999999996,0.0,0.16910000000000003,0.07399999999999984,0.07590000000000001,0.04500000000000004,0.01300000000000523,0,0.0066460852414029666
 "['&' ""'em"" '(hell,' '1:' '2:' '[bridge:' '[chorus:' '[pre-chorus:'
  'bieber' 'bieber]' 'ed' 'justin' 'kiss' 'sheeran' 'sheeran]']",43,0.1508,0.06799999999999995,0.025000000000000022,1.33e-06,0.011399999999999993,0.694,0.002800000000000004,0.10899999999999987,0.06100000000000705,0,0.015915119363395236
-"['""(i\'m' '""1,' '""100' ... '\u200b\u200bblink-182' '“no' '”late']",19,0.44099999999999995,0.007000000000000006,0.2679999999999999,0.00857,0.01999999999999999,8.022,0.009599999999999997,0.03999999999999998,0.000999999999990564,2,0.10979352678571429
+"['""(i\'m' '""1,' '""100' ... '\u200b\u200bblink-182' '“no' '”late']",20,0.44099999999999995,0.007000000000000006,0.2679999999999999,0.00857,0.01999999999999999,8.022,0.009599999999999997,0.03999999999999998,0.000999999999990564,2,0.10979352678571429
 "[""(i'm"" '1]' '2]' '[bridge]' '[chorus]' '[outro]' '[post-chorus]'
  '[pre-chorus]' '[verse' 'air,' 'alive)' 'amen,' 'from' 'singing,' 'then']",49,0.048826999999999995,0.030000000000000027,0.3450000000000001,0.00579,0.191,2.4159999999999995,0.006400000000000003,0.064,0.04999999999998295,0,0.02641165755919854
 "['1]' '2]' '[chorus]' '[outro]' '[verse' 'baby,' 'be' 'oh,' 'ooh' 'them']",71,0.08099999999999996,0.17699999999999988,0.09500000000000003,6.63e-06,0.007000000000000006,1.306000000000001,0.0691,0.00899999999999998,0.7459999999999951,0,0.01122911826529488
@@ -1686,7 +1689,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'talking,' 'this' 'up' 'waking' 'when,' 'yes']",51,0.11599999999999988,0.001000000000000112,0.009000000000000008,2.55e-06,0.009000000000000008,0.819,0.065,0.14599999999999996,0.13100000000000023,0,0.051486347963843104
 "['1]' '2]' '[bridge]' '[hook]' '[outro]' '[verse' 'bone' 'comes' 'days'
  'down' ""it's"" 'jump' 'love' 'out' 'places' 'rises' 'runs' 'say' 'whoa,'
- 'yeah,']",46,0.0218,0.04600000000000004,0.001000000000000112,0.0,0.20720000000000002,1.3499999999999988,0.002600000000000005,0.09499999999999995,0.012999999999991019,0,0.055814155827206696
+ 'yeah,']",47,0.0218,0.04600000000000004,0.001000000000000112,0.0,0.20720000000000002,1.3499999999999988,0.002600000000000005,0.09499999999999995,0.012999999999991019,0,0.055814155827206696
 "[""(i'll"" '(oh,' '(ooh,' '1]' '2]' '[bridge]' '[chorus]' '[outro]' '[verse'
  'alone' 'alone,' 'are' 'babe,' 'being' 'blame' 'break' 'breaking'
  'breaking)' 'calling?)' ""can't"" 'come' 'dark' 'darkness,' 'down' 'drink'
@@ -1695,7 +1698,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'little' 'lost' 'love,' 'need' 'never' 'night' 'no' 'oh)' 'one' 'only'
  'ooh' 'ooh,' 'rhythm' 'river,' 'rolling' 'same' 'see' 'share' 'spirit'
  'still' 'swear,' 'tears' 'the' ""there's"" 'there)' 'through' 'two' 'used'
- 'was' 'when' 'work' ""you'll"" ""you're"" 'you)' 'you,' 'yours' 'yourself']",66,0.0764,0.03600000000000003,0.532,0.0,0.073,8.979,0.014599999999999998,0.08700000000000002,8.093000000000004,0,0.538126159554731
+ 'was' 'when' 'work' ""you'll"" ""you're"" 'you)' 'you,' 'yours' 'yourself']",65,0.0764,0.03600000000000003,0.532,0.0,0.073,8.979,0.014599999999999998,0.08700000000000002,8.093000000000004,0,0.538126159554731
 "['""hey,' '&' ""'cause"" ""'fore"" '(bitch,' '(dork)' '(fell!)' '(ghost)' '(i'
  ""(i'ma"" '(ignant,' '(lines)' '(love' '(mclovin;' '(purpp!)' '(uh-uh,'
  '(up' '(where' '(whoop!)' '1:' '2:' '[chorus:' '[interlude:' '[intro:'
@@ -1769,7 +1772,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'mmm' 'moment,' 'more)' 'na' 'need,' 'nibble' 'no)' 'now)' 'oh' 'oh,'
  'oh-oh,' 'oh-oh-oh-oh,' 'on?' 'out' 'reggae,' 'short,' 'sing' 'sky'
  'this)' 'time)' 'uh-huh,' 'wait)' 'want' 'whoa' 'whoa,' 'whoa-oh-oh-oh'
- 'will' 'yours,' 'yours?']",72,0.12400000000000011,0.039000000000000035,0.132,1.18e-06,0.17600000000000005,2.3770000000000007,0.007100000000000002,0.23299999999999998,75.409,0,0.05011655011655014
+ 'will' 'yours,' 'yours?']",73,0.12400000000000011,0.039000000000000035,0.132,1.18e-06,0.17600000000000005,2.3770000000000007,0.007100000000000002,0.23299999999999998,75.409,0,0.05011655011655014
 "['1:' '2]' '[bridge]' '[chorus:' '[drop]' '[outro]' '[verse' 'belong?'
  'closing' 'dreaming,' 'ellie' 'every' 'goulding]' 'high,' 'lies,' 'love,'
  'me,' 'now?' 'same?' 'tears,' 'this,' 'were' 'wrong,' 'years,' 'you,']",52,0.38089999999999996,0.017000000000000015,0.010000000000000009,0.0,0.09199999999999997,0.2969999999999997,0.0077000000000000055,0.07599999999999996,0.02599999999999625,0,0.11517615176151762
@@ -1785,7 +1788,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'photo' 'rap' 'real,' 'riding?' 'shawty' 'shawty,' 'she' 'shit' 'shit,'
  'shorty]' 'show' 'skate' 'smoke' ""toppin',"" 'trade!' 'trap,'
  'trapmoneybenny' 'two' 'wayne' 'weak' 'work' 'worth?' ""you're"" 'yung'
- 'zazie']",35,0.2661,0.07299999999999995,0.18899999999999995,6e-05,0.34230000000000005,0.12600000000000122,0.10500000000000001,0.368,90.96799999999999,20,0.30207088809239346
+ 'zazie']",36,0.2661,0.07299999999999995,0.18899999999999995,6e-05,0.34230000000000005,0.12600000000000122,0.10500000000000001,0.368,90.96799999999999,20,0.30207088809239346
 "[""'bout,"" '(baby)' ""(don't"" '(i' '(irreplaceable)' '(mmm)' '(nothing)'
  '(you' '1]' '2]' '[bridge]' '[chorus]' '[interlude]' '[intro]'
  '[pre-chorus]' '[verse' 'and,' 'around' 'bags' 'bed' 'chick' 'finished'
@@ -1793,11 +1796,11 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'talking' 'tear)' ""tellin'"" 'thought,' 'time' 'touch)' ""we're"" 'will'
  'yes,']",64,0.29869999999999997,0.26899999999999996,0.17700000000000005,5.46e-06,0.028000000000000025,4.444,0.04899999999999999,0.17100000000000004,0.1769999999999925,0,0.007370851918635915
 "['[pre-chorus]' 'baby,' 'down,' 'glory' 'high,' 'leave' 'love' 'perfect'
- 'shit']",31,0.28400000000000003,0.12,0.07299999999999995,0.0,0.0063,0.7140000000000004,0.004699999999999996,0.11100000000000004,1.7469999999999999,1,0.01858526695201622
+ 'shit']",30,0.28400000000000003,0.12,0.07299999999999995,0.0,0.0063,0.7140000000000004,0.004699999999999996,0.11100000000000004,1.7469999999999999,1,0.01858526695201622
 "['&' '1:' '2:' '[chorus:' '[drop:' '[pre-chorus:' '[verse' 'back'
  'bowery,' 'drive' 'drunk' ""goin'"" 'gomez' 'gomez]' 'grateful' 'grateful,'
  'high' 'kygo]' 'me,' 'neat' 'neat,' 'no' 'rock' 'selena' 'sipping' 'so'
- 'whiskey']",39,0.049000000000000016,0.020000000000000018,0.07900000000000007,0.0,0.0416,2.1740000000000004,0.033499999999999995,0.135,0.12300000000000466,0,0.2693498452012384
+ 'whiskey']",40,0.049000000000000016,0.020000000000000018,0.07900000000000007,0.0,0.0416,2.1740000000000004,0.033499999999999995,0.135,0.12300000000000466,0,0.2693498452012384
 "['1]' '2]' '[bridge]' '[chorus' '[chorus]' '[outro]' '[verse' 'can'
  'disdain' 'fight,' 'first' 'least' ""mind's"" 'strangle' 'such' 'x2]']",53,0.26372,0.11700000000000005,0.18300000000000005,0.0,0.024999999999999994,3.341000000000001,0.0171,0.038000000000000034,87.95799999999996,0,0.025326797385620922
 "[""'fore"" ""'til"" '1]' '2]' '[guitar' '[intro]' '[pre-chorus]' '[verse'
@@ -1814,26 +1817,26 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'thing' 'toes' 'toolbox,' 'tractor' 'truck' 'turn' 'underneath' 'up'
  'wait' 'watch' 'what' 'wild' 'wind' 'yarn,' 'yea' 'yeah' 'yeah,' 'young']",58,0.0947,0.009000000000000008,0.2380000000000001,0.0,0.013899999999999996,2.0890000000000004,0.010599999999999998,0.15999999999999992,13.99600000000001,0,0.07553891121666059
 "['(finally)' '(justin)]' '(oh,' '1:' '2:' '[bridge' '[intro:' 'jc]'
- 'justin]' 'lance' 'what?' 'yeah)']",57,0.1193,0.11199999999999999,0.4459999999999999,1.27e-06,0.09380000000000001,7.233999999999999,0.0286,0.11599999999999999,82.585,0,0.0014716703458425295
+ 'justin]' 'lance' 'what?' 'yeah)']",56,0.1193,0.11199999999999999,0.4459999999999999,1.27e-06,0.09380000000000001,7.233999999999999,0.0286,0.11599999999999999,82.585,0,0.0014716703458425295
 "['(there' '1]' '2]' '[bridge]' '[chorus]' '[outro]' '[verse' 'believe)'
  'breathe' 'friend,' ""i'll"" ""it's"" 'it’s' ""lovin'"" 'ooh,' ""won't"" 'won’t']",53,0.0012599999999999998,0.14200000000000002,0.16400000000000015,8.37e-06,0.09400000000000001,0.8159999999999998,0.0354,0.306,0.09499999999999886,0,0.04879610655737705
 "['1]' '2]' '[bridge]' '[chorus]' '[outro]' '[pre-chorus]' '[verse'
  'around' 'blow' 'dead' 'deal' ""i've"" 'killing' ""let's"" 'me,'
  'misunderstood' 'one' 'so' 'start' ""we'll"" 'yeah' ""you've""]",50,0.044879999999999996,0.04199999999999998,0.29600000000000004,0.0,0.10499999999999998,2.7960000000000003,0.027200000000000002,0.017000000000000015,0.3000000000000398,0,0.130288579114698
 "[""'cause"" ""(don't"" '(goodbye)' '1]' '2]' '[bridge]' '[chorus]' '[verse'
- 'mine' 'ooh,' 'say)' 'yeah,']",53,0.069,0.08399999999999996,0.18900000000000006,0.0,0.013299999999999992,0.5130000000000008,0.005499999999999998,0.07300000000000001,0.2680000000000007,0,0.008027314663470272
+ 'mine' 'ooh,' 'say)' 'yeah,']",54,0.069,0.08399999999999996,0.18900000000000006,0.0,0.013299999999999992,0.5130000000000008,0.005499999999999998,0.07300000000000001,0.2680000000000007,0,0.008027314663470272
 "['&' '(always' '(long' '1:' '2:' '3:' '4:' '[bridge:' '[chorus:' '[intro:'
  '[outro:' '[post-chorus:' '[pre-chorus:' '[refrain:' 'addicted' 'apple'
  'blood' 'by' 'catch' 'cigarettes' 'cry,' 'die' 'drink' ""fiendin'""
  'forget' 'fuck' 'her' 'ilovemakonnen' 'ilovemakonnen]' 'lil' 'needle'
  'pain' 'pass' 'patrick' 'peep' 'peep]' 'pie,' 'sews' 'she' 'six' 'stump]'
- 'tongue)' ""touchin'"" 'vibe' ""waitin'"" ""waitin')"" 'we' 'wine,']",42,0.039999999999999994,0.04899999999999993,0.09799999999999998,0.0,0.017999999999999988,2.3159999999999994,0.0032000000000000015,0.03500000000000014,0.030000000000001137,2,0.18032520325203255
+ 'tongue)' ""touchin'"" 'vibe' ""waitin'"" ""waitin')"" 'we' 'wine,']",41,0.039999999999999994,0.04899999999999993,0.09799999999999998,0.0,0.017999999999999988,2.3159999999999994,0.0032000000000000015,0.03500000000000014,0.030000000000001137,2,0.18032520325203255
 "['boy' 'day' 'doctor' 'guy' 'guy,' 'he' ""he's"" 'hey!' 'him' 'ordered'
- 'some' 'what' 'yeah!']",11,0.001360000000000001,0.049000000000000044,0.28600000000000003,0.4125,0.0076999999999999985,6.7540000000000004,0.01859999999999999,0.17299999999999993,2.981999999999985,0,0.005188875051888753
+ 'some' 'what' 'yeah!']",12,0.001360000000000001,0.049000000000000044,0.28600000000000003,0.4125,0.0076999999999999985,6.7540000000000004,0.01859999999999999,0.17299999999999993,2.981999999999985,0,0.005188875051888753
 "['&' ""(don't"" '(nick)' '(oh,' '(you' '1:' '2:' '[bridge:' '[chorus:'
  '[interlude:' '[intro:' '[outro:' '[verse' 'aj,' 'aj]' 'all' 'all,'
  'all]' 'are)' 'brian' 'brian,' 'brian]' 'distance,' 'falling' 'howie]'
- 'kevin]' 'nick' 'nick]' 'nothing' ""we're"" 'with' 'yeah)' 'yes,']",59,0.31899999999999995,0.008000000000000007,0.3320000000000001,0.0,0.015999999999999986,5.812,0.0016999999999999967,0.030000000000000027,0.06700000000000728,0,0.05265050339017875
+ 'kevin]' 'nick' 'nick]' 'nothing' ""we're"" 'with' 'yeah)' 'yes,']",60,0.31899999999999995,0.008000000000000007,0.3320000000000001,0.0,0.015999999999999986,5.812,0.0016999999999999967,0.030000000000000027,0.06700000000000728,0,0.05265050339017875
 "['&' '1:' '2:' '3:' '4:' '[bridge:' '[chorus:' '[verse' 'john' 'lennon]'
  'mccartney' 'paul' 'please,' 'want']",63,0.37689,0.09099999999999997,0.17900000000000005,0.0,0.15100000000000002,0.6549999999999994,0.005200000000000003,0.21799999999999997,4.1839999999999975,0,0.016851354009573133
 "['1]' '2]' '[bridge]' '[chorus]' '[outro]' '[verse' 'always' 'another'
@@ -1880,7 +1883,16 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'know' 'know?' 'lies,' 'listened' 'lover,' 'loving' 'man' 'man)' 'not'
  'our' 'red' 'rival' 'sell' 'sell)' 'string' 'strong' 'survival' 'sweet,'
  ""there's"" 'used' 'way' 'we' 'were' 'who' 'wicked' 'without' 'words']",59,0.1973,0.27999999999999997,0.015000000000000013,0.0,0.04600000000000001,0.03799999999999937,0.0076999999999999985,0.0030000000000001137,91.75300000000001,0,0.3541948030900546
-[],0,0.0,0.0,0.0,0.0,2.7755575615628914e-17,0.0,0.0,0.0,0.0,0,0.0
+"['(a' '(to' '1]' '2]' '[bridge]' '[chorus]' '[pre-chorus]' '[verse'
+ 'addiction' 'all' 'along' 'along,' 'an' 'and' 'be' 'chameleon' 'cling,'
+ 'colors' 'come' 'contradiction' 'conviction' 'day' ""didn't"" ""doesn't""
+ 'dreams' 'easy' 'every' 'eyes' 'forever' 'go' 'go,' 'gold' 'gone' 'green'
+ 'green,' 'hear' 'heard' 'how' 'i' ""i'm"" 'if' 'in' 'is' 'karma' 'know'
+ 'know?' 'lies,' 'like' 'listened' 'love' 'lover,' 'loving' 'man' 'man)'
+ 'my' 'not' 'our' 'red' 'rival' 'say' 'sell' 'sell)' 'so' 'string'
+ 'strong' 'survival' 'sweet,' 'that' ""there's"" 'used' 'was' 'way' 'we'
+ 'were' 'when' 'who' 'wicked' 'without' 'words' 'would' 'you' ""you're""
+ 'your']",29,0.08099999999999999,0.20000000000000007,0.0040000000000000036,0.0,0.03899999999999998,2.982,0.1424,0.05899999999999994,51.492999999999995,0,0.4788053949903661
 "[""'em"" ""'em,"" '(kiss' '(later' '(when' '1:' '2:' '[bridge:' '[chorus:'
  '[intro:' '[verse' 'about' 'all' 'baby' 'baby,' 'be' 'been' 'bonnie,'
  'boy' 'boy]' 'but' 'call' 'can' ""can't"" 'cannot,' 'clyde' 'complexion,'
@@ -1902,7 +1914,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'love,' 'me,' 'me?' 'never' 'now,' 'of' 'oh)' 'oh,' 'ohh' 'ooh,'
  'ooh-hoo' 'real' 'rely' 'room,' 'saying,' 'shoulder' 'someone,'
  'someone...' 'soul' 'special...' 'thought' 'tired' 'was' 'well,' 'were'
- 'wrapped' 'year,' 'you"",' ""you'll"" 'your']",44,0.1639,0.025000000000000022,0.22299999999999998,0.0,0.1652,3.4609999999999985,0.00040000000000000105,0.11499999999999999,0.8639999999999901,0,0.055288461538461536
+ 'wrapped' 'year,' 'you"",' ""you'll"" 'your']",45,0.1639,0.025000000000000022,0.22299999999999998,0.0,0.1652,3.4609999999999985,0.00040000000000000105,0.11499999999999999,0.8639999999999901,0,0.055288461538461536
 "['1:' '2:' '[chorus:' '[intro]' '[outro:' '[pre-chorus:' '[verse' 'baby?'
  'boundaries,' 'enamoured,' 'encaptured,' 'give' 'go,' ""i'm"" ""i've"" 'it?'
  'love,' 'never' 'sam' 'smith]' 'think' 'touch' ""won't""]",49,0.0032000000000000015,0.07000000000000006,0.123,0.000193,0.09399999999999999,0.43299999999999983,0.026099999999999998,0.05400000000000005,0.0519999999999925,0,0.033285984848484856
@@ -1917,7 +1929,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'still' 'sure' 'take' 'than' ""there's"" 'up,' 'wanna' 'wasting' 'watching'
  'worry' 'yeah,' ""you're"" 'yourself']",43,0.18050000000000002,0.02100000000000002,0.18300000000000005,0.0,0.005700000000000004,2.900999999999998,0.011,0.11599999999999999,0.04100000000005366,0,0.1319380355965722
 "[""'til"" '1]' '2]' '3]' '[chorus]' '[guitar' '[verse' 'answer' 'be”'
- 'brokenhearted' 'cloudy,' 'darkness,' 'solo]' 'wisdom' '“let']",68,0.423,0.0490000000000001,0.17400000000000004,9.13e-05,0.029999999999999985,0.2580000000000009,0.0019999999999999983,0.0010000000000000564,2.622999999999962,0,0.021756021756021746
+ 'brokenhearted' 'cloudy,' 'darkness,' 'solo]' 'wisdom' '“let']",69,0.423,0.0490000000000001,0.17400000000000004,9.13e-05,0.029999999999999985,0.2580000000000009,0.0019999999999999983,0.0010000000000000564,2.622999999999962,0,0.021756021756021746
 "[""'cause"" '(ooh,' '1]' '2]' '[breakdown]' '[bridge]' '[chorus]' '[outro]'
  '[pre-chorus' '[verse' 'about' 'across' 'anymore?' 'are' 'ashes'
  'becoming' 'belong' 'breeze' 'bring' 'broke,' 'change' 'claws' 'clothes'
@@ -1946,7 +1958,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'care!' 'cold' 'dear' ""don't"" ""fire's"" 'gal' 'gloosy' 'glow' 'goes' 'he'
  ""he's"" 'his' 'i' ""it's"" 'just' 'lots' 'nice' 'oh,' 'only' 'oooooh' 'say'
  'says,' 'should' 'side' 'sitting' 'snow' 'snow""' 'snow,' 'storm' 'that'
- 'ummm..' 'wee' 'why' 'winds' 'worry']",41,0.9023950000000001,0.0030000000000000027,0.5800000000000001,0.0,0.2849,9.754999999999999,0.008599999999999997,0.07000000000000006,17.885999999999996,0,0.04552799163577606
+ 'ummm..' 'wee' 'why' 'winds' 'worry']",42,0.9023950000000001,0.0030000000000000027,0.5800000000000001,0.0,0.2849,9.754999999999999,0.008599999999999997,0.07000000000000006,17.885999999999996,0,0.04552799163577606
 "['1:' '2:' '[chorus:' '[outro:' '[post-chorus:' '[pre-chorus:' 'chased'
  'florida' 'georgia' 'hailee' 'high' 'line]' 'steinfeld]']",49,0.12129999999999999,0.015000000000000013,0.007000000000000006,0.0,0.020699999999999996,0.006000000000000227,0.0,0.20599999999999996,0.08099999999998886,0,0.007281553398058249
 "['(baby)' '(everything' '(selection)' '1]' '2]' '99' '[bridge]' '[chorus]'
@@ -1974,7 +1986,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'something' 'sorrow' 'start' 'stay' 'table' 'take' 'that' 'the' 'them'
  ""there's"" 'they' 'this' 'throw' 'to' 'too' 'traveling' 'trouble'
  'two-step' 'up' 'up,' 'us' 'waste' 'way' 'we' ""we're"" ""we've"" 'what?'
- 'will' 'wind' 'window' 'worries' 'yeah']",48,0.5703,0.17000000000000004,0.4730000000000001,0.000149,0.0050000000000000044,1.1620000000000008,0.0005000000000000004,0.38400000000000006,19.956999999999994,5,0.3887407407407407
+ 'will' 'wind' 'window' 'worries' 'yeah']",49,0.5703,0.17000000000000004,0.4730000000000001,0.000149,0.0050000000000000044,1.1620000000000008,0.0005000000000000004,0.38400000000000006,19.956999999999994,5,0.3887407407407407
 "[""'cause"" '1]' '2]' '[bridge]' '[chorus]' '[outro]' 'afraid' 'as' 'baby'
  'best' ""can't"" 'club' 'come' 'dance' 'do' 'don’t' 'else' 'fall' 'gets'
  'give' 'go' 'hard,' 'have' 'hearts' 'here' 'home,' 'keep' 'late' 'let'
@@ -1996,7 +2008,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
 "['(ooooo,' '1]' '2]' '3]' '[bridge]' '[chorus]' '[intro]' '[outro]'
  '[verse' 'ahhhhhh' 'because' 'bobsled' 'candy-apple' ""don't"" 'four'
  'gas,' 'goggles' 'hauling' 'hits' 'man,' 'miss' 'nick)' 'no' 'one'
- 'oooooooo' 'pad' 'peel!' ""she'll"" 'toboggan' 'walk' 'when' 'whoa']",38,0.10272,0.04499999999999993,0.14,0.0,0.002600000000000005,6.353,0.004400000000000001,0.01100000000000001,1.438999999999993,0,0.10430423086329177
+ 'oooooooo' 'pad' 'peel!' ""she'll"" 'toboggan' 'walk' 'when' 'whoa']",37,0.10272,0.04499999999999993,0.14,0.0,0.002600000000000005,6.353,0.004400000000000001,0.01100000000000001,1.438999999999993,0,0.10430423086329177
 "['&' ""'bout"" ""'til"" ""('til"" '(anyone)' ""(it's"" ""(let's"" '(oh' '(young)'
  '1:' '2:' '[bridge:' '[chorus:' '[intro]' '[verse' 'all' 'harry]' ""i'm""
  ""it's"" 'leave' 'liam' 'live)' 'louis]' 'love)' 'niall' 'niall]' 'oh)'
@@ -2097,7 +2109,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'own)' 'pay' 'pray' 'prison' 'put' 'relief,' 'rhythm' 'run' 'say' 'sense'
  'somebody,' 'someday' 'someone' 'spent' 'stand' 'take' 'tears' 'they'
  'this' 'try' 'up' 'wants' 'water' 'work' 'works' 'yeah)' 'years'
- 'yourself']",52,0.14679999999999999,0.1589999999999998,0.09600000000000009,0.0,0.05100000000000002,2.2,0.0162,0.19300000000000006,8.453999999999994,0,0.19360085607276617
+ 'yourself']",53,0.14679999999999999,0.1589999999999998,0.09600000000000009,0.0,0.05100000000000002,2.2,0.0162,0.19300000000000006,8.453999999999994,0,0.19360085607276617
 "['1]' '2]' '[bridge]' '[chorus]' '[verse' 'break' 'daylight,' 'gone'
  'guide,' 'harder,' 'leaving' 'pages' 'with' ""won't"" 'words']",66,0.1402,0.07200000000000006,0.1459999999999999,4.22e-05,0.068,4.087,0.0009999999999999974,0.17600000000000016,0.0020000000000095497,0,0.001542286266746462
 "['1]' '2]' '3]' '5' '9' '[chorus' '[outro]' '[verse' 'about' 'after'
@@ -2122,7 +2134,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'l-lie,' 'lie' 'lie),' 'lie,' 'lips' 'love' 'low,' 'masturbate' 'mine'
  'movie' 'name,' 'now' 'on' 'perfect' 'pride' 'prototype' 'put' 'reason'
  'right' 'see' 'shining' ""shit's"" 'stacks' 'through' 'time...' 'tried'
- 'try' 'trying' 'would' ""you're""]",46,0.1906,0.02499999999999991,0.09600000000000003,0.0,0.24370000000000003,0.02400000000000002,0.009099999999999997,0.07700000000000001,0.2809999999999917,6,0.08499278499278498
+ 'try' 'trying' 'would' ""you're""]",47,0.1906,0.02499999999999991,0.09600000000000003,0.0,0.24370000000000003,0.02400000000000002,0.009099999999999997,0.07700000000000001,0.2809999999999917,6,0.08499278499278498
 "['(uh,' '(were' '(who' '...better' '...instead' '[outro]' 'another...'
  'bed' 'dead' 'enviyon' 'everything' 'evil' 'face?)' 'fake)' 'feel'
  'girls' 'grave' 'hate' ""i'll"" 'leave' 'mix' 'on' 'prescriptions' 'shit'
@@ -2162,7 +2174,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  '[pre-chorus]' '[verse' 'aftermath,' 'before' 'between' 'damn' 'day'
  'eye' 'feeling' 'feels' 'fuck' 'god' 'ho-oh-oh-oh' ""i'll"" 'lie' 'no)'
  'no,' 'oh' 'pleasure' 'say' 'struggle' 'thighs' 'up,']",50,0.03625,0.015000000000000013,0.050999999999999934,0.00035800000000000003,0.25029999999999997,3.63,0.004400000000000001,0.11599999999999988,0.030000000000015348,3,0.047821969696969696
-[],51,0.023700000000000006,0.09700000000000009,0.025999999999999912,2.64e-05,0.04970000000000001,1.7800000000000011,0.0286,0.13800000000000004,0.08299999999999841,0,0.0
+[],52,0.013400000000000009,0.09900000000000009,0.028999999999999915,2.64e-05,0.026700000000000015,1.716000000000001,0.0292,0.167,0.1419999999999959,0,0.0
 "[""'cause"" '1]' '2]' '[bridge]' '[chorus]' '[pre-chorus]' '[verse' 'ah,'
  'aha,' 'baby,' ""can't"" 'has' ""i'm"" 'mmm,' 'now,' 'oh,' 'ooh,' 'something'
  'strange' 'sweeter' 'temptation' 'wonder,' 'yeah,' 'you?']",56,0.0455,0.040000000000000036,0.15400000000000003,0.0,0.017200000000000007,1.5800000000000005,0.012299999999999998,0.139,0.034000000000006025,0,0.010809451985922605
@@ -2173,7 +2185,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'made' 'me,' 'months,' 'needed' 'now' 'off' 'off-key' 'promised'
  'purpose' 'put' 'replaced' 'rose-colored' 'sang' 'saw' 'set' 'showing'
  'signs' 'softly' 'then' 'they' 'thick' 'this' 'tore' 'two' 'us' 'was'
- ""wasn't"" ""we'd"" 'world' 'yeah' 'yours' 'yours,']",52,0.49040000000000006,0.04700000000000004,0.48599999999999993,0.0,0.088,2.774000000000001,0.004900000000000002,0.4474,80.09,0,0.5342403628117913
+ ""wasn't"" ""we'd"" 'world' 'yeah' 'yours' 'yours,']",51,0.49040000000000006,0.04700000000000004,0.48599999999999993,0.0,0.088,2.774000000000001,0.004900000000000002,0.4474,80.09,0,0.5342403628117913
 "['&' ""(c'mon)"" '(come' ""(let's"" '(sing' '(yeah)' '1:' '2:' '[bridge:'
  '[chorus:' '[outro:' '[post-chorus:' '[pre-chorus' 'baby)' 'bebe' 'both]'
  ""c'mon,"" 'do' 'florida' 'for' 'georgia' 'go)' ""gon'"" 'guys' 'it,' 'lead?'
@@ -2183,7 +2195,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'always,' 'apl.de.ap]' 'around,' 'cause' 'cross' 'day,' 'die' 'fergie]'
  'for,' 'go,' 'limit,' 'looking' 'missing' 'missing,' 'ooh,' 'out,'
  'taboo]' 'thinking' 'thinking,' 'town' 'try' 'until' 'up' 'uptown,'
- 'used,' 'want,' 'ways' 'will.i.am]' 'yo,']",48,0.004439999999999999,0.02399999999999991,0.07399999999999995,1.8089999999999998e-05,0.0030000000000000027,0.9779999999999998,0.031799999999999995,0.385,0.060000000000002274,0,0.004784688995215308
+ 'used,' 'want,' 'ways' 'will.i.am]' 'yo,']",47,0.004439999999999999,0.02399999999999991,0.07399999999999995,1.8089999999999998e-05,0.0030000000000000027,0.9779999999999998,0.031799999999999995,0.385,0.060000000000002274,0,0.004784688995215308
 "['drive' 'from' 'night' 'off' 'ooh,' 'please,' 'pride,' 'ripping' 'skin'
  'ya']",38,0.050199999999999995,0.07499999999999996,0.07999999999999996,0.0,0.06599999999999999,0.6689999999999996,0.004199999999999995,0.11799999999999994,0.19799999999997908,0,0.01704694466299511
 "['&' ""'bout"" ""'cord"" ""'em"" ""'round"" ""'til"" '(bitch' '(bugatti)' '(cash)'
@@ -2267,7 +2279,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
 "['1]' '[bridge]' '[chorus]' '[outro]' '[verse' 'a' 'are' 'boy,' 'dance,'
  'dirty' 'down,' 'freak' 'freak,' 'girl,' 'hey,' 'i' 'it' 'like' 'me?'
  'my' 'need' 'oh-oh,' 'oh-oh-oh-oh,' 'one' 'play' 'plays' 'see?' 'sexy'
- 'shy,' 'up,' 'yeah,' 'yeah...']",34,0.10740000000000001,0.07200000000000006,0.18599999999999994,0.000238,0.008000000000000007,3.6079999999999997,0.05690000000000001,0.23499999999999988,0.005000000000009663,0,0.09983684738955827
+ 'shy,' 'up,' 'yeah,' 'yeah...']",35,0.10740000000000001,0.07200000000000006,0.18599999999999994,0.000238,0.008000000000000007,3.6079999999999997,0.05690000000000001,0.23499999999999988,0.005000000000009663,0,0.09983684738955827
 "['""ho' '-' '1]' '2]' '3]' '4]' '5]' '[chorus]' '[verse' 'bush' 'carter,'
  'clause' 'clinton' 'eisenhower,' 'head?' 'ho""' 'ho""?' 'johnson,'
  'kennedy,' 'night?' 'nixon' 'nose?' 'reagan,' 'red?' 'sleigh?' 'way?'
@@ -2281,7 +2293,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
 "['(all' '(breakable' '(but' '(even' '(know' '(oh-oh)' '(oh-oh,' '(that'
  '(we' '1]' '2]' '[bridge]' '[chorus' '[hook]' '[intro]' '[outro]'
  '[pre-chorus]' '[verse' 'do)' 'it)' ""let's"" 'me,' 'oh-oh)' 'oh-oh,'
- 'say)' 'shit' 'they)' 'thread)' 'wanted)' 'you?)']",59,0.20864,0.08800000000000002,0.2580000000000001,0.0,0.16799999999999998,3.984,0.028500000000000004,0.19999999999999996,0.0010000000000616183,2,0.08835850512622644
+ 'say)' 'shit' 'they)' 'thread)' 'wanted)' 'you?)']",60,0.20864,0.08800000000000002,0.2580000000000001,0.0,0.16799999999999998,3.984,0.028500000000000004,0.19999999999999996,0.0010000000000616183,2,0.08835850512622644
 "['""ante' '""damn,' '""free' '""her' '""miley,' '""nah,""' '""pills' '""she' '&'
  ""'09"" ""'bout"" ""'cause"" '(are' '(fuck' '(i)' '(lose)' '(not)' '(will)'
  '(word)' '1' '35' '360' '48' '90' '[hook]' '[intro:' '[outro]' '[verse]'
@@ -2366,7 +2378,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'on,' 'one,' 'only' 'put' 'ready' 'ready,' 'rising' 'running,' 'send'
  'set' 'she' 'still' 'strong' 'summer' 'support' 'tell' 'those' 'time'
  'too' 'treat' 'trembling' 'unhitch' 'up' 'up,' 'was' 'way' 'we' ""we've""
- 'what' 'yeah' ""you're"" 'you,' 'you’ll']",33,0.4025,0.02499999999999991,0.11399999999999999,3.16e-06,0.02300000000000002,2.046000000000001,0.33400000000000013,0.22100000000000003,0.20500000000004093,0,0.15189682252023678
+ 'what' 'yeah' ""you're"" 'you,' 'you’ll']",34,0.4025,0.02499999999999991,0.11399999999999999,3.16e-06,0.02300000000000002,2.046000000000001,0.33400000000000013,0.22100000000000003,0.20500000000004093,0,0.15189682252023678
 "['1]' '2]' '3]' '808' '[bridge]' '[chorus]' '[outro]' '[pre-chorus]'
  '[verse' 'a' 'about' 'addicted,' 'advice' 'affected' 'against' 'all'
  'alley' 'any' 'basement?' 'beard' 'beat' 'because' 'better' 'boy,' 'but'
@@ -2404,13 +2416,13 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'they' 'this' 'thousand' 'tommy' 'tonight' 'took' 'trey,' 'twenty' 'uh'
  'uh,' 'uh-huh,' 'understood?' 'up' 'velcro,' 'we' 'wheelies,' 'where'
  'without' 'woods,' 'work' 'wrld]' 'yeah' 'yeah,' 'youngboy' '’figer'
- '’figer,']",86,0.07629999999999999,0.06300000000000006,0.061999999999999944,3.9399999999999995e-05,0.26199999999999996,0.1479999999999988,0.29510000000000003,0.01200000000000001,34.196,25,0.231777382110538
+ '’figer,']",85,0.07629999999999999,0.06300000000000006,0.061999999999999944,3.9399999999999995e-05,0.26199999999999996,0.1479999999999988,0.29510000000000003,0.01200000000000001,34.196,25,0.231777382110538
 "['&' ""'cause"" ""'til"" '(be' '(day' '(in' '(never' '(take' '(you' '1:' '2:'
  '[bridge:' '[chorus:' '[outro:' '[post-chorus:' 'both]' 'buried' ""can't""
  ""feelin'"" 'happy,' ""hasn't"" 'heart,' 'here,' ""i'm"" ""it's"" 'larsson'
  'larsson,' 'larsson]' 'left,' ""lovin'"" 'me,' 'mind)' 'mind?' 'mnek,'
  'mnek]' 'my)' 'oh' 'right' 'side)' ""somethin'"" 'sure)' ""there's"" 'this'
- 'tied' 'world' 'yeah' 'yeah,' 'you)' 'zara']",51,0.01128,0.040000000000000036,0.1050000000000001,9.86e-06,0.05099999999999999,1.8149999999999995,0.0031999999999999945,0.07100000000000001,0.0010000000000331966,0,0.005038759689922484
+ 'tied' 'world' 'yeah' 'yeah,' 'you)' 'zara']",52,0.01128,0.040000000000000036,0.1050000000000001,9.86e-06,0.05099999999999999,1.8149999999999995,0.0031999999999999945,0.07100000000000001,0.0010000000000331966,0,0.005038759689922484
 "['""fuck' '""how' '""i' ""'cause"" ""'em"" ""'em,"" ""'round"" '(shawty' '(start)'
  '(to' '(vroom)' '(yeah,' '18' '1:' '20' '2:' '30' '3:' '4:' '[chorus:'
  '[intro:' '[verse' 'a-a-am' 'act' 'again]' 'aim' ""ain't"" 'am' 'am,'
@@ -2452,7 +2464,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  '[bridge]' '[refrain]' 'bed' 'breathe' 'by' ""don't,"" 'drunk' 'eat,'
  'heart' 'kick' 'learn' 'new)' 'one' 'one,' 'perfect' 'practice'
  'rehearse' 'repeat' 'sleep,' 'still' 'tryna' 'under' 'wake' 'whoa)'
- 'whoa-ooh,']",35,0.01969,0.08000000000000007,0.136,1.56e-05,0.155,1.354,0.012500000000000004,0.16400000000000003,0.09599999999998943,0,0.016806434463480305
+ 'whoa-ooh,']",36,0.01969,0.08000000000000007,0.136,1.56e-05,0.155,1.354,0.012500000000000004,0.16400000000000003,0.09599999999998943,0,0.016806434463480305
 "[""'em"" ""'em,"" '(cry)' '(hmm,' '(oh' '(oh,' '(to' '(we' '(with' '(yeah)'
  '(yeah),' '[refrain]' 'a' 'and,' 'another' 'babe' 'babe,' 'body' 'boy,'
  ""can't"" 'colors' 'come' ""comin'"" 'cry' 'cry)' 'down' 'even' 'fly' 'got'
@@ -2488,17 +2500,33 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'divide,' ""everything's"" ""feelin'"" 'going' 'oh' 'oh,' 'talking,' 'there']",72,0.3021,0.04800000000000004,0.04699999999999993,1.5219999999999998e-05,0.198,2.074,0.015100000000000002,0.523,0.12300000000000466,0,0.019941708851050777
 "['&' '(another,' '(deep' '1:' '2:' '[bridge:' '[drop:' '[outro:'
  '[pre-chorus:' 'another)' 'cheat' 'codes]' 'cutting' 'dahl' 'demi'
- 'heart)' 'knife' 'lie' 'like' 'lovato]']",32,0.0678,0.010000000000000009,0.08699999999999997,0.0,0.015,2.151,0.08810000000000001,0.16899999999999993,0.03499999999999659,0,0.1354035403540354
+ 'heart)' 'knife' 'lie' 'like' 'lovato]']",31,0.0678,0.010000000000000009,0.08699999999999997,0.0,0.015,2.151,0.08810000000000001,0.16899999999999993,0.03499999999999659,0,0.1354035403540354
 "[""(don't"" '(not' '(staring' '1]' '2]' '[bridge]' '[chorus]' '[pre-chorus]'
  '[verse' 'baby,' 'back' 'bleeding' 'cuts' 'fall,' 'fuck' 'it’s' 'knife'
  'know)' 'me)' 'no,' 'staring' 'that’s' 'won’t' 'yeah' 'you’ll' 'you’re']",38,0.39,0.294,0.32000000000000006,4.58e-06,0.21800000000000003,6.65,0.03250000000000001,0.391,0.09099999999997976,3,0.049747219413549065
 "['(we' '(with' '[bridge]' 'me)' 'mouth,' 'oh)' 'oh-yeah,' 'stop,' 'then'
  'where,']",31,0.455,0.025999999999999912,0.0,3.11e-06,0.153,1.8570000000000015,0.008100000000000003,0.21899999999999997,0.0379999999999967,0,0.003542292829540576
-[],0,0.0,0.0,0.0,0.0,0.0,8.881784197001252e-16,0.0,0.0,1.4210854715202004e-14,0,0.0
-"['blowing' 'blowing,' 'deserted' 'dry' 'every' 'gon’' 'hide' 'hmm,' 'hot'
- 'how' 'ice?' 'jealousy' 'love,' 'me,' 'mm' 'mmmm,' 'mmmmmmm' 'ot,'
- 'people' 'records,' 'round' 'so' 'star,' 'there’s' 'well' 'we’re' 'when'
- 'will']",0,0.0,0.0,0.0,0.0,0.0,8.881784197001252e-16,0.0,0.0,1.4210854715202004e-14,0,0.010803080308030805
+"[""'em"" ""'em,"" '(cry)' '(hmm,' '(oh' '(oh,' '(to' '(we' '(with' '(yeah)'
+ '(yeah),' '1]' '2]' '[bridge]' '[chorus]' '[intro]' '[pre-chorus]'
+ '[refrain]' '[verse' ""ain't"" 'all' 'and,' 'another' 'babe' 'babe,' 'be'
+ 'body' 'boy,' ""can't"" 'colors' 'come' ""comin'"" 'cry' 'cry)' ""don't""
+ 'down' 'even' 'fly' 'got' 'hate' 'here' 'how,' ""i'm"" 'if' ""it's""
+ ""livin',"" ""lovin',"" 'matter' 'me' 'me)' 'mentality' 'mind' 'mouth'
+ 'mouth,' 'my' 'no' 'now,' 'oh)' 'oh-yeah,' 'out' 'out,' 'partake'
+ ""pickin'"" 'point' ""rainin'"" 'ran' 'right' 'see' 'shut' 'state' 'stop'
+ 'stop,' 'tears' 'then' 'they' 'time' 'too' 'tries' ""turnin'"" 'up' 'up)'
+ 'up,' ""vibin'"" ""vibin',"" 'wanna' 'want' 'way' ""we're"" 'what,' 'where,'
+ 'who' 'with' 'yeah' 'yeah)' 'yeah,' 'you,' 'your']",45,0.0391,0.061000000000000054,0.09600000000000009,3.11e-06,0.032999999999999974,0.8559999999999981,0.0051,0.137,7.915999999999983,0,0.010046592894583583
+"[""'em"" ""'em,"" '(cry)' '(hmm,' '(oh' '(oh,' '(to' '(we' '(with' '(yeah)'
+ '(yeah),' '[intro]' '[refrain]' ""ain't"" 'all' 'and,' 'another' 'babe'
+ 'babe,' 'be' 'body' 'boy,' ""can't"" 'colors' 'come' ""comin'"" 'cry' 'cry)'
+ ""don't"" 'down' 'even' 'fly' 'hate' 'here' 'how,' ""i'm"" 'if' ""livin',""
+ ""lovin',"" 'matter' 'me' 'me)' 'mentality' 'mind' 'mouth' 'mouth,' 'my'
+ 'no' 'now,' 'oh)' 'oh-yeah,' 'out' 'out,' 'partake' ""pickin'"" 'point'
+ ""rainin'"" 'ran' 'right' 'see' 'shut' 'so' 'state' 'stop' 'stop,' 'tears'
+ 'then' 'they' 'too' 'tries' ""turnin'"" 'up' 'up)' 'up,' ""vibin'"" ""vibin',""
+ 'wanna' 'want' 'way' 'what,' 'when' 'where,' 'who' 'with' 'yeah' 'yeah)'
+ 'yeah,' 'you,' 'your']",45,0.0391,0.061000000000000054,0.09600000000000009,3.11e-06,0.032999999999999974,0.8559999999999981,0.0051,0.137,7.915999999999983,0,0.02084967320261439
 "['1]' '2]' '[chorus]' '[outro]' '[verse' 'art' 'as' 'better' 'black'
  'blue' 'can' 'canyon' 'diamonds' 'door' 'dress' 'dress,' 'fall' 'fine'
  'floor' 'full' 'grand' 'heads' 'here' 'high' 'highrise,' 'impress,' 'la,'
@@ -2513,10 +2541,10 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  ""pretendin'"" 'sixteen' ""sleepin'"" ""stayin'"" ""we're""]",63,0.0004877,0.03200000000000003,0.10899999999999999,2.8300000000000007e-05,0.01029999999999999,2.538,0.00470000000000001,0.04500000000000004,0.07400000000001228,0,0.008520074696545286
 "['(kio,' 'all' 'boobies' 'booty' 'kio)' 'lean']",28,0.013399999999999995,0.09399999999999997,0.10899999999999999,0.0,0.03570000000000001,0.9860000000000007,0.06149999999999999,0.11299999999999999,0.132000000000005,0,0.015443313953488368
 "[""'cause"" '(hey)' '1]' '2]' '[bridge]' '[chorus]' '[outro]' '[pre-chorus]'
- 'could' 'darling' 'long,']",43,0.15200000000000002,0.0009999999999998899,0.10499999999999998,0.0,0.058300000000000005,1.3679999999999999,0.005499999999999998,0.11399999999999999,0.005000000000009663,0,0.0010143570536828989
+ 'could' 'darling' 'long,']",42,0.15200000000000002,0.0009999999999998899,0.10499999999999998,0.0,0.058300000000000005,1.3679999999999999,0.005499999999999998,0.11399999999999999,0.005000000000009663,0,0.0010143570536828989
 "['&' '[chorus:' '[refrain:' 'baby,' 'back,' 'front' 'grips' 'hand'
  'hennessy' ""i'll"" 'kyla' 'kyla]' 'ot' 'oti' 'oti,' 'safe' 'slow' 'take'
- 'waist,' 'where,' 'wine' 'wizkid]']",55,0.21424,0.0,0.253,0.00188,0.221,1.2560000000000002,0.015900000000000004,0.14200000000000002,0.0030000000000001137,0,0.04731769412620476
+ 'waist,' 'where,' 'wine' 'wizkid]']",56,0.21424,0.0,0.253,0.00188,0.221,1.2560000000000002,0.015900000000000004,0.14200000000000002,0.0030000000000001137,0,0.04731769412620476
 "['[intro]' 'company' 'do' 'exploring' 'feel' 'passion' 'skin' ""you'll""]",40,0.095,0.015999999999999903,0.06499999999999995,2.19e-05,0.008400000000000005,1.896,0.030000000000000013,0.1289999999999999,0.02200000000000557,0,0.016918138041733533
 "['(falling' '(frustrated)' '(impatient)' ""(it's"" '(just' '(make' '(no'
  '(ooh,' ""(waitin')"" '(when' '(you' '1]' '2]' '[bridge]' '[chorus]'
@@ -2581,9 +2609,17 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'sang' 'say' 'see' 'seen' 'shaking' 'she' ""she's"" 'sing' 'so' 'some'
  'song' 'stayed' 'sunburned' 'that' 'them' 'thing' 'think' 'thinking'
  'through' 'till' 'time' 'tonight?' 'town' 'want' 'was' 'way' 'were'
- 'west' 'where' 'wondering' 'wondering,' 'yeah,']",58,0.24469999999999997,0.13300000000000012,0.08000000000000007,6.03e-06,0.5154,1.487,0.008100000000000003,0.135,14.001000000000005,0,0.022741433021806846
+ 'west' 'where' 'wondering' 'wondering,' 'yeah,']",59,0.24469999999999997,0.13300000000000012,0.08000000000000007,6.03e-06,0.5154,1.487,0.008100000000000003,0.135,14.001000000000005,0,0.022741433021806846
 "[""'cause..."" '(down,' '[bridge]' '[chorus]' '[verse]' 'and...' 'down)'
  'now,' 'suffocating,' 'tripping' 'why' 'yet,' 'you,']",42,0.0042699999999999995,0.04700000000000004,0.17599999999999993,0.0,0.0566,3.5260000000000007,0.005800000000000003,0.16399999999999992,0.4210000000000065,0,0.037970430107526876
+"[""'cause..."" '(down,' '[bridge]' '[chorus]' '[verse]' 'afraid' 'air'
+ 'alive' 'almost' 'alright,' 'always' 'and...' 'been' 'breathe'
+ 'direction' 'dive' 'down)' 'down,' 'face' 'feels' 'fell' 'forget' 'going'
+ 'have' 'held' 'inside' 'loved' 'myself' 'needed' 'no' 'nothing' 'now'
+ 'now,' 'nowhere' 'of' 'oh,' 'on' 'only' 'over' 'right' 'saved' 'saw'
+ 'sick' 'suffocating,' 'sunlight' 'through' 'tired' 'took' 'tripping'
+ 'under' 'up' 'waiting' 'waiting,' 'wake' 'wanted' 'wanted,' 'was' 'way'
+ 'weight' 'why' ""won't"" 'wondering' 'world' 'yet,' ""you're"" 'you,']",27,0.32615999999999995,0.33599999999999997,0.37999999999999995,0.0,0.062099999999999995,6.633,0.0162,0.20199999999999996,0.21299999999999386,0,0.04732552564892811
 "['""i\'m' '(are' '(oh)' '(out' '(yeah)' '1]' '2]' '[bridge]' '[chorus]'
  'decided,' 'free""' 'good)' 'lying' 'oh,' 'said,' 'twenty' 'we?)' 'woods)'
  'woods?)' 'yet?)']",34,2.9999999999999862e-05,0.005999999999999894,0.052000000000000046,1.23e-05,0.03400000000000003,3.654,0.0097,0.08800000000000002,0.02200000000000557,0,0.03460756606673615
@@ -2613,7 +2649,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'soon' 'stalker,' 'stay' 'stick,' 'still' 'switchblade' 'talk' 'tell'
  'these' 'thick' 'thirty' 'three' 'time,' 'to' 'too' 'tryna' 'turn'
  'turned' 'uh' 'untie,' 'weed' ""weed's"" 'what' 'when' 'whip,' 'whole'
- 'will' ""won't"" 'wrists' 'wrists,' 'yung']",42,0.4215,0.29900000000000004,0.07500000000000007,0.00592,0.021599999999999994,0.8449999999999998,0.006900000000000003,0.332,93.91799999999999,10,0.5952589670538388
+ 'will' ""won't"" 'wrists' 'wrists,' 'yung']",43,0.4215,0.29900000000000004,0.07500000000000007,0.00592,0.021599999999999994,0.8449999999999998,0.006900000000000003,0.332,93.91799999999999,10,0.5952589670538388
 "['&' ""'cause,"" '(oh)' '(whoa)' '(yeah,' '1:' '2:' '30' '[bridge:'
  '[chorus:' '[pre-chorus:' '[verse' ""ain't"" 'always' 'am' 'anyone' 'baby,'
  'before' 'behind' 'best' 'bet' 'bets' 'bite' 'black,' 'blue' 'both,'
@@ -2626,7 +2662,32 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'scarred' 'seen' 'sense,' 'she' 'sheeran' 'sheeran,' 'sheeran]' 'shows'
  'skin' 'so' 'still' 'tell' ""they're"" 'thin' 'train' 'truth' 'when' 'why'
  'worries' 'wrong' 'yeah)' 'yeah,' 'yebba]' 'yet' 'your']",59,0.7468,0.1150000000000001,0.5700000000000001,9.3e-06,0.22509999999999997,0.6480000000000024,0.003599999999999999,0.633,48.31000000000002,0,0.19816604436635182
-[],0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0
+"['""let\'s' '(biggie!)' "".22's"" '101,' '13' 'about' 'again' ""ain't""
+ 'along?' 'and...(etc)' 'another' 'arm' 'asked' 'asses' 'back?' 'backpack'
+ 'bad' 'ball,' 'bathroom' 'beating' 'beef,' 'before' 'begging' 'better'
+ 'big' 'biggie' 'bitches' 'blood' 'blows' 'blunts' 'boublerap' 'bought'
+ 'boy' 'brand' 'bring' 'broke' 'bullshit,' 'but' 'calm""' 'can' ""can't""
+ 'cat?' 'cause' 'charm?' 'chat' 'chest' 'chest,' 'choked' 'chunky'
+ 'classes' 'coast' 'conversation,' 'crew' 'cutting' 'da' 'daily' 'das'
+ 'do' 'do,' 'dom' ""don't"" 'down' 'dress,' 'drinking,' 'drunk' 'drunk,'
+ 'duc' 'duck' 'ducking' 'dumbing' 'dus' 'east' 'eat' 'eating' 'erra'
+ 'even' 'fear' 'fight' 'flapp,' 'flex,' 'fronting' 'fuck' 'fucking' 'fun'
+ 'gat?' 'glock' 'glue' 'gone' 'grabbed' 'gun' 'had' 'have' 'he' 'heart'
+ 'heineken' 'henny' 'her' 'hickies' 'high' 'his' 'hit' 'ho' 'holler'
+ 'honey' 'honeys' 'honeys,' 'hooker' 'hookers' 'hope' 'hopping,' 'house'
+ 'how' 'hugs' 'hunting' 'if' 'is...' 'it' 'jack' 'jamaican' 'just' 'kicks'
+ 'kid' 'knew' 'leave' 'little' 'loc' 'looking' 'lounging' 'love' 'mac'
+ 'mean' 'mess' 'might' 'moet' 'money' 'n*gger' 'need' 'nigga' 'nigga,'
+ 'niggas' 'no' 'not,' 'nothing' 'nubian' 'on,' 'out,' 'overdoser' 'palm'
+ 'party...' 'passes' 'pissy' 'poppa,' 'popping,' 'pounds' 'projects'
+ 'public' 'punks' 'pérignon' 'reices' 'righteous' 'roam' 'rocking'
+ 'rolled' 'rotation' 'roughnecks' 'rum' 'rutine' 'sacks' 'sage' 'said'
+ 'scared' 'school' 'seen' 'shawn' 'shit' 'shot' 'sidekicks' 'since' 'sing'
+ 'skins' 'skunk' 'smell' 'smoking' 'smoking,' 'some' 'something'
+ 'squeezing' 'start' 'stinking' 'stopping' 'stroll' 'supposed' 'sure'
+ 'take' 'tell' 'terra' 'than' 'that...' 'think' 'thinking' 'throw'
+ 'thrown' 'tight' 'toast' 'tray' 'two' 'used' 'vest' 'waist' 'wanna'
+ 'want' 'we' ""we're"" 'what' 'where' 'who' 'you' ""you're"" 'you,' 'your']",3,0.004949999999999999,0.08400000000000007,0.08700000000000008,0.0,0.3679,2.9499999999999993,0.039299999999999995,0.33299999999999996,1.5290000000000106,8,0.3298492950899368
 "['""cowabonga,' '(change' '(cool!)' ""(i'm"" '(iiii...)' '(t-t-t-totally'
  '(yeaaaaaaah!)' '(yeah..)' '-' '20' '[hook]' 'at' 'barker,' 'be'
  'bitches' 'black,' 'bout' 'brah,' 'brah...' 'but' 'car' 'cause' 'course,'
@@ -2662,7 +2723,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'sitting' 'so' 'song,' 'spending' 'start' ""stuntin'"" 'swish,' 'switched'
  'take' 'talk' 'tell' 'telling' 'these' 'they' 'top' 'two?)' 'uh' 'up'
  'up,' 'valet' 'want' 'was' ""wasn't"" 'what' 'whatever' 'while' 'who'
- 'whoa-oa)' 'why' 'wished' 'with' 'wiz' 'wondering' 'wrong']",49,0.011019999999999999,0.06600000000000017,0.1359999999999999,0.0,0.221,3.2890000000000006,0.0022999999999999965,0.23799999999999988,0.0309999999999917,9,0.1532548642805669
+ 'whoa-oa)' 'why' 'wished' 'with' 'wiz' 'wondering' 'wrong']",50,0.011019999999999999,0.06600000000000017,0.1359999999999999,0.0,0.221,3.2890000000000006,0.0022999999999999965,0.23799999999999988,0.0309999999999917,9,0.1532548642805669
 "['(chorus)' '(chorus:)' ""(let's"" '(uh-huh)' '(you' '2x' '4x' 'and' 'at'
  'break' 'down' 'freestyle,' 'freeze' 'go)' 'got' 'he' 'it' ""it's"" 'it)'
  'jelly,' 'now,' 'ride)' 'style' 'tac' 'tic' 'time,' 'toe' 'where' 'your']",23,0.019,0.14900000000000013,0.11099999999999999,1.03e-05,0.18280000000000002,1.8680000000000003,0.133,0.35,7.9950000000000045,0,0.0
@@ -2710,7 +2771,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'nights' 'no' 'nobody' 'now' 'now,' 'of' 'oh' 'on' 'out,' 'own' 'pray'
  'praying' 'reply' 'said' 'see' 'sees' 'sent' 'singing' 'sleep' 'so'
  'soul' 'take' 'then,' 'things' 'think' 'too' 'wanna' 'want' 'weak' 'what'
- 'when' 'whenever' 'your']",64,0.0992,0.31799999999999995,0.137,0.0001096,0.2359,0.9369999999999994,0.012000000000000004,0.549,35.733999999999995,0,0.06839323467230442
+ 'when' 'whenever' 'your']",65,0.0992,0.31799999999999995,0.137,0.0001096,0.2359,0.9369999999999994,0.012000000000000004,0.549,35.733999999999995,0,0.06839323467230442
 "[""(don't"" '(i' '(i,' '(no,' '(oh)' '1]' '2]' '[bridge]' '[chorus]'
  '[intro]' '[outro]' '[verse' 'bag' 'cut' 'da' 'here?' 'hits' 'i)' 'into'
  'little' 'makes' 'me)' 'punching' 'say)' 'times' 'without']",51,0.008657,0.07399999999999995,0.241,0.0376,0.009000000000000008,2.7200000000000006,0.005600000000000001,0.122,0.01799999999997226,0,0.025615507766864266
@@ -2721,7 +2782,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'sunshine)' 'sunshine,' 'takes' 'there’s' 'you’re']",49,0.319,0.09699999999999998,0.246,4.68e-06,0.0203,3.3610000000000015,0.008600000000000003,0.16500000000000004,0.15399999999999636,0,0.019320453031312468
 "['(oh,' '1]' '2]' '[bridge]' '[chorus]' '[directed' '[intro]' '[outro]'
  '[pre-chorus]' '[verse' 'begin,' 'by' 'eh,' 'eheu' 'eheu,' 'going'
- 'hills,' 'jenkins]' 'jesse' 'john' 'oh,' 'settled' 'sins?)']",40,0.062,0.07900000000000007,0.13,0.0,0.13799999999999996,4.566999999999999,0.010799999999999997,0.04600000000000004,0.1939999999999884,0,0.02985373672610698
+ 'hills,' 'jenkins]' 'jesse' 'john' 'oh,' 'settled' 'sins?)']",41,0.062,0.07900000000000007,0.13,0.0,0.13799999999999996,4.566999999999999,0.010799999999999997,0.04600000000000004,0.1939999999999884,0,0.02985373672610698
 "['[bridge]' 'a' 'at' 'bring' 'but' ""don't"" 'even' 'finished,' 'forgive'
  'found' 'get' 'give' 'god' 'gonna' 'hell' 'in' 'i’ll' 'i’m' 'i’ve'
  'known' 'life,' 'light' 'make' 'maybe' 'my' 'name' 'need' 'never' 'night'
@@ -2791,13 +2852,13 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'travelled']",51,0.05600000000000001,0.04200000000000004,0.01200000000000001,2.03e-06,0.10540000000000001,2.7760000000000007,0.012200000000000003,0.254,0.033999999999991815,0,0.00857374580002317
 "['(baby),' '(eh)' '(i' '(my' '(night),' '(no' '(we' 'do' 'do),' 'do,'
  'down' 'dreams)' 'has' 'hmm' 'killer' 'lights' 'man,' 'no' 'one' 'touch'
- 'you)' 'you,']",36,0.0523,0.01200000000000001,0.06899999999999995,0.0,0.1081,2.5340000000000003,0.06640000000000001,0.08300000000000002,0.040000000000020464,0,0.006519274376417229
+ 'you)' 'you,']",37,0.0523,0.01200000000000001,0.06899999999999995,0.0,0.1081,2.5340000000000003,0.06640000000000001,0.08300000000000002,0.040000000000020464,0,0.006519274376417229
 "[""'cause"" '(hey)' '1:' '2:' '[bridge:' '[chorus:' '[verse' 'boy' 'boy,'
  'cher' 'curb,' 'cuter' 'demi' 'demi,' 'door' 'dumbstruck' 'ego'
  'guessing,' ""he's"" 'hey,' 'hipster' 'intact' 'just' 'kick' 'laugh,'
  'listen' 'lloyd]' 'look' 'lovato]' 'lover' 'mad?' 'no,' 'oh,' 'oh-oh-oh,'
  'one,' 'other' 'picked' 'picture' 'polaroid' 'second' 'so' 'street,'
- 'than' 'tryna' 'why' 'wrong' 'yeah,']",44,0.0416,0.051000000000000045,0.10299999999999998,0.0,0.39100000000000007,0.5669999999999997,0.026799999999999997,0.017000000000000015,0.05700000000000216,0,0.03242481203007519
+ 'than' 'tryna' 'why' 'wrong' 'yeah,']",45,0.0416,0.051000000000000045,0.10299999999999998,0.0,0.39100000000000007,0.5669999999999997,0.026799999999999997,0.017000000000000015,0.05700000000000216,0,0.03242481203007519
 "['4]' '[chorus' 'an' 'away-ay' 'ear' 'hey,' ""it's"" 'kids,' 'lend' ""let's""
  ""livin'"" 'renegades,' ""we're""]",36,0.2276,0.03199999999999992,0.03499999999999992,0.05969416,0.08300000000000002,0.5629999999999988,0.008500000000000008,0.123,0.08300000000001262,0,0.019556940117687757
 "[""'til"" '(ayy!)' '(j-j-j-jr),' '(like' '1]' '2]' '[bridge]' '[chorus]'
@@ -2822,12 +2883,12 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'jetpack' 'kev' 'knows,' 'mind,' 'moon' 'nish]' 'now' 'priceless'
  'prohgress]' 'ryan' 'tedder/fm]' 'tedder]' 'tokyo,']",52,0.327,0.03300000000000003,0.028000000000000025,0.0,0.07799999999999996,1.5419999999999998,0.0002999999999999947,0.3189999999999999,0.003999999999990678,0,0.03619909502262444
 "['""let\'s' '-' '[bridge]' '[chorus]' ""ev'ry"" ""everyone's"" 'fashioned'
- 'holly!""' 'old' ""rockin'"" 'singing,']",45,0.6057,0.131,0.42000000000000004,0.0,0.30000000000000004,5.081,0.0063,0.20399999999999996,72.78900000000002,0,0.029193697868396637
+ 'holly!""' 'old' ""rockin'"" 'singing,']",46,0.6057,0.131,0.42000000000000004,0.0,0.30000000000000004,5.081,0.0063,0.20399999999999996,72.78900000000002,0,0.029193697868396637
 "['(oh-oh)' '(tears' '(whoa-oh)' ""(you're"" '1]' '2]' '3]' '[breakdown]'
- '[chorus]' '[pre-chorus]' '[shit]' '[verse' 'all,' 'are' 'as' 'baby,'
- 'bare' 'deep)' 'fall,' 'feeling' 'finally,' ""i've"" 'it,' 'love,' 'me)'
- 'met' 'never' 'now' 'on' 'out,' 'pitch,' 'ship' 'then' ""thinkin'"" 'wish'
- ""you'll"" '–']",60,0.027999999999999997,0.0029999999999998916,0.1339999999999999,0.0,0.028999999999999998,0.31099999999999994,0.003300000000000001,0.138,0.057999999999992724,1,0.04305585049904439
+ '[chorus]' '[pre-chorus]' '[verse' 'all,' 'are' 'as' 'baby,' 'bare'
+ 'deep)' 'fall,' 'feeling' 'finally,' ""i've"" 'it,' 'love,' 'me)' 'met'
+ 'never' 'now' 'on' 'out,' 'pitch,' 'shit' 'then' ""thinkin'"" 'wish'
+ ""you'll"" '–']",60,0.027999999999999997,0.0029999999999998916,0.1339999999999999,0.0,0.028999999999999998,0.31099999999999994,0.003300000000000001,0.138,0.057999999999992724,1,0.04326513213981244
 "['(oh,' '(royals)' '(ruler)' '1]' '2]' '[bridge]' '[chorus]'
  '[pre-chorus]' '[produced' '[verse' '[video' 'address' 'baby,'
  'bloodstains,' 'buzz' 'by' 'care;' 'cristal,' 'dreamed' 'grey' 'i,'
@@ -2838,8 +2899,8 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'both,' 'car' 'choice,' 'friend,' 'galaxy,' 'girl)' 'luck,' 'man,' 'me,'
  ""mornin',"" 'no!""' 'old-fashioned' 'outta' 'rude)' 'run' 'say,' 'solo]'
  ""standin'"" 'this,' 'too?' 'why,' 'why?' 'yeah,']",43,0.1397,0.119,0.051000000000000156,0.0,0.010000000000000009,0.5839999999999996,0.010300000000000004,0.14800000000000013,0.03299999999998704,0,0.06764134357360968
-['(repeat)' 'glee' 'history' 'tonight' 'would'],30,0.62319,0.006000000000000116,0.662,0.0,0.06899999999999998,9.081999999999999,0.004200000000000002,0.09399999999999997,20.224999999999994,0,0.10217391304347825
-['(make' 'fuck' 'pushing' 'right)' 'sleeping'],46,0.010000000000000009,0.052000000000000046,0.09399999999999986,0.0,0.0040999999999999925,1.1740000000000004,0.018299999999999997,0.01100000000000001,0.12199999999998568,12,0.07529001688361203
+['(repeat)' 'glee' 'history' 'tonight' 'would'],31,0.66219,0.024000000000000132,0.662,0.0,0.01899999999999999,9.07,0.004799999999999999,0.1259999999999999,19.62299999999999,0,0.10217391304347825
+['(make' 'fuck' 'pushing' 'right)' 'sleeping'],45,0.010000000000000009,0.052000000000000046,0.09399999999999986,0.0,0.0040999999999999925,1.1740000000000004,0.018299999999999997,0.01100000000000001,0.12199999999998568,12,0.07529001688361203
 "['""child,' 'cause' 'has' 'reindeers,' 'what']",53,0.811409,0.07399999999999995,0.22999999999999998,9.43e-06,0.25930000000000003,6.913000000000002,0.014799999999999994,0.478,4.906999999999982,0,0.0037375415282391855
 "['1]' '2]' '[bridge]' '[chorus]' '[instrumental]' '[intro]' '[outro]'
  '[refrain]' '[verse' 'a' 'about' 'always' 'any' ""aren't"" 'arrogant' 'as'
@@ -2859,7 +2920,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'now' 'oh-oh-oh' 'ross' 's.' 'selena' 'shit,' 'stargate]' 'still' 'tor'
  'with' 'xcx,' 'xcx]']",32,0.1597,0.06899999999999995,0.03599999999999992,0.0,0.098,1.1839999999999997,0.001899999999999999,0.0040000000000000036,0.09299999999998931,3,0.09853600944510041
 "['awake' 'beard' 'big' 'cause' 'fat' 'i' 'long' 'man' 'mean' 'nice' 'pout'
- 'sake!' 'twice;' 'white']",36,0.7832100000000001,0.04600000000000004,0.5539999999999999,0.0,0.0218,3.979,0.0743,0.246,22.713999999999984,0,0.19146067415730336
+ 'sake!' 'twice;' 'white']",37,0.7832100000000001,0.04600000000000004,0.5539999999999999,0.0,0.0218,3.979,0.0743,0.246,22.713999999999984,0,0.19146067415730336
 "['(and' '(come,' '(hurry,' '(to' '1]' '2]' '[chorus]' '[outro]'
  '[pre-chorus]' '[verse' 'be)' ""callin')"" ""fallin')"" 'knees,' 'please,'
  'saving' 'standing)']",56,0.028469,0.13899999999999996,0.34199999999999997,0.0,0.256,3.4609999999999985,9.99999999999994e-05,0.08400000000000007,81.96899999999998,0,0.004458598726114649
@@ -2881,9 +2942,49 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'goodbye' 'hair' 'head' ""i'll"" 'kids' 'kiss' 'lucky' 'on' 'pulled'
  'school' 'sober' 'stars' 'stone' 'take' 'thank' 'them' 'throwing' 'too'
  'wake' 'wave']",58,0.07399999999999995,0.21400000000000008,0.0009999999999998899,0.0,0.016799999999999995,4.259,0.012299999999999998,0.09399999999999997,9.723000000000027,0,0.044430877764211105
-"['?' '[scooby' 'back!!!!!!!' 'back.' 'give' 'look' 'now.' 'snack'
- 'snack!!!!]' 'us.' 'will' 'with' 'yeah']",0,0.0,0.0,1.1102230246251565e-16,0.0,0.0,8.881784197001252e-16,0.0,0.0,0.0,0,0.057142857142857134
-[],0,0.0,0.0,1.1102230246251565e-16,0.0,0.0,8.881784197001252e-16,0.0,0.0,0.0,0,0.0
+"[""'04,"" '30' '[bridge]' '[hook]' '[spooky' '[spooky]' '[verse]' 'about'
+ 'addams,' 'b*****s' 'baby' 'bar-mitzvah' 'batman' 'better' 'blind'
+ 'bourne' 'bump' 'bunny' 'candy' 'candy,' 'carrie' 'casper,' 'cat'
+ 'caught,' 'chill' 'clowns' 'conjuring' 'cookie' 'cop' 'corn' 'costumes'
+ 'cups' 'demon' 'die' 'dnd' 'doctor' 'dog' 'doin?' 'double' 'dr.' 'drac'
+ 'drinks,' 'dumb' 'eating' 'edward' 'favorite' 'feel' 'fight' 'frank'
+ 'freddy' 'gettin' 'getting' 'ghost' 'ghosts' 'ghoul' 'go' 'goblins'
+ 'gotta' 'h,' 'had' 'halloween' 'hallway' 'hands' 'hear' 'hill' 'homeboy'
+ 'house' 'hunk' ""i'm"" 'igor' 'ii]' 'imma' 'in' 'iron' 'is' ""it's"" 'its'
+ 'j' ""jack's,"" 'jack-o-laterns' 'jacob' 'jason' 'joker' 'just' 'king'
+ 'kooky' 'kreugar' 'lavagirl' 'life' 'like' 'live' 'magic' 'man' 'mean'
+ 'mean?' 'medical' 'mice' 'mix' 'monster' 'monsters' 'morgan' 'movie'
+ 'mummies' 'mummy,' 'my' 'new' 'newish' 'no' 'nude' 'number' 'nurse' 'or'
+ 'party' 'pilgrim' 'pilot' 'pirate' 'playboy' 'playing' 'really' 'rock'
+ 'rose' 'run' 'sandwich' 'scary' 'school' 'scooby-doo' 'scott' 'screaming'
+ 'sexy' 'sherlock' 'shrek' 'skeletons' 'smwii' 'spooky' 'spooky,'
+ 'stephen' 'still' 'strange' 'stranger' 'summer' 'superman' 'teaming'
+ 'teens' 'thanos' 'things' 'this' 'thorn' 'throw' 'too' 'town' 'tracy'
+ 'treat' 'trick' 'turn' 'turtle' 'tweens' 'two' 'up' 'up,' 'velma' 'walk'
+ 'watching' 'werewolf' 'what' 'whatchu' 'wife' 'witches' 'with' 'wolf,'
+ 'wrestler' ""y'all"" 'ya']",12,0.003852,0.18800000000000006,0.08600000000000008,0.0158,0.222,2.0789999999999997,0.021599999999999994,0.030999999999999917,0.9850000000000136,0,0.006172839506172839
+"[""'04,"" ""'cause"" '30' '[bridge]' '[hook]' '[spooky' '[spooky]' '[verse]'
+ 'about' 'addams,' 'b*****s' 'baby' 'bar-mitzvah' 'batman' 'better'
+ 'blind' 'bourne' 'bump' 'bunny' 'can' 'candy' 'candy,' 'carrie' 'casper,'
+ 'cat' 'caught,' 'chill' 'clowns' 'conjuring' 'cookie' 'cop' 'corn'
+ 'costumes' 'cups' 'demon' 'die' 'dnd' 'doctor' 'dog' 'doin?' 'double'
+ 'dr.' 'drac' 'drinks,' 'dumb' 'eating' 'edward' 'favorite' 'feel' 'fight'
+ 'for' 'frank' 'freddy' 'gettin' 'getting' 'ghost' 'ghosts' 'ghoul' 'go'
+ 'goblins' 'gotta' 'h,' 'had' 'halloween' 'hallway' 'hands' 'hear' 'hill'
+ 'hold' 'homeboy' 'house' 'hunk' ""i'm"" 'igor' 'ii]' 'imma' 'in' 'iron'
+ 'is' ""it's"" 'its' 'j' ""jack's,"" 'jack-o-laterns' 'jacob' 'jason' 'joker'
+ 'just' 'king' 'know' 'kooky' 'kreugar' 'lavagirl' 'life' 'like' 'live'
+ 'magic' 'man' 'me' 'mean' 'mean?' 'medical' 'mice' 'mix' 'monster'
+ 'monsters' 'morgan' 'movie' 'mummies' 'mummy,' 'my' 'new' 'newish' 'no'
+ 'not' 'nude' 'number' 'nurse' 'or' 'party' 'pilgrim' 'pilot' 'pirate'
+ 'playboy' 'playing' 'really' 'rock' 'rose' 'run' 'sandwich' 'scary'
+ 'school' 'scooby-doo' 'scott' 'screaming' 'sexy' 'sherlock' 'shrek'
+ 'skeletons' 'smwii' 'spooky' 'spooky,' 'stephen' 'still' 'strange'
+ 'stranger' 'summer' 'superman' 'teaming' 'teens' 'thanos' 'that' 'the'
+ 'things' 'this' 'thorn' 'throw' 'too' 'town' 'tracy' 'treat' 'trick'
+ 'turn' 'turtle' 'tweens' 'two' 'up' 'up,' 'velma' 'walk' 'watching' 'way'
+ 'werewolf' 'what' 'whatchu' 'wife' 'witches' 'wolf,' 'wrestler' ""y'all""
+ 'ya' 'your']",12,0.003852,0.18800000000000006,0.08600000000000008,0.0158,0.222,2.0789999999999997,0.021599999999999994,0.030999999999999917,0.9850000000000136,0,0.06331569664902997
 "['""ohh,' '&' ""'bout"" '(britney,' '1:' '2:' '3:' '[break:' '[bridge:'
  '[chorus:' '[interlude:' '[intro:' '[outro:' '[verse' 'action' ""ain't""
  'are' 'at' 'aw' 'ay' 'beat,' 'better' 'bitch)' 'blow' 'blow,' 'bottom,'
@@ -2897,7 +2998,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'spears' 'spears]' ""talkin'"" 'that' 'the' 'them' 'then' 'they' 'this'
  'together' 'turn' 'up' 'us' 'wanna' 'was' ""watchin'"" 'we' 'wee' 'what'
  'when' 'will.i.am' 'will.i.am]' 'wish' 'with' 'would' 'yeah' 'yo' 'you'
- ""you're""]",52,0.0192,0.013000000000000012,0.09400000000000008,8.96e-05,0.029000000000000012,1.2189999999999994,0.004299999999999998,0.008000000000000007,0.03099999999997749,9,0.1357843137254902
+ ""you're""]",53,0.0192,0.013000000000000012,0.09400000000000008,8.96e-05,0.029000000000000012,1.2189999999999994,0.004299999999999998,0.008000000000000007,0.03099999999997749,9,0.1357843137254902
 "['""why' '1]' '2]' '[bridge]' '[chorus]' '[outro]' '[post-chorus]'
  '[pre-chorus]' '[verse' ""halley's"" ""here's"" 'life' 'place?""' 'realize,'
  'said,' 'saying...' 'way,' 'well']",58,0.00158,0.15800000000000003,0.04799999999999993,0.096,0.029000000000000012,3.3049999999999997,0.0857,0.008000000000000007,99.95100000000002,0,0.0012867754576826318
@@ -2987,11 +3088,11 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'this' 'throw' ""thuggin'"" 'tina' 'tip' 'today' 'trainer,' 'trick' 'tryna'
  'turn' 'two-seater' 'uh,' 'unplugged' 'urgent,' 'v,' 'vic,' 'wanna' 'was'
  'water,' 'watts' 'way' 'wear' 'whip,' 'white' 'whole' 'with' 'workers'
- 'yeah)' 'yeah,' 'yerp' 'yup,']",63,0.0007800000000000001,0.274,0.0050000000000000044,2.32e-06,0.41759999999999997,2.092999999999998,0.3389,0.499,30.07499999999999,6,0.06501892674237364
+ 'yeah)' 'yeah,' 'yerp' 'yup,']",62,0.0007800000000000001,0.274,0.0050000000000000044,2.32e-06,0.41759999999999997,2.092999999999998,0.3389,0.499,30.07499999999999,6,0.06501892674237364
 "['(silver' '(strings' 'bells...)' 'christmastime' 'crush' 'green)' ""it'll""
- 'passing,' 'scene)' 'you']",37,0.8568,0.32299999999999995,0.504,0.0,0.25029999999999997,9.388000000000002,0.0026999999999999975,0.1150000000000001,31.917000000000016,0,0.0273972602739726
+ 'passing,' 'scene)' 'you']",38,0.8568,0.32299999999999995,0.504,0.0,0.25029999999999997,9.388000000000002,0.0026999999999999975,0.1150000000000001,31.917000000000016,0,0.0273972602739726
 "['(silver' '(strings' 'bells...)' 'christmastime' 'crush' 'green)' ""it'll""
- 'passing,' 'scene)' 'you']",37,0.8568,0.32299999999999995,0.504,0.0,0.25029999999999997,9.388000000000002,0.0026999999999999975,0.1150000000000001,31.917000000000016,0,0.0273972602739726
+ 'passing,' 'scene)' 'you']",38,0.8568,0.32299999999999995,0.504,0.0,0.25029999999999997,9.388000000000002,0.0026999999999999975,0.1150000000000001,31.917000000000016,0,0.0273972602739726
 "['""i' '(be' '(i' '(since' '(thanks' '(you' '1]' '2]' '[bridge]' '[chorus'
  '[chorus]' '[outro]' '[pre-chorus' '[verse' 'cool,' 'get)' 'gone)' ""i'd""
  'know)' 'now' 'pictured' 'thanks' 'till' 'to' 'you""' 'you)' 'you,']",60,0.19435,0.08700000000000008,0.018000000000000016,0.030273500000000002,0.0040000000000000036,1.8889999999999985,0.0162,0.01600000000000007,0.025000000000005684,0,0.07028926736955929
@@ -3088,7 +3189,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'phone,' 'privacy?' 'psycho' 'rockwell]' 'somebody’s' 'tv' 'watching?)'
  'why...' 'you' 'zone']",33,0.027899999999999998,0.04899999999999993,0.020999999999999908,8.08e-05,0.319,2.5919999999999996,0.0131,0.16399999999999992,2.1129999999999995,0,0.0018633540372670898
 "['(now' '(that' '1:' '2:' '3:' '[chorus:' '[outro:' '[verse' 'die' 'end,'
- 'gotye]' 'kimbra]' 'no,' 'well,']",55,0.11299999999999993,0.029999999999999916,0.027000000000000024,7.0000000000000075e-06,0.052000000000000005,0.3169999999999993,0.003999999999999997,0.22499999999999998,0.046999999999997044,0,0.02090079481895793
+ 'gotye]' 'kimbra]' 'no,' 'well,']",55,0.13899999999999996,0.03700000000000003,0.0050000000000000044,6.9e-05,0.0548,0.2529999999999992,0.002600000000000005,0.19099999999999995,0.04600000000002069,0,0.02090079481895793
 "[""'til"" '(at' '(can' '(down)' '(everyday)' '(find' '(goes' '(he' ""(he's""
  '(knees)' '(oh,' '(one' '(please)' '(praise' '(somebody' '(somebody)'
  '(take' '(yeah,' '(you' '1]' '2]' '3]' '[bridge]' '[chorus]' '[intro]'
@@ -3108,7 +3209,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  '[verse' 'anymore' 'back' 'bed' 'dad' 'die' 'distance,' 'eyes' 'fuck'
  'hands' 'hear' 'home' 'i,' 'it?' 'like' 'lord,' 'miss' 'mom' 'night,'
  'nights,' 'no' 'so' 'so,' 'sold' 'songs,' 'soul' 'sound' 'stars,' 'swan'
- 'then' 'this?' 'washed' 'who,' 'win' 'win)']",50,0.010420000000000002,0.03700000000000003,0.04899999999999993,6.75e-05,0.20029999999999998,1.6159999999999997,0.018999999999999996,0.14300000000000002,0.09599999999998943,1,0.043113101903695425
+ 'then' 'this?' 'washed' 'who,' 'win' 'win)']",51,0.010420000000000002,0.03700000000000003,0.04899999999999993,6.75e-05,0.20029999999999998,1.6159999999999997,0.018999999999999996,0.14300000000000002,0.09599999999998943,1,0.043113101903695425
 "['""don\'t' '""sometimes' '1]' '2]' '[breakdown]' '[bridge]' '[chorus]'
  '[pre-chorus]' '[verse' 'beg' 'instead.""' 'married' 'me,""' 'remember,']",64,0.15200000000000002,0.0129999999999999,0.046999999999999986,0.0,0.0305,0.6800000000000033,0.0009000000000000015,0.09600000000000003,0.01099999999999568,0,0.007168784029038113
 ['1:' '2:' '[bridge:' '[chorus:' '[pre-chorus:' 'chris' 'martin]'],54,0.028999999999999998,0.07599999999999996,0.08400000000000007,1.44e-05,0.09800000000000003,3.419,0.003599999999999999,0.14799999999999996,102.738,0,0.02848297213622289
@@ -3122,7 +3223,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'regret,' 'revenge' 'right' 'savage' 'see' ""showin'"" 'sorry)' 'stings'
  'such' 'tables' 'talk' 'talk,' 'technicolor,' 'tell' 'ten,' 'things'
  'this,' 'thought' 'turned' 'under' 'up' 'walk' 'walk,' 'way' 'worse'
- 'would' 'ya,' ""you'll"" ""you're""]",36,0.011300000000000004,0.11799999999999988,0.016000000000000014,0.0,0.0020000000000000018,1.1719999999999997,0.1548,0.33699999999999997,44.041,6,0.0052736006683375
+ 'would' 'ya,' ""you'll"" ""you're""]",37,0.011300000000000004,0.11799999999999988,0.016000000000000014,0.0,0.0020000000000000018,1.1719999999999997,0.1548,0.33699999999999997,44.041,6,0.0052736006683375
 "['bitch' ""fuckin'"" 'oh,' 'payback' 'ten,']",44,0.0315,0.025000000000000022,0.029000000000000026,0.0,0.025999999999999995,2.7110000000000003,0.07,0.05799999999999994,0.014999999999986358,6,0.12171052631578948
 "['(more' '(part-time' '(we' '1]' '2]' '[chorus]' '[drop]' '[outro]'
  '[verse' ""actin'"" 'again,' 'as' 'bag' 'be' 'be)' 'begin' 'bleed' 'blow'
@@ -3185,7 +3286,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'our' 'out' 'pain' 'play' 'please,' 'pour' 'put' 'right' 'said' 'shit'
  'solo]' 'talk' 'tell' 'things' 'think' 'this' 'too' 'to—' 'true' 'truth'
  'up,' 'used' ""view's"" ""waitin'"" 'want' ""we're"" 'went' 'when' 'who' 'with'
- 'woman' 'wrong,']",45,0.10199999999999998,0.22299999999999998,0.11299999999999999,0.0,0.05300000000000002,2.439999999999998,0.011700000000000002,0.244,16.045,2,0.2208041958041958
+ 'woman' 'wrong,']",46,0.10199999999999998,0.22299999999999998,0.11299999999999999,0.0,0.05300000000000002,2.439999999999998,0.011700000000000002,0.244,16.045,2,0.2208041958041958
 "['&' ""'cause"" '1:' '2:' '[bridge:' '[chorus:' '[intro]' '[pre-chorus:'
  '[verse' 'but' 'cream,' 'dreams,' 'exist,' 'harry' 'harry]' 'have'
  'jeans,' 'liam' 'liam]' 'louis]' 'love,' 'mean' 'mum' 'niall]' 'oh' 'oh,'
@@ -3219,7 +3320,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'partynextdoor]' 'real' 'right' 'slo-owly' 'so' 'something,' 'truthfully'
  ""wasn't"" 'well,' 'ya' 'yea' 'yea,' 'young,' 'zayn' 'zayn]']",38,0.398,0.07100000000000006,0.0010000000000000009,0.0,0.009399999999999992,0.367,0.036599999999999994,0.15300000000000002,0.003999999999990678,0,0.04152557476385671
 "['1]' '2]' '[bridge]' '[chorus]' '[outro]' '[pre-chorus]' '[verse' 'along'
- 'cause' 'feel,' 'just,' 'that,' 'ya']",58,0.00245,0.029000000000000026,0.07000000000000006,0.0,0.017200000000000007,0.35199999999999987,0.0030000000000000027,0.13,0.06700000000000728,0,0.0009018759018759002
+ 'cause' 'feel,' 'just,' 'that,' 'ya']",57,0.00245,0.029000000000000026,0.07000000000000006,0.0,0.017200000000000007,0.35199999999999987,0.0030000000000000027,0.13,0.06700000000000728,0,0.0009018759018759002
 "['1]' '2]' '[bridge]' '[chorus]' '[music' '[outro]' '[pre-chorus]'
  'bitter' 'lured' 'red' 'video]']",37,0.1078,0.061999999999999944,0.02400000000000002,0.0,0.019400000000000008,1.2999999999999998,0.036000000000000004,0.07599999999999996,74.89500000000001,0,0.015445975344452523
 "[""'til"" '1]' '2]' '[chorus]' '[outro]' '[verse' 'hands' 'killing'
@@ -3390,7 +3491,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'no!' 'not' 'not,' 'oh' 'oh...' 'olympus' 'out' 'piping,' 'play' 'ready,'
  'red-nosed' 'reindeer!' 'rings!' 'rings!)' 'rings,' 'rudolph' 'serengeti'
  'shall' 'shout,' 'so' 'so)' 'swimming,' 'they' 'things' 'we' 'were'
- 'when' 'whoa,' 'with' 'you']",19,0.8203999999999999,0.04600000000000004,0.637,0.0,0.145,8.451,0.2643,0.42399999999999993,26.840000000000018,0,0.016917958519147708
+ 'when' 'whoa,' 'with' 'you']",20,0.8203999999999999,0.04600000000000004,0.637,0.0,0.145,8.451,0.2643,0.42399999999999993,26.840000000000018,0,0.016917958519147708
 "['&' ""'bout"" ""'cause"" '(back)' '(brrr)' ""(celebramo';"" '(crazy)' '(crazy,'
  ""(don't"" '(eh)' '(eh-eh)' '(ey)' '(family)' '(go)' '(hey)' '(mean)'
  '(no!)' '(no)' '(nos' '(ooh)' '(problems)' '(raah,' '(rude)' '(stick'
@@ -3409,7 +3510,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'right,' 'rock' ""rubbin'"" 'rude' 'say' 'should' ""shouldn't"" 'show' 'si'
  ""somethin'?"" ""startin'"" 'stick' 'te' 'that' ""that's"" 'think' 'this'
  ""traicionamo'"" 'twice' 'twice)' 'up!' 'ups' 'wall' 'wanna' 'war' 'way,'
- 'we' 'who' 'why' 'wig' 'with' 'wrong' 'y' 'yeah' 'yeah)' 'yeah,' ""you're""]",31,0.308877,0.41200000000000003,0.07700000000000007,0.000609,0.0050000000000000044,0.609,0.0165,0.07799999999999996,44.257000000000005,0,0.16688190558186253
+ 'we' 'who' 'why' 'wig' 'with' 'wrong' 'y' 'yeah' 'yeah)' 'yeah,' ""you're""]",32,0.308877,0.41200000000000003,0.07700000000000007,0.000609,0.0050000000000000044,0.609,0.0165,0.07799999999999996,44.257000000000005,0,0.16688190558186253
 "['""you\'ll' ""'cause..."" '1]' '2]' '[chorus]' '[instrumental' '[outro]'
  '[pre-chorus' '[verse' 'about,' 'ain’t' 'all' 'bridge]' 'climbing'
  'direction' 'down,' 'dreaming,' 'facing' 'it""' 'lost,' 'moving' 'on,'
@@ -3417,7 +3518,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
 "['1]' '2]' '[chorus]' '[pre-chorus]' '[saxophone' '[verse' 'baby'
  'belong,' 'but' 'glory' ""hangin'"" 'hot' 'life,' ""limit's"" 'name,' 'rush'
  'shot,' 'solo]' 'you-hoo']",40,0.00012699999999999997,0.030000000000000027,0.04500000000000004,0.018827999999999998,0.001999999999999988,0.6069999999999993,0.0031000000000000055,0.3780000000000001,0.03300000000000125,0,0.007848520955291927
-"['1]' '2]' '3]' '[chorus]' '[pre-chorus]' '[verse' 'come' 'know,' ""she's""]",32,0.38412999999999997,0.15499999999999992,0.13900000000000012,0.004229999999999999,0.14600000000000002,0.32599999999999874,0.0023999999999999994,0.065,79.168,0,0.028990185950413222
+"['1]' '2]' '3]' '[chorus]' '[pre-chorus]' '[verse' 'come' 'know,' ""she's""]",33,0.38412999999999997,0.15499999999999992,0.13900000000000012,0.004229999999999999,0.14600000000000002,0.32599999999999874,0.0023999999999999994,0.065,79.168,0,0.028990185950413222
 "['""a-hee-ahee' '""a-oo-oo-oo-ooo!' '""blub""' '""croak""'
  '""fraka-kaka-kaka-kaka-kow!' '""hatee-hatee-hatee-ho!'
  '""jacha-chacha-chacha-chow!' '""joff-tchoff-tchoffo-tchoffo-tchoff!'
@@ -3445,7 +3546,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'side' 'side)' 'simple,' 'sip' 'slide' 'slide)' 'slip' 'so' 'some' 'spin'
  'sweetheart' 'take' 'that' 'that,' 'then' 'throw' 'time' 'two-step,' 'uh'
  'up' 'up,' 'was' 'was,' 'whatever' 'with' 'worries' 'you' ""you're"" 'your'
- 'yourself,']",39,0.03710000000000001,0.041000000000000036,0.12900000000000011,0.0,0.05199999999999999,3.067,0.022400000000000003,0.2709999999999999,0.006999999999990791,0,0.12770862148455508
+ 'yourself,']",38,0.03710000000000001,0.041000000000000036,0.12900000000000011,0.0,0.05199999999999999,3.067,0.022400000000000003,0.2709999999999999,0.006999999999990791,0,0.12770862148455508
 "['1]' '2]' '[bridge]' '[chorus]' '[outro]' '[verse' 'away' 'burn' 'cry'
  'die' 'drunk' 'get' 'goodbye' 'lets' 'me' 'side,']",55,0.00406,0.061,0.1479999999999999,0.0,0.09710000000000002,3.0980000000000008,0.0167,0.064,0.0519999999999925,0,0.09582084582084582
 "['(wants,' '1]' '2]' '[bridge]' '[chorus]' '[intro]' '[outro]'
@@ -3652,7 +3753,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'everything,' 'give)' 'hand,' 'hey)' 'hey,' 'know)' 'know...' 'letting'
  'loving' 'me)' 'mmh' 'na-na)' 'no' 'no)' 'no,' 'no-ooh' 'no-ooh-ooh'
  'no...' 'oh,' 'on' 'ooh)' 'ooh,' 'stay' ""there's"" 'uh' 'wait,' 'words,'
- 'wrong,' 'ya' 'yeah!' 'yeah)' 'your']",60,0.20598,0.10899999999999999,0.413,0.019,0.010999999999999927,5.391000000000002,0.022200000000000004,0.08600000000000002,27.799999999999997,0,0.0051273382916385
+ 'wrong,' 'ya' 'yeah!' 'yeah)' 'your']",61,0.20598,0.10899999999999999,0.413,0.019,0.010999999999999927,5.391000000000002,0.022200000000000004,0.08600000000000002,27.799999999999997,0,0.0051273382916385
 "[""'round"" '(i' '(toxic)' '1]' '2]' '[chorus]' '[outro]' '[pre-chorus'
  '[verse' 'calling?' 'escape,' 'falling' 'head,' 'hit,' 'intoxicate' 'now'
  'now)' 'paradise' 'ready' 'see' ""slippin'"" 'slowly,' ""spinnin'"" 'think'
@@ -3724,11 +3825,11 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'make' 'never' 'night' 'nobody' 'now' 'pain' 'paradise' 'pay' 'price'
  'psychotic' 'pulling' 'release' 'ruin' 'run' 'save' 'say,' 'seal' 'shout'
  'sip' 'straight' 'swallow' 'sweet' 'take' 'taste,' ""that's"" 'there'
- 'through' 'tonight,' 'underground' 'when' ""won't"" ""you'll""]",56,0.24881,0.20499999999999996,0.492,1.8100000000000006e-05,0.01899999999999996,7.926,0.0286,0.014999999999999902,17.036,0,0.15666901905434016
+ 'through' 'tonight,' 'underground' 'when' ""won't"" ""you'll""]",57,0.24881,0.20499999999999996,0.492,1.8100000000000006e-05,0.01899999999999996,7.926,0.0286,0.014999999999999902,17.036,0,0.15666901905434016
 "['&' ""'cause"" ""'cause,"" '(hey,' '1:' '2:' '[bridge:' '[chorus:' '[outro:'
  '[verse' 'baby,' 'boys' 'eyes,' 'girls' 'girls]' 'hey)' 'hey,' ""i'll""
  'know,' 'like' 'nothing' 'ooh,' 'something' 'swift]' 'taste' 'taylor'
- 'thinking,' 'thought,']",55,0.1493,0.0040000000000000036,0.13200000000000012,0.000315,0.051199999999999996,3.4589999999999996,0.0051,0.044999999999999984,0.030000000000001137,0,0.07780448717948715
+ 'then' 'thinking,' 'thought,' 'yeah' 'yeah,']",55,0.1493,0.0040000000000000036,0.13200000000000012,0.000315,0.051199999999999996,3.4589999999999996,0.0051,0.044999999999999984,0.030000000000001137,0,0.08580491673275178
 "['""why?""' '(hah)' '(hey,' ""(i'm"" ""(i'ma"" ""(it's"" '(oh,' '(oh-oh-oh-oh,'
  '(sick' '(you' '1]' '2]' '[bridge]' '[chorus]' '[intro]' '[outro]'
  '[pre-chorus' '[verse' 'again,' ""ain't"" 'alright)' 'around' 'at' 'being'
@@ -3840,8 +3941,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
 "['1]' '2]' '3]' '4]' '[chorus]' '[instrumental' '[instrumental]' '[verse'
  'aa-hooo!' 'amuck' 'chaney,' 'doing' 'drinking' ""fook's"" 'gent'
  'hairy-handed' 'howling' 'if' 'introduction]' 'london!' 'looking' 'out,'
- 'perfect!' 'walking']",26,0.08320000000000001,0.11699999999999999,0.14500000000000002,0.01349097,0.29080000000000006,1.556000000000001,0.0014999999999999979,0.06000000000000005,0.7190000000000083,0,0.001161440185830434
-[],0,0.0,0.0,1.1102230246251565e-16,0.0,0.0,4.440892098500626e-16,1.3877787807814457e-17,0.0,0.0,0,0.0
+ 'perfect!' 'walking']",27,0.08320000000000001,0.11699999999999999,0.14500000000000002,0.01349097,0.29080000000000006,1.556000000000001,0.0014999999999999979,0.06000000000000005,0.7190000000000083,0,0.001161440185830434
 "['1]' '2]' '3]' '[bridge]' '[chorus]' '[outro]' '[verse' 'baby,' 'come'
  'far' 'here' 'hold' 'just' 'late' 'night' 'now' 'on' 'scars' ""we're""
  ""we've""]",49,0.0955,0.11099999999999999,0.279,0.0,0.0077999999999999875,4.683999999999999,0.017199999999999997,0.03699999999999998,80.90700000000001,0,0.011337011563751803
@@ -4032,7 +4132,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'tea,' 'there' 'think' 'thoughts' 'through?' 'too' 'toothpick' 'tried'
  'tryna' 'twice,' ""tyson's"" 'undercover' 'until' 'up,' 'visualize' 'wanna'
  'want' 'watch' 'way' 'who' 'why' 'wi-wi-wi-witch' 'without' ""won't""
- 'world' ""y'all"" 'yeah)' '—' '‘n']",13,0.2843,0.04599999999999993,0.07999999999999996,2.16e-06,0.16799999999999998,0.7019999999999991,0.1751,0.647,38.442999999999984,35,0.31175967761631457
+ 'world' ""y'all"" 'yeah)' '—' '‘n']",14,0.2843,0.04599999999999993,0.07999999999999996,2.16e-06,0.16799999999999998,0.7019999999999991,0.1751,0.647,38.442999999999984,35,0.31175967761631457
 "['demons' 'fuck' 'high' 'high,']",51,0.2740000000000001,0.01100000000000001,0.05700000000000005,9.11e-06,0.0724,1.875,0.021199999999999997,0.09200000000000008,0.015999999999991132,2,0.036036036036036036
 "['1]' '2]' '[bridge]' '[chorus]' '[instrumental' '[verse' 'a' 'about'
  'anywhere' 'as' 'at' 'away' 'baby' 'better' 'bridge]' 'can' 'colder'
@@ -4061,7 +4161,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  '뭐가' '별' '사소하지' '사소한' '삶은' '상처' '상처는' '세계의' '습관들까지,' '시' '싶어' '싶어,'
  '아니었다고' '아닌' '않게' '알게' '알겠어' '여긴' '열까지' '영웅이' '온통' '운명' '위한' '이제' '이카루스의'
  '이후' '있어' '작던' '작은' '저' '전부를' '조금은' '준' '줬던' '지킬' '질서' '처음부터' '커져버린'
- '태양이' '툭' '특별하지' '평화' '하나부터' '하는지' '하늘을' '함께하고' '해달라며' '했어' '행복하게' '힘이']",42,0.03409999999999999,0.017000000000000015,0.010000000000000009,0.0,0.04600000000000001,0.9800000000000004,0.0505,0.13400000000000012,0.020000000000010232,0,0.14816810344827588
+ '태양이' '툭' '특별하지' '평화' '하나부터' '하는지' '하늘을' '함께하고' '해달라며' '했어' '행복하게' '힘이']",43,0.03409999999999999,0.017000000000000015,0.010000000000000009,0.0,0.04600000000000001,0.9800000000000004,0.0505,0.13400000000000012,0.020000000000010232,0,0.14816810344827588
 "['divine,' 'drunk' 'wine,']",49,0.020000000000000018,0.07600000000000007,0.0030000000000001137,0.0,0.07499999999999998,1.8519999999999999,0.0010999999999999968,0.041000000000000036,0.19300000000001205,0,0.011764705882352948
 "['""be' '1]' '[chorus]' '[pre-chorus]' '[verse' 'ago' 'are' 'be' 'belling'
  'call' 'caroling' 'cheer""' 'christmases' 'come' 'everyone' 'for'
@@ -4134,7 +4234,7 @@ DiffWords,DiffPopularity,DiffAcousticness,DiffDanceability,DiffEnergy,DiffInstru
  'side' 'some' 'swear' 'talk,' 'tell' 'things' 'time' 'town' 'turn'
  'twice' 'walk,' 'wanna' 'way' ""we'll"" 'with' 'working' ""you're""]",55,0.010999999999999996,0.21600000000000008,0.2550000000000001,5.5e-05,0.118,1.9530000000000003,0.0973,0.132,17.505999999999986,0,0.04786197409148229
 "['&' '1:' '2:' '[bridge:' '[chorus:' '[outro:' '[pre-chorus:' 'all]'
- 'damn' 'dead' 'die""' 'drunk' 'god' 'hope' 'luke' 'luke]' 'you’re']",36,0.00802,0.07699999999999996,0.17200000000000004,0.0,0.09999999999999998,0.7230000000000016,0.40680000000000005,0.05199999999999999,0.2769999999999868,0,0.04871359540289931
+ 'damn' 'dead' 'die""' 'drunk' 'god' 'hope' 'luke' 'luke]' 'you’re']",37,0.00802,0.07699999999999996,0.17200000000000004,0.0,0.09999999999999998,0.7230000000000016,0.40680000000000005,0.05199999999999999,0.2769999999999868,0,0.04871359540289931
 "[""'til"" '(na' '1]' '2]' '[chorus]' '[intro]' '[outro]' '[verse' 'eye,'
  'face,' 'fucking' 'na' 'na)' 'na,' 'subway' 'was,' 'yeah,']",67,0.528,0.06699999999999995,0.07,1.76e-05,0.005899999999999989,0.4239999999999995,0.0001999999999999988,0.23799999999999996,0.009000000000028763,1,0.15343743222728257
 "['[bridge]' '[outro]' 'all' 'at' 'failure,' 'feet' 'god' 'have' ""i'm"" 'it'
