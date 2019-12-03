@@ -30,8 +30,7 @@ dfDiff['DiffWords'] = originalLyricsDiff
 stats = ['Popularity' , 'Acousticness', 'Danceability', 'Energy', 'Instrumentalness', 'Liveness', 'Loudness', 'Speechiness', 'Valence', 'Tempo', 'SwearCount', 'SentimentAverage']
 
 #make a list containing differences of stats for songs
-#from the set {Popularity ,Acousticness ,Danceability ,Energy ,Instrumentalness ,Liveness ,Loudness ,Speechiness,...
-#Valence, Tempo, SwearCount, SentimentAverage}
+#from the set stats
 def makeDiff(column1, column2):
     diffList = abs(np.array(column1) - np.array(column2))
     return diffList
