@@ -37,11 +37,11 @@ wordRemoved = list(map(lambda wordList: [word for word in wordList if af.score(w
 wordsAdded = list(map(lambda wordList: [word for word in wordList if af.score(word) > 0], kidzBopLyricsDiff))
 
 # averages the word differences between a Kidz Bop song and its original
-wordDiffAverage = list(map(lambda wordList1, wordList2: (len(wordList1) + len(wordList2))/2, originalLyricsDiff, kidzBopLyricsDiff))
+diffWordsAverage = list(map(lambda wordList1, wordList2: (len(wordList1) + len(wordList2))/2, originalLyricsDiff, kidzBopLyricsDiff))
 
 dfDiff['WordsRemoved'] = wordRemoved
 dfDiff['WordsAdded'] = wordsAdded
-dfDiff['DiffWordsAverage'] = wordDiffAverage
+dfDiff['DiffWordsAverage'] = diffWordsAverage
 
 #create list of available metrics to access
 stats = ['Popularity' , 'Acousticness', 'Danceability', 'Energy', 'Instrumentalness', 'Liveness', 'Loudness', 'Speechiness', 'Valence', 'Tempo', 'SwearCount', 'SentimentAverage']

@@ -25,7 +25,6 @@ af = Afinn()
 # profanity_check.predict returns a list of 1s and Os: 1 if a word is a swear word, 0 if it is not
 swearCountKidzBop = list(map(lambda lyrics: sum(profanity_check.predict(lyrics.lower().split())), list(dfKidzBop["Lyrics"])))
 swearCountOriginal = list(map(lambda lyrics: sum(profanity_check.predict(lyrics.lower().split())), list(dfOriginal["Lyrics"])))
-# print(swearCountOriginal)
 
 # appending lists to their respective dataframes
 dfKidzBop["SwearCount"] = swearCountKidzBop
@@ -45,9 +44,7 @@ def getAverageSentiment(lyrics):
 # creates a list containing the average sentiment scores of every song. 
 sentimentAverageKidzBop = list(map(getAverageSentiment, list(dfKidzBop["Lyrics"])))
 sentimentAverageOriginal = list(map(getAverageSentiment, list(dfOriginal["Lyrics"])))
-# print(sentimentAverageOriginal)
 
-# appending lists to their respective dataframes
 dfKidzBop["SentimentAverage"] = sentimentAverageKidzBop
 dfOriginal["SentimentAverage"] = sentimentAverageOriginal
 
@@ -60,9 +57,7 @@ def removeSwears(lyrics):
 
 # creates a list containing the average sentiment scores of every song, after swear words have been removed. 
 swearlessSentimentAverageOriginal = list(map(getAverageSentiment, list(map(removeSwears, list(dfOriginal["Lyrics"])))))
-# print(swearlessSentimentAverageOriginal)
 
-# appending list to its respective dataframe
 dfOriginal["SwearlessSentimentAverage"] = swearlessSentimentAverageOriginal
 
 #storing the updated dataframes in their .csv format
