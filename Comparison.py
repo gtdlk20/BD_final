@@ -14,8 +14,12 @@ dfOriginal = pd.read_csv("OriginalTable.csv")
 dfDiff = pd.DataFrame()
 dfDiff['Title'] = list(dfOriginal['Title'])
 
-#determines which words are different from one set of lyrics to the next
+# determines which words are different from one set of lyrics to the next
+# WE NEED TO IMPROVE THIS METHOD
 def compareLyrics(lyrics1, lyrics2):
+    #removes section headers from lyrics
+    lyrics1 = re.sub("[\(\[].*?[\)\]]", "", lyrics1)
+    lyrics2 = re.sub("[\(\[].*?[\)\]]", "", lyrics2)
     wordsList1 = np.array(lyrics1.lower().split())
     wordsList2 = np.array(lyrics2.lower().split())
     # what words are in lyrics 1, but not lyrics 2
