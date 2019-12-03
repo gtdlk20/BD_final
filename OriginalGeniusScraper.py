@@ -19,7 +19,7 @@ client_credentials_manager = SpotifyClientCredentials(client_id=client_id, clien
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) 
 
 #creating a new pandas dataframe
-df = pd.DataFrame(columns=['Title', 'Artist', 'ReleaseDate', 'Lyrics', 'Popularity', 'Acousticness', 
+df = pd.DataFrame(columns=['Title', 'Artist', 'ReleaseDate', 'Lyrics', 'Genres', 'Popularity', 'Acousticness', 
 'Danceability', 'Energy', 'Instrumentalness', 'Liveness', 'Loudness', 'Speechiness', 'Valence', 'Tempo'])
 
 #looping through the Kidz Bop dataframe
@@ -27,14 +27,16 @@ for index, row in dfKidzBop.iterrows():
     kidzBopTitle = row['Title']
     try:
         # scraping Spotify data (original song)
-        spotifyID = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', kidzBopTitle), type = 'track')['tracks']['items'][0]['id']
-        track = sp.track(spotifyID)
-        audio_features = sp.audio_features(spotifyID)[0]
+        search = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', kidzBopTitle), type = 'track')['tracks']['items'][0]
+        track = sp.track(search['id'])
+        artist = sp.artist(search['artists'][0]['id'])
+        audio_features = sp.audio_features(search['id'])[0]
         # formatting Spotify data
         title = track['name']
-        artist = track['artists'][0]['name']
+        artistName = track['artists'][0]['name']
         releaseDate = track['album']['release_date']
         popularity = track['popularity']
+        genres = artist['genres']
         acousticness = audio_features['acousticness']
         danceability = audio_features['danceability']
         energy = audio_features['energy']
@@ -45,9 +47,9 @@ for index, row in dfKidzBop.iterrows():
         valence = audio_features['valence']
         tempo = audio_features['tempo']
         # scraping Genius data (original song)
-        song = genius.search_song(re.sub('\([^)]*\)|-.*', '', title), re.sub('\([^)]*\)|-.*', '', artist))
+        song = genius.search_song(re.sub('\([^)]*\)|-.*', '', title), re.sub('\([^)]*\)|-.*', '', artistName))
         # appending to df
-        df = df.append(dict(zip(df.columns, [kidzBopTitle, artist, releaseDate, song.lyrics, popularity,
+        df = df.append(dict(zip(df.columns, [kidzBopTitle, artistName, releaseDate, song.lyrics, genres, popularity,
         acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
     except:
         print("Match for " + kidzBopTitle + " not found.")

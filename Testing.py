@@ -23,10 +23,6 @@ dfKidzBop = pd.read_csv("KidzBopTable.csv")
 #reading in OriginalTable as pandas dataframe
 dfOriginal = pd.read_csv("OriginalTable.csv")
 
-# song = sp.search(q = "Old Town Road", type = 'track')['tracks']['items']
-
-# print(len(song))
-
 # code below won't not include kidz bop songs for some reason
 # scrapes = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', "Club Can't Handle Me"), type = 'track')['tracks']['items']
 # titleMatches = [scrape['name'] for scrape in scrapes if scrape['artist'][0]['name'] != "Kidz Bop Kids"]
@@ -35,41 +31,4 @@ dfOriginal = pd.read_csv("OriginalTable.csv")
 
 # print(titleMatches)
 # print(indexMatch)
-
-# Spotify id 
-# SpotifyID = song[0]['id']
-
-# song info fron get a track 
-# print(sp.track(SpotifyID)['name'])
-# print(sp.track(SpotifyID)['artists'][0]['name'])
-# print(sp.track(SpotifyID)['popularity'])
-# print(sp.track(SpotifyID)['album']['name'])
-
-# song audio info from get audio features
-# print(sp.audio_features(SpotifyID)[0]['danceability'])
-
-# print(genius.search_song('kidzBopSong', 'originalArtist'))
-
-# print(re.sub("[^a-zA-Z0-9\s]", '', "1 Thing"))
-
-# song = genius.search_song("All You Need Is Love - 2009 Remaster", 'The Beatles')
-# print(song.lyrics)
-
-# song = genius.search_song("All You Need Is Love    ", 'The Beatles')
-# print(song.lyrics)
-
-
-# title = 'Ain\'t no thank - da police'
-# print(re.sub('\([^)]*\)|-.*|[^a-zA-Z0-9\s]', '', title))
-
-# wordsList = np.array(["Fuck", "Sup", 'Bro'])
-# swearsList = np.array([1, 0, 0])
-# wordsList = np.delete(wordsList, np.where(swearsList == 1)[0])
-# print(wordsList)
-
-# song1 = np.array(list(dfKidzBop["Lyrics"])[0].lower().split())
-# song2 = np.array(list(dfOriginal["Lyrics"])[0].lower().split())
-
-# main_list = np.setdiff1d(song1,song2)
-# print(main_list)
 

@@ -25,10 +25,10 @@ df = pd.DataFrame(columns=['Title', 'Artist', 'ReleaseDate', 'Lyrics', 'Populari
 for song in kidzbop.songs:
     try:
         # scraping Spotify data
-        spotifyID = sp.search(q = ("artist:Kidz Bop Kids track:" + re.sub("\([^)]*\)|-.*|[^a-zA-Z0-9\s]", '', song.title)), 
+        trackID = sp.search(q = ("artist:Kidz Bop Kids track:" + re.sub("\([^)]*\)|-.*|[^a-zA-Z0-9\s]", '', song.title)), 
         type = 'track')['tracks']['items'][0]['id']
-        track = sp.track(spotifyID)
-        audio_features = sp.audio_features(spotifyID)[0]
+        track = sp.track(trackID)
+        audio_features = sp.audio_features(trackID)[0]
         # formatting Spotify data
         title = track['name']
         releaseDate = track['album']['release_date']
