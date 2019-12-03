@@ -5,7 +5,6 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials 
 import numpy as np
 import Levenshtein as lev
-# import profanity_check
 
 #accessing Genius API (thank you johnwmillr!)
 login_token = "tAZ1oU_T0GXCZmxobxkvY0YJDSj3Kj5Tm7_Ta_LnnNJ4-35MYKi21hBeTJPUtC6U"
@@ -23,14 +22,6 @@ dfKidzBop = pd.read_csv("KidzBopTable.csv")
 #reading in OriginalTable as pandas dataframe
 dfOriginal = pd.read_csv("OriginalTable.csv")
 
-# code below won't not include kidz bop songs for some reason
-# scrapes = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', "Club Can't Handle Me"), type = 'track')['tracks']['items']
-# titleMatches = [scrape['name'] for scrape in scrapes if scrape['artist'][0]['name'] != "Kidz Bop Kids"]
-# indexMatch = np.argmin(np.array([lev.distance(titleMatch, "Club Can't Handle Me") for titleMatch in titleMatches])) 
-# SpotifyID = scrapes[indexMatch]['id']
-
-# print(titleMatches)
-# print(indexMatch)
-
-# song = genius.search_song(re.sub('\([^)]*\)|-.*', '', "Old Town Road"), re.sub('\([^)]*\)|-.*', '', 'Lil Nas X'))
-# print(song.year)
+# print(list(dfOriginal.loc[dfOriginal['Title'] == 'Too Close', 'Lyrics']))
+# print("\n Kidz Bop \n")
+# print(list(dfKidzBop.loc[dfKidzBop['Title'] == 'Too Close', 'Lyrics']))

@@ -18,7 +18,6 @@ dfDiff = pd.DataFrame()
 dfDiff['Title'] = list(dfOriginal['Title'])
 
 # determines which words are different from one set of lyrics to the next
-# WE NEED TO IMPROVE THIS METHOD
 def compareLyrics(lyrics1, lyrics2):
     #removes section headers and punctuation from lyrics
     lyrics1 = re.sub("[\(\[].*?[\)\]]|[^a-zA-Z0-9\s]", "", lyrics1)

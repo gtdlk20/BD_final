@@ -4,11 +4,12 @@ import pandas as pd
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials 
 import Levenshtein as lev
+import numpy as np
 
 #reading in KidzBopTable as pandas dataframe
 dfKidzBop = pd.read_csv("KidzBopTable.csv") 
 
-#accessing Genius API (thank you johnwmillr!)
+#accessing Genius API
 login_token = "tAZ1oU_T0GXCZmxobxkvY0YJDSj3Kj5Tm7_Ta_LnnNJ4-35MYKi21hBeTJPUtC6U"
 genius = lg.Genius(login_token)
 
@@ -27,17 +28,29 @@ for index, row in dfKidzBop.iterrows():
     kidzBopTitle = row['Title']
     try:
         # scraping Spotify data (original song)
-        search = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', kidzBopTitle), type = 'track')['tracks']['items'][0]
-        track = sp.track(search['id'])
-        artist = sp.artist(search['artists'][0]['id'])
-        audio_features = sp.audio_features(search['id'])[0]
+        searches = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', kidzBopTitle), type = 'track')['tracks']['items']
+        artists = np.array([search['artists'][0]['name'] for search in searches])
+        kidzBopIndex = list(np.where(artists == 'Kidz Bop Kids')[0])
+        for index in sorted(kidzBopIndex, reverse=True):
+            del searches[index]
+
+        kidzBopLyrics = row['Lyrics']
+        lyricsList = np.array([genius.search_song(re.sub('\([^)]*\)|-.*', '', 
+        search['name']), search['artists'][0]['name']).lyrics for search in searches])
+        
+        index = np.argmin(list(map(lambda lyrics: len(np.setdiff1d(kidzBopLyrics.lower().split(), 
+        lyrics.lower().split())), lyricsList)))
+
+        lyrics = lyricsList[index]
+        track = sp.track(searches[index]['id'])
+        artist = sp.artist(searches[index]['artists'][0]['id'])
+        audio_features = sp.audio_features(searches[index]['id'])[0]
+
         # formatting Spotify data
         title = track['name']
         releaseDate = track['album']['release_date']
         popularity = track['popularity']
         artistName = artist['name']
-        if artistName == 'Kidz Bop Kids':
-            raise Exception()
         genres = artist['genres']
         acousticness = audio_features['acousticness']
         danceability = audio_features['danceability']
@@ -48,10 +61,9 @@ for index, row in dfKidzBop.iterrows():
         speechiness = audio_features['speechiness']
         valence = audio_features['valence']
         tempo = audio_features['tempo']
-        # scraping Genius data (original song)
-        song = genius.search_song(re.sub('\([^)]*\)|-.*', '', title), re.sub('\([^)]*\)|-.*', '', artistName))
+        
         # appending to df
-        df = df.append(dict(zip(df.columns, [kidzBopTitle, artistName, releaseDate, song.lyrics, genres, popularity,
+        df = df.append(dict(zip(df.columns, [kidzBopTitle, artistName, releaseDate, lyrics, genres, popularity,
         acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
     except:
         print("Complete match for " + kidzBopTitle + " not found.")
