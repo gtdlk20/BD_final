@@ -45,7 +45,7 @@ stats = ['Popularity' , 'Acousticness', 'Danceability', 'Energy', 'Instrumentaln
 #make a list containing differences of stats for songs
 #from the set stats
 def makeDiff(column1, column2):
-    diffList = abs(np.array(column1) - np.array(column2))
+    diffList = np.array(column1) - np.array(column2)
     return diffList
 
 for stat in stats:
