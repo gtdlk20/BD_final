@@ -33,11 +33,15 @@ originalLyricsDiff = list(map(compareLyrics, list(dfOriginal["Lyrics"]), list(df
 kidzBopLyricsDiff = list(map(compareLyrics, list(dfKidzBop["Lyrics"]), list(dfOriginal["Lyrics"])))
 
 # filters word differences using sentiment score
-removedWords = list(map(lambda wordDiff: [word for word in wordDiff if af.score(word) < 0], originalLyricsDiff))
-addedWords = list(map(lambda wordDiff: [word for word in wordDiff if af.score(word) > 0], kidzBopLyricsDiff))
+wordRemoved = list(map(lambda wordList: [word for word in wordList if af.score(word) < 0], originalLyricsDiff))
+wordsAdded = list(map(lambda wordList: [word for word in wordList if af.score(word) > 0], kidzBopLyricsDiff))
 
-dfDiff['RemovedWords'] = removedWords
-dfDiff['AddedWords'] = addedWords
+# averages the word differences between a Kidz Bop song and its original
+wordDiffAverage = list(map(lambda wordList1, wordList2: (len(wordList1) + len(wordList2))/2, originalLyricsDiff, kidzBopLyricsDiff))
+
+dfDiff['WordsRemoved'] = wordRemoved
+dfDiff['WordsAdded'] = wordsAdded
+dfDiff['DiffWordsAverage'] = wordDiffAverage
 
 #create list of available metrics to access
 stats = ['Popularity' , 'Acousticness', 'Danceability', 'Energy', 'Instrumentalness', 'Liveness', 'Loudness', 'Speechiness', 'Valence', 'Tempo', 'SwearCount', 'SentimentAverage']
