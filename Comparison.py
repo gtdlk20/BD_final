@@ -12,6 +12,7 @@ dfOriginal = pd.read_csv("OriginalTable.csv")
 
 #creating a new pandas dataframe
 dfDiff = pd.DataFrame()
+dfDiff['Title'] = list(dfOriginal['Title'])
 
 #determines which words are different from one set of lyrics to the next
 def compareLyrics(lyrics1, lyrics2):
