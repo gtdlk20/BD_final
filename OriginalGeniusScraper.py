@@ -35,8 +35,9 @@ for index, row in dfKidzBop.iterrows():
             del searches[index]
 
         kidzBopLyrics = row['Lyrics']
-        lyricsList = np.array([genius.search_song(re.sub('\([^)]*\)|-.*', '', 
-        search['name']), search['artists'][0]['name']).lyrics for search in searches])
+        songsList = np.array([genius.search_song(re.sub('\([^)]*\)|-.*', '', 
+        search['name']), search['artists'][0]['name']) for search in searches])
+        lyricsList = [song.lyrics for song in songsList if song != None]
         
         index = np.argmin(list(map(lambda lyrics: len(np.setdiff1d(kidzBopLyrics.lower().split(), 
         lyrics.lower().split())), lyricsList)))
@@ -61,7 +62,7 @@ for index, row in dfKidzBop.iterrows():
         speechiness = audio_features['speechiness']
         valence = audio_features['valence']
         tempo = audio_features['tempo']
-        
+
         # appending to df
         df = df.append(dict(zip(df.columns, [kidzBopTitle, artistName, releaseDate, lyrics, genres, popularity,
         acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
