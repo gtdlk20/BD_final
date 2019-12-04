@@ -92,6 +92,7 @@ plt.show()
 #plot 5: distribution of genre popularity over time
 plt.figure(5)
 
-
+genres = list(map(lambda stringy: literal_eval(stringy), list(original["Genres"])))
+print(genres)
 
 
