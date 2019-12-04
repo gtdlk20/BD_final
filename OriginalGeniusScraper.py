@@ -28,8 +28,8 @@ for rowIndex, row in dfKidzBop.iterrows():
     kidzBopTitle = row['Title']
     print("Finding complete match for " + kidzBopTitle + ".")
     try:
-        # searching Spotify for songs matching the Kidz Bop title (maxed out at 5)
-        searches = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', kidzBopTitle), type = 'track')['tracks']['items'][:5]
+        # searching Spotify for songs matching the Kidz Bop title
+        searches = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', kidzBopTitle), type = 'track')['tracks']['items']
         # compiling a list of artists from the search
         artistList = np.array([search['artists'][0]['name'] for search in searches])
         # removing songs by Kidz Bop from the search
