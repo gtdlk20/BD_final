@@ -69,11 +69,11 @@ addedWC = wordcloud.WordCloud(max_font_size=40).generate(added)
 # plot wordclouds
 plt.subplot(1,2,1)
 plt.imshow(removedWC, interpolation='bilinear')
-plt.title("Words Removed from Explicit Lyrics")
+plt.title("Explicit Lyrics Removed")
 
 plt.subplot(1,2,2)
 plt.imshow(addedWC, interpolation='bilinear')
-plt.title("Words Used to Replace Explicit Lyrics")
+plt.title("Clean Replacements")
 plt.show()
  
 plt.figure(4, figsize=(10, 8))
