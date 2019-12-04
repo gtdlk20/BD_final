@@ -6,24 +6,24 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import Levenshtein as lev
 import numpy as np
 
-#reading in KidzBopTable as pandas dataframe
+# reading in KidzBopTable as pandas dataframe
 dfKidzBop = pd.read_csv("KidzBopTable.csv") 
 
-#accessing Genius API
+# accessing Genius API
 login_token = "tAZ1oU_T0GXCZmxobxkvY0YJDSj3Kj5Tm7_Ta_LnnNJ4-35MYKi21hBeTJPUtC6U"
 genius = lg.Genius(login_token)
 
-#accessing Spotify API
+# accessing Spotify API
 client_id = "cd3c3b7e630f47d7b588b114a877e95e"
 client_secret = "40f77d47dab14786a80bd860b35ad4a8"
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) 
 
-#creating a new pandas dataframe
+# creating a new pandas dataframe
 df = pd.DataFrame(columns=['Title', 'Artist', 'ReleaseDate', 'Lyrics', 'Genres', 'Popularity', 'Acousticness', 
 'Danceability', 'Energy', 'Instrumentalness', 'Liveness', 'Loudness', 'Speechiness', 'Valence', 'Tempo'])
 
-#looping through the Kidz Bop dataframe
+# looping through the Kidz Bop dataframe
 for index, row in dfKidzBop.iterrows():
     kidzBopTitle = row['Title']
     try:
@@ -50,7 +50,7 @@ for index, row in dfKidzBop.iterrows():
         index = np.argmin(list(map(lambda lyrics: len(np.setdiff1d(kidzBopLyrics.lower().split(), 
         lyrics.lower().split())), lyricsList)))
 
-        # loading remaining Spotify data from that song
+        # loading the remaining Spotify data from that song
         lyrics = lyricsList[index]
         track = sp.track(searches[index]['id'])
         artist = sp.artist(searches[index]['artists'][0]['id'])
@@ -79,7 +79,7 @@ for index, row in dfKidzBop.iterrows():
         print("Complete match for " + kidzBopTitle + " not found.")
         dfKidzBop.drop(index=index, inplace=True)
 
-#storing the original song dataframe as a .csv file 
+# storing the original song dataframe as a .csv file 
 df.to_csv('OriginalTable.csv', index=False)
 # updating the Kidz Bop song dataframe
 dfKidzBop.to_csv('KidzBopTable.csv', index=False)
