@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import wordcloud
 
 #load tables into pandas df
 diffs = pd.read_csv("DifferenceTable.csv")
@@ -43,6 +44,42 @@ plt.title('Distribution of Sentiment Differences')
 plt.legend(loc='upper left')
 plt.subplots_adjust(wspace=.5)
 plt.show()
+
+#plot 3: word cloud of words removed vs words used to replace
+plt.figure(3)
+removed = []
+added = []
+
+
+#take all words which have been removed from the explicit texts and add them to removed
+for _, wordsRemoved in diffs['WordsRemoved'].to_list():
+    removed += wordsRemoved
+
+print(removed)
+
+#take all words which replaced explicit text and add to added
+for _, wordsAdded in diffs['WordsAdded'].to_list():
+    added += wordsAdded
+
+removed = " ".join(removed)
+added = " ".join(removed)
+
+#create wordcloud objects
+removedWC = wordcloud.WordCloud(max_font_size=40).generate(removed)
+addedWC = wordcloud.WordCloud(max_font_size=40).generate(added)
+
+#plot wordclouds
+plt.subplot(1,2,1)
+plt.imshow(removedWC, interpolation='bilinear')
+plt.title("Words Removed from Explicit Lyrics")
+
+plt.subplot(1,2,2)
+plt.imshow(addedWC, interpolation='bilinear')
+plt.title("Words Used to Replace Explicit Lyrics")
+plt.show()
+
+ 
+  
 
 
 
