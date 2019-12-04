@@ -55,10 +55,11 @@ wordsRemoved = list(map(lambda stringy: literal_eval(stringy), list(diffs["Words
 removedList = [wordRemoved for index, wordRemoved in enumerate(wordsRemoved) if list(diffs["DiffWordsAverage"])[index] < 30]
 removed = " ".join(np.concatenate(removedList)) 
 
+
 #take all words which replaced explicit text and add to added
 wordsAdded = list(map(lambda stringy: literal_eval(stringy), list(diffs["WordsAdded"])))
 addedList = [wordAdded for index, wordAdded in enumerate(wordsAdded) if list(diffs["DiffWordsAverage"])[index] < 30]
-added = " ".join(np.concatenate(wordsRemoved)) 
+added = " ".join(np.concatenate(addedList)) 
 
 #create wordcloud objects
 removedWC = wordcloud.WordCloud(max_font_size=40).generate(removed)
@@ -86,6 +87,11 @@ for i, word in enumerate(['Acousticness','Danceability','Energy','Instrumentalne
     plt.title(word)
 plt.subplots_adjust(hspace=1.2)
 plt.show()
+
+
+#plot 5: distribution of genre popularity over time
+plt.figure(5)
+
 
 
 
