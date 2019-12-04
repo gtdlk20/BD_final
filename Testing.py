@@ -32,6 +32,11 @@ dfDiff = pd.read_csv("DifferenceTable.csv")
 from ast import literal_eval
 
 wordsRemoved = list(map(lambda stringy: literal_eval(stringy), list(dfDiff["WordsRemoved"])))
-listtest = [wordRemoved for index, wordRemoved in enumerate(wordsRemoved) if list(dfDiff["DiffWordsAverage"])[index] < 30]
-test = " ".join(np.concatenate(listtest)) 
-print(test)
+removedList = [wordRemoved for index, wordRemoved in enumerate(wordsRemoved) if list(dfDiff["DiffWordsAverage"])[index] < 30]
+removed = " ".join(np.concatenate(listtest)) 
+print(removed)
+
+wordsAdded = list(map(lambda stringy: literal_eval(stringy), list(dfDiff["WordsAdded"])))
+addedList = [wordAdded for index, wordAdded in enumerate(wordsAdded) if list(dfDiff["DiffWordsAverage"])[index] < 30]
+added = " ".join(np.concatenate(listtest)) 
+print(added)
