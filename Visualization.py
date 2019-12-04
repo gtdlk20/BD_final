@@ -98,7 +98,6 @@ for i, year in enumerate(years):
     yearGenres = np.concatenate([genre for index, genre in enumerate(allGenres) if list(dfKidzBop["ReleaseDate"])[index][:-6] == year])
     topGenres = [genre for genre, _ in Counter(yearGenres).most_common(10)]
     genres = [yearGenre for yearGenre in yearGenres if yearGenre in topGenres]
-    print(genres)
     plt.hist(genres, density = True, label = year)
     plt.title("Popular genres in %s" % year)
     plt.show()
