@@ -22,6 +22,15 @@ dfKidzBop = pd.read_csv("KidzBopTable.csv")
 #reading in OriginalTable as pandas dataframe
 dfOriginal = pd.read_csv("OriginalTable.csv")
 
+#reading in DifferenceTable as pandas dataframe
+dfDiff = pd.read_csv("DifferenceTable.csv")
+
 # print(list(dfOriginal.loc[dfOriginal['Title'] == 'Too Close', 'Lyrics']))
 # print("\n Kidz Bop \n")
 # print(list(dfKidzBop.loc[dfKidzBop['Title'] == 'Too Close', 'Lyrics']))
+
+from ast import literal_eval
+
+wordsRemoved = list(map(lambda stringy: literal_eval(stringy), list(dfDiff["WordsRemoved"])))
+test = " ".join(np.concatenate(wordsRemoved)) 
+print(test)
