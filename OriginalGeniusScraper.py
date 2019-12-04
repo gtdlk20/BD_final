@@ -26,15 +26,18 @@ df = pd.DataFrame(columns=['Title', 'Artist', 'ReleaseDate', 'Lyrics', 'Genres',
 # looping through the Kidz Bop dataframe
 for index, row in dfKidzBop.iterrows():
     kidzBopTitle = row['Title']
+    print("Matching " + kidzBopTitle + ".")
     try:
-        # searching Spotify for songs matching the Kidz Bop title
-        searches = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', kidzBopTitle), type = 'track')['tracks']['items']
+        # searching Spotify for songs matching the Kidz Bop title (maxed out at 5)
+        searches = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', kidzBopTitle), type = 'track')['tracks']['items'][:5]
         # compiling a list of artists from the search
         artistList = np.array([search['artists'][0]['name'] for search in searches])
         # removing songs by Kidz Bop from the search
         kidzBopIndex = list(np.where(artistList == 'Kidz Bop Kids')[0])
         for index in sorted(kidzBopIndex, reverse=True):
             del searches[index]
+        if len(searches) == 0:
+            raise Exception()
         kidzBopLyrics = row["Lyrics"]
         # compiling a list of possible song matches from Genius
         songList = np.array([genius.search_song(re.sub('\([^)]*\)|-.*', '', 
