@@ -1,6 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import wordcloud
+from ast import literal_eval
+import numpy as np
 
 #load tables into pandas df
 diffs = pd.read_csv("DifferenceTable.csv")
@@ -47,22 +49,16 @@ plt.show()
 
 #plot 3: word cloud of words removed vs words used to replace
 plt.figure(3)
-removed = []
-added = []
 
-"""
 #take all words which have been removed from the explicit texts and add them to removed
-for _, wordsRemoved in diffs['WordsRemoved'].to_list():
-    removed += wordsRemoved
-
-print(removed)
+wordsRemoved = list(map(lambda stringy: literal_eval(stringy), list(diffs["WordsRemoved"])))
+removedList = [wordRemoved for index, wordRemoved in enumerate(wordsRemoved) if list(diffs["DiffWordsAverage"])[index] < 30]
+removed = " ".join(np.concatenate(removedList)) 
 
 #take all words which replaced explicit text and add to added
-for _, wordsAdded in diffs['WordsAdded'].to_list():
-    added += wordsAdded
-
-removed = " ".join(removed)
-added = " ".join(removed)
+wordsAdded = list(map(lambda stringy: literal_eval(stringy), list(diffs["WordsAdded"])))
+addedList = [wordAdded for index, wordAdded in enumerate(wordsAdded) if list(diffs["DiffWordsAverage"])[index] < 30]
+added = " ".join(np.concatenate(wordsRemoved)) 
 
 #create wordcloud objects
 removedWC = wordcloud.WordCloud(max_font_size=40).generate(removed)
@@ -77,7 +73,7 @@ plt.subplot(1,2,2)
 plt.imshow(addedWC, interpolation='bilinear')
 plt.title("Words Used to Replace Explicit Lyrics")
 plt.show()
-"""
+
  
 plt.figure(4, figsize=(12, 7))
 #plot 4: show differences in song qualities
