@@ -4,6 +4,7 @@ import wordcloud
 from ast import literal_eval
 import numpy as np
 import re
+from collections import Counter
 
 #load tables into pandas df
 dfDiff = pd.read_csv("DifferenceTable.csv")
@@ -88,13 +89,20 @@ plt.subplots_adjust(hspace=1.2)
 plt.show()
 
 #plot 5: distribution of genre popularity over time
-plt.figure(5)
+
 
 genres = list(map(lambda stringy: literal_eval(stringy), list(dfOriginal["Genres"])))
 years = np.unique(list(map(lambda date: date[:-6], list(dfKidzBop["ReleaseDate"]))))
-for year in years:
+
+
+for i, year in enumerate(years):
+    plt.figure(5+i)
     yearGenre = np.concatenate([genre for index, genre in enumerate(genres) if list(dfKidzBop["ReleaseDate"])[index][:-6] == year])
-    plt.hist(yearGenre, density = True, label = year)
+    topGenres = [genre for genre, _ in Counter(yearGenre).most_common(10)]
+    genres = yearGenre[np.where(yearGenre in topGenres)]
+    plt.hist(genres, density = True, label = year)
+    plt.title("Popular genres in %s" % year)
+    plt.show()
 
 
 
