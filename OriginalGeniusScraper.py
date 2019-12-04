@@ -27,21 +27,30 @@ df = pd.DataFrame(columns=['Title', 'Artist', 'ReleaseDate', 'Lyrics', 'Genres',
 for index, row in dfKidzBop.iterrows():
     kidzBopTitle = row['Title']
     try:
-        # scraping Spotify data (original song)
+        # searching Spotify for songs matching the Kidz Bop title
         searches = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', kidzBopTitle), type = 'track')['tracks']['items']
-        artists = np.array([search['artists'][0]['name'] for search in searches])
-        kidzBopIndex = list(np.where(artists == 'Kidz Bop Kids')[0])
+        # compiling a list of artists from the search
+        artistList = np.array([search['artists'][0]['name'] for search in searches])
+        # removing songs by Kidz Bop from the search
+        kidzBopIndex = list(np.where(artistList == 'Kidz Bop Kids')[0])
         for index in sorted(kidzBopIndex, reverse=True):
             del searches[index]
-
-        kidzBopLyrics = row['Lyrics']
-        songsList = np.array([genius.search_song(re.sub('\([^)]*\)|-.*', '', 
+        kidzBopLyrics = row["Lyrics"]
+        # compiling a list of possible song matches from Genius
+        songList = np.array([genius.search_song(re.sub('\([^)]*\)|-.*', '', 
         search['name']), search['artists'][0]['name']) for search in searches])
-        lyricsList = [song.lyrics for song in songsList if song != None]
-        
+        # removing matches that return an NoneType object
+        noneIndex = list(np.where(songList == None)[0])
+        for index in sorted(noneIndex, reverse=True):
+            del searches[index]
+        # compiling a list of lyrics from songList
+        lyricsList = [song.lyrics for song in songList if song != None] 
+
+        # finding the index of the song whose lyrics best match the Kidz Bop version
         index = np.argmin(list(map(lambda lyrics: len(np.setdiff1d(kidzBopLyrics.lower().split(), 
         lyrics.lower().split())), lyricsList)))
 
+        # loading remaining Spotify data from that song
         lyrics = lyricsList[index]
         track = sp.track(searches[index]['id'])
         artist = sp.artist(searches[index]['artists'][0]['id'])
@@ -62,7 +71,7 @@ for index, row in dfKidzBop.iterrows():
         speechiness = audio_features['speechiness']
         valence = audio_features['valence']
         tempo = audio_features['tempo']
-
+        
         # appending to df
         df = df.append(dict(zip(df.columns, [kidzBopTitle, artistName, releaseDate, lyrics, genres, popularity,
         acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
