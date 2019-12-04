@@ -10,7 +10,7 @@ from collections import Counter
 dfDiff = pd.read_csv("DifferenceTable.csv")
 dfKidzBop = pd.read_csv("KidzBopTable.csv")
 dfOriginal = pd.read_csv('OriginalTable.csv')
-"""
+
 # create first plot 
 plt.figure(1)
 # first plot: popularity of kidzbop versus dfOriginal
@@ -87,7 +87,7 @@ for i, word in enumerate(['Acousticness','Danceability','Energy','Instrumentalne
     plt.title(word)
 plt.tight_layout()
 plt.show()
-"""
+
 # plot 5: distribution of genre popularity over time
 
 allGenres = list(map(lambda stringy: literal_eval(stringy), list(dfOriginal["Genres"])))
