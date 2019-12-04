@@ -10,7 +10,7 @@ from collections import Counter
 dfDiff = pd.read_csv("DifferenceTable.csv")
 dfKidzBop = pd.read_csv("KidzBopTable.csv")
 dfOriginal = pd.read_csv('OriginalTable.csv')
-
+"""
 # create first plot 
 plt.figure(1)
 # first plot: popularity of kidzbop versus dfOriginal
@@ -76,7 +76,7 @@ plt.imshow(addedWC, interpolation='bilinear')
 plt.title("Words Used to Replace Explicit Lyrics")
 plt.show()
  
-plt.figure(4, figsize=(12, 7))
+plt.figure(4, figsize=(10, 8))
 #plot 4: show differences in song qualities
 for i, word in enumerate(['Acousticness','Danceability','Energy','Instrumentalness','Liveness','Loudness','Speechiness','Valence','Tempo']):
     plt.subplot(9,1,i+1)
@@ -85,9 +85,9 @@ for i, word in enumerate(['Acousticness','Danceability','Energy','Instrumentalne
     if i == 0:
         plt.legend(loc='upper right') 
     plt.title(word)
-plt.subplots_adjust(hspace=1.2)
+plt.tight_layout()
 plt.show()
-
+"""
 # plot 5: distribution of genre popularity over time
 
 allGenres = list(map(lambda stringy: literal_eval(stringy), list(dfOriginal["Genres"])))
@@ -97,12 +97,10 @@ for i, year in enumerate(years):
     plt.figure(5+i)
     yearGenres = np.concatenate([genre for index, genre in enumerate(allGenres) if list(dfKidzBop["ReleaseDate"])[index][:-6] == year])
     topGenres = [genre for genre, _ in Counter(yearGenres).most_common(10)]
-    genres = [yearGenre for yearGenre in yearGenres if yearGenre in topGenres]
+    genres = sorted([yearGenre for yearGenre in yearGenres if yearGenre in topGenres])
 
     plt.hist(genres, density=True, label=year)
     plt.xticks(rotation=90)
     plt.title("Popular genres in %s" % year)
+    plt.tight_layout()
     plt.show()
-
-
-
