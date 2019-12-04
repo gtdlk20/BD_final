@@ -49,7 +49,8 @@ for rowIndex, row in dfKidzBop.iterrows():
 
         # finding the index of the song whose lyrics best match the Kidz Bop version
         index = np.argmin(list(map(lambda lyrics: len(np.setdiff1d(kidzBopLyrics.lower().split(), 
-        lyrics.lower().split())), lyricsList)))
+        lyrics.lower().split())) + len(np.setdiff1d(lyrics.lower().split(), 
+        kidzBopLyrics.lower().split())), lyricsList)))
 
         # loading the remaining Spotify data from that song
         lyrics = lyricsList[index]
