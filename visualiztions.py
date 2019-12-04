@@ -50,7 +50,7 @@ plt.figure(3)
 removed = []
 added = []
 
-
+"""
 #take all words which have been removed from the explicit texts and add them to removed
 for _, wordsRemoved in diffs['WordsRemoved'].to_list():
     removed += wordsRemoved
@@ -77,9 +77,19 @@ plt.subplot(1,2,2)
 plt.imshow(addedWC, interpolation='bilinear')
 plt.title("Words Used to Replace Explicit Lyrics")
 plt.show()
-
+"""
  
-  
+plt.figure(4, figsize=(12, 7))
+#plot 4: show differences in song qualities
+for i, word in enumerate(['Acousticness','Danceability','Energy','Instrumentalness','Liveness','Loudness','Speechiness','Valence','Tempo']):
+    plt.subplot(9,1,i+1)
+    plt.plot(kb[word], 'r', alpha=.5, label='KidzBop')
+    plt.plot(original[word], 'b', alpha=.5, label='Original')
+    if i == 0:
+        plt.legend(loc='upper right') 
+    plt.title(word)
+plt.subplots_adjust(hspace=1.2)
+plt.show()
 
 
 
