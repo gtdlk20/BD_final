@@ -54,5 +54,7 @@ def makeDiff(column1, column2):
 for stat in stats:
     dfDiff['Diff%s' % stat] = makeDiff(list(dfOriginal[stat]), list(dfKidzBop[stat]))
 
+dfDiff['DiffSwearlessSentimentAverage'] = makeDiff(list(dfOriginal['SwearlessSentimentAverage']), list(dfKidzBop['SentimentAverage']))
+
 # saving dataframe of differences to .csv
 dfDiff.to_csv('DifferenceTable.csv', index=False)
