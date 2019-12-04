@@ -24,9 +24,9 @@ df = pd.DataFrame(columns=['Title', 'Artist', 'ReleaseDate', 'Lyrics', 'Genres',
 'Danceability', 'Energy', 'Instrumentalness', 'Liveness', 'Loudness', 'Speechiness', 'Valence', 'Tempo'])
 
 # looping through the Kidz Bop dataframe
-for index, row in dfKidzBop.iterrows():
+for rowIndex, row in dfKidzBop.iterrows():
     kidzBopTitle = row['Title']
-    print("Matching " + kidzBopTitle + ".")
+    print("Finding complete match for " + kidzBopTitle + ".")
     try:
         # searching Spotify for songs matching the Kidz Bop title (maxed out at 5)
         searches = sp.search(q = re.sub("[^a-zA-Z0-9\s]", '', kidzBopTitle), type = 'track')['tracks']['items'][:5]
@@ -36,8 +36,6 @@ for index, row in dfKidzBop.iterrows():
         kidzBopIndex = list(np.where(artistList == 'Kidz Bop Kids')[0])
         for index in sorted(kidzBopIndex, reverse=True):
             del searches[index]
-        if len(searches) == 0:
-            raise Exception()
         kidzBopLyrics = row["Lyrics"]
         # compiling a list of possible song matches from Genius
         songList = np.array([genius.search_song(re.sub('\([^)]*\)|-.*', '', 
@@ -80,7 +78,7 @@ for index, row in dfKidzBop.iterrows():
         acousticness, danceability, energy, instrumentalness, liveness, loudness, speechiness, valence, tempo])), ignore_index=True) 
     except:
         print("Complete match for " + kidzBopTitle + " not found.")
-        dfKidzBop.drop(index=index, inplace=True)
+        dfKidzBop.drop(index=rowIndex, inplace=True)
 
 # storing the original song dataframe as a .csv file 
 df.to_csv('OriginalTable.csv', index=False)

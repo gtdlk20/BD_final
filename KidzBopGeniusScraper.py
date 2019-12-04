@@ -23,6 +23,7 @@ df = pd.DataFrame(columns=['Title', 'Artist', 'ReleaseDate', 'Lyrics', 'Populari
 
 #storing info from each song in the dataframe
 for song in kidzbop.songs:
+    print("Finding Spotify info for " + song.title + ".")
     try:
         # scraping Spotify data
         trackID = sp.search(q = ("artist:Kidz Bop Kids track:" + re.sub("\([^)]*\)|-.*|[^a-zA-Z0-9\s]", '', song.title)), 
